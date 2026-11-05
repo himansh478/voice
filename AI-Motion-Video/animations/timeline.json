@@ -1,0 +1,503 @@
+{
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 3.05,
+      "title": "The Assumption",
+      "spoken": "क्या तुम्हें भी यही लगता है? Python language का नाम…",
+      "concept": "A confrontational kinetic-type cold open: PYTHON assembles letter by letter while a coiled line-art serpent and a huge question mark establish the assumption.",
+      "background": "Midnight indigo editorial grid, radial spotlight, fine film grain and restrained chartreuse accents.",
+      "objects": "Custom SVG serpent, sliced typographic masks, question-mark orbit and scanning rule.",
+      "typography": "Space Grotesk 800 with faux-3D extrusion; Noto Sans Devanagari for spoken captions.",
+      "camera": "Fast 4% push-in; slight perspective settling after the title lands.",
+      "transition": "A chartreuse scan bar wipes into the snake hypothesis.",
+      "sfx": "0.08 s soft impact; 1.66 s title slam; 2.88 s whoosh."
+    },
+    {
+      "id": "S02",
+      "start": 3.05,
+      "end": 8.26,
+      "title": "Myth, Corrected",
+      "spoken": "Python snake से relate करते हुए रखा है? But ये कहीं भी सही नहीं है।",
+      "concept": "The serpent is visually connected to Python, then the connection breaks and a decisive NOT THE SNAKE correction replaces it.",
+      "background": "Deep navy with a drafting-board circle and restrained red correction marks.",
+      "objects": "Animated SVG snake path, broken connector, circular strike and editorial labels.",
+      "typography": "Condensed uppercase statement with mask reveal; oversized नहीं as the emotional beat.",
+      "camera": "Lateral drift followed by a rapid 6% punch on ‘नहीं’.",
+      "transition": "The strike circle becomes the rim of the 1989 timeline.",
+      "sfx": "4.30 s subtle digital ticks; 6.48 s low impact; 8.10 s morph whoosh."
+    },
+    {
+      "id": "S03",
+      "start": 8.26,
+      "end": 10.5,
+      "title": "1989",
+      "spoken": "बात थी 1989 की।",
+      "concept": "A monumental date emerges from a moving archival timeline; no unrelated historical imagery.",
+      "background": "Warm charcoal paper texture meeting cool midnight blue, with a fine horizontal time ruler.",
+      "objects": "1989 extruded numerals, year ticks, a single glowing origin node and archival registration marks.",
+      "typography": "Tabular Space Grotesk numerals, very large and tightly tracked.",
+      "camera": "Timeline trucks left while the camera pushes toward the selected year.",
+      "transition": "The origin node expands into Guido’s research blueprint.",
+      "sfx": "8.28 s year impact; 9.36 s soft clock tick; 10.34 s whoosh."
+    },
+    {
+      "id": "S04",
+      "start": 10.5,
+      "end": 16.45,
+      "title": "The Designer’s Brief",
+      "spoken": "जहाँ पर एक researcher Guido van Rossum एक ऐसी language चाहता था जोकि C से ज्यादा fast हो, simple हो।",
+      "concept": "A custom researcher identity card and code blueprint introduce Guido; FAST and SIMPLE become the two design requirements.",
+      "background": "Cyan-on-navy technical drafting surface with depth-separated grid planes.",
+      "objects": "GVR monogram, animated terminal lines, C block, two requirement cards and connecting paths.",
+      "typography": "Editorial nameplate plus monospaced code and bold requirement labels.",
+      "camera": "2.5D parallax push through foreground grid, identity card and rear code plane.",
+      "transition": "Terminal window folds into the laptop on the Christmas desk.",
+      "sfx": "11.05 s UI confirm; 14.86 s fast tick; 15.48 s simple chime."
+    },
+    {
+      "id": "S05",
+      "start": 16.45,
+      "end": 21.2,
+      "title": "A Christmas Side Project",
+      "spoken": "वही उसी time अपनी Christmas की छुट्टियों में एक hobby project start करता है।",
+      "concept": "A cinematic 2.5D winter workspace: snow beyond the window, warm practical lights and a laptop where a side project runs for the first time.",
+      "background": "Cool blue night exterior contrasted with an amber interior, soft shadows and layered depth of field.",
+      "objects": "Snow layers, window mullions, desk, coffee steam, fairy lights, laptop code and HOBBY PROJECT stamp.",
+      "typography": "Small warm editorial labels; PROJECT START appears as a terminal confirmation.",
+      "camera": "Slow lateral dolly and push-in; snow and desk move at different depths.",
+      "transition": "Laptop screen zooms into the abstract 3D language core.",
+      "sfx": "16.60 s soft winter bell; 19.94 s project-start impact; 21.02 s screen whoosh."
+    },
+    {
+      "id": "S06",
+      "start": 21.2,
+      "end": 27.5,
+      "title": "The Language Core",
+      "spoken": "जिसमें वो decide करता है, मैं एक ऐसी language पर work करूँगा जोकि C से ज्यादा fast हो और efficient हो।",
+      "concept": "An original Three.js metallic code core assembles from wireframe to solid while FAST and EFFICIENT lock into orbit.",
+      "background": "Dark technical void with volumetric-looking cones, sparse stars and a reflective floor grid.",
+      "objects": "Real-time Three.js icosahedron, chrome torus rings, point particles, orbiting C badge and typographic gauges.",
+      "typography": "Huge mask-revealed FAST and EFFICIENT; minimal monospaced annotations.",
+      "camera": "Deterministic 3D dolly from 9 to 6.8 units with gentle orbital rotation.",
+      "transition": "A chrome ring expands into a circular theatre spotlight.",
+      "sfx": "21.62 s decision click; 24.22 s core ignition; 25.84 s fast accent; 26.64 s efficient accent."
+    },
+    {
+      "id": "S07",
+      "start": 27.5,
+      "end": 34.05,
+      "title": "The Real Namesake",
+      "spoken": "और उसने इस language का नाम रखा एक British comedy show से relate करते हुए, जोकि था Monty Python’s Flying Circus।",
+      "concept": "The technical world gives way to a custom retro theatre: curtains open, marquee bulbs illuminate and the comedy-show title takes the stage.",
+      "background": "Burgundy velvet, brass trim, dark stage floor and two warm spotlight cones.",
+      "objects": "Curtains, animated marquee, vintage title card, playful geometric circus orbit and subtle Union-Jack-inspired corner stripes.",
+      "typography": "Vintage serif-like stage lettering paired with clean Space Grotesk title blocks.",
+      "camera": "Proscenium dolly-in with a gentle handheld-free float; title cards arrive word by word.",
+      "transition": "Marquee bulbs fly forward and resolve into the Python name reveal.",
+      "sfx": "27.62 s curtain whoosh; 29.66 s marquee click; 32.28 s three soft show-title hits."
+    },
+    {
+      "id": "S08",
+      "start": 34.05,
+      "end": 37.45,
+      "title": "Python Gets Its Name",
+      "spoken": "इसी के नाम पर उसने अपनी language का नाम रखा — Python।",
+      "concept": "A direct visual match: MONTY PYTHON collapses to a single glowing PYTHON nameplate and original two-colour Python-inspired mark.",
+      "background": "Clean midnight stage with ivory title card, blue/yellow brand accents and restrained spotlight.",
+      "objects": "Connecting name line, custom interlocking Python mark, extruded title and small naming seal.",
+      "typography": "PYTHON in massive 3D-shadowed capitals; Monty Python source line remains secondary.",
+      "camera": "Quick push on ‘Python’, then a controlled half-second hold.",
+      "transition": "The nameplate’s central node detonates into the invention network.",
+      "sfx": "34.16 s connection tone; 36.86 s naming impact; 37.32 s ignition whoosh."
+    },
+    {
+      "id": "S09",
+      "start": 37.45,
+      "end": 40.2,
+      "title": "An Invention Expands",
+      "spoken": "ये Python language एक इतना बड़ा invention है, जोकि…",
+      "concept": "One small origin node branches into an increasingly dense connected system, making ‘how big an invention’ visible rather than literal.",
+      "background": "Deep blue network space with architectural grid and depth-faded nodes.",
+      "objects": "Animated SVG connections, moving pulses, expanding rings and an INVENTION central label.",
+      "typography": "INVENTION appears inside a technical focus frame; scale words stay sparse.",
+      "camera": "Pull-back reveals the network’s scale as new branches appear.",
+      "transition": "Three primary branches become the ML, AI and automation panels.",
+      "sfx": "37.48 s low ignition; 38.90 s expansion impact; 40.02 s tri-panel whoosh."
+    },
+    {
+      "id": "S10",
+      "start": 40.2,
+      "end": 46.35,
+      "title": "Three Fields, One Language",
+      "spoken": "machine learning, artificial intelligence, automation जैसे sectors में काफी important role play करती है।",
+      "concept": "Three synchronized custom infographics: a neural graph for ML, a living processor for AI and an articulated robotic arm for automation.",
+      "background": "Three premium glass/metal instrument panels over a shared dark grid; cyan, violet and amber distinguish the fields.",
+      "objects": "Neural nodes, chip traces, robotic joints, gear teeth, data rails and sequential status lines.",
+      "typography": "Large numbered domain names; IMPORTANT ROLE resolves as the shared conclusion.",
+      "camera": "Virtual camera pans across the triptych, then lifts to show all three working together.",
+      "transition": "Panels collapse to one small origin cube, matching the final reflection.",
+      "sfx": "40.18 s ML ping; 40.94 s AI ping; 42.49 s automation servo; 44.50 s shared impact."
+    },
+    {
+      "id": "S11",
+      "start": 46.35,
+      "end": 52.233333,
+      "title": "From Side Project to Ecosystem",
+      "spoken": "सोचो, एक उस पुराने time का छोटा सा invention, जिसकी वजह से आज कितना बड़ा ecosystem बन चुका है।",
+      "concept": "The tiny origin cube returns, then grows into a luminous Three.js ecosystem globe surrounded by the three fields and a 1989-to-today arc.",
+      "background": "Cinematic midnight-to-dawn gradient with a fine orbital horizon and atmospheric particles.",
+      "objects": "Three.js network sphere, orbiting rings and points; domain satellites, 1989 origin marker and final Python mark.",
+      "typography": "Small idea, big ecosystem: SMALL IDEA scales into ECOSYSTEM; final 1989 → TODAY lockup.",
+      "camera": "Measured 3D pull-back, final two-degree rise and stable end hold.",
+      "transition": "Clean final hold; music and visual motion resolve with the last spoken word.",
+      "sfx": "46.38 s reflective tone; 49.00 s growth whoosh; 50.96 s final warm impact; 52.08 s soft resolve."
+    }
+  ],
+  "soundEvents": [
+    {
+      "time": 0.08,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 1.66,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 2.8,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 4.3,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 6.48,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 8.01,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 8.28,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 9.36,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 10.25,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 11.05,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 14.86,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 15.48,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 16.2,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 16.6,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 19.94,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 20.95,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 21.62,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 24.22,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 25.84,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 26.64,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 27.25,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 29.66,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 32.28,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 33.8,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 34.16,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 36.86,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 37.2,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 38.9,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 39.95,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 40.18,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 40.94,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 42.49,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 44.5,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 46.1,
+      "type": "whoosh",
+      "purpose": "scene transition"
+    },
+    {
+      "time": 46.38,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    },
+    {
+      "time": 50.96,
+      "type": "tonal impact",
+      "purpose": "visual reveal"
+    },
+    {
+      "time": 52.02,
+      "type": "UI / bell tick",
+      "purpose": "narration-synchronized detail"
+    }
+  ],
+  "subtitleCues": [
+    {
+      "id": 1,
+      "start": 0.42,
+      "end": 1.68,
+      "text": "क्या तुम्हें भी यही लगता है?"
+    },
+    {
+      "id": 2,
+      "start": 1.7,
+      "end": 3.05,
+      "text": "Python language का नाम"
+    },
+    {
+      "id": 3,
+      "start": 3.12,
+      "end": 5.9,
+      "text": "Python snake से relate करते हुए रखा है?"
+    },
+    {
+      "id": 4,
+      "start": 6.52,
+      "end": 8.2,
+      "text": "But ये कहीं भी सही नहीं है।"
+    },
+    {
+      "id": 5,
+      "start": 8.32,
+      "end": 10.35,
+      "text": "बात थी 1989 की।"
+    },
+    {
+      "id": 6,
+      "start": 10.61,
+      "end": 12.51,
+      "text": "जहाँ पर एक researcher Guido van Rossum"
+    },
+    {
+      "id": 7,
+      "start": 12.55,
+      "end": 14.03,
+      "text": "एक ऐसी language चाहता था"
+    },
+    {
+      "id": 8,
+      "start": 14.03,
+      "end": 16.15,
+      "text": "जोकि C से ज्यादा fast हो, simple हो।"
+    },
+    {
+      "id": 9,
+      "start": 16.55,
+      "end": 19,
+      "text": "वही उसी time अपनी Christmas की छुट्टियों में"
+    },
+    {
+      "id": 10,
+      "start": 19.4,
+      "end": 21.2,
+      "text": "एक hobby project start करता है।"
+    },
+    {
+      "id": 11,
+      "start": 21.18,
+      "end": 22.44,
+      "text": "जिसमें वो decide करता है,"
+    },
+    {
+      "id": 12,
+      "start": 22.48,
+      "end": 24.24,
+      "text": "मैं एक ऐसी language पर work करूँगा"
+    },
+    {
+      "id": 13,
+      "start": 24.24,
+      "end": 27.42,
+      "text": "जोकि C से ज्यादा fast हो और efficient हो।"
+    },
+    {
+      "id": 14,
+      "start": 27.53,
+      "end": 29.4,
+      "text": "और उसने इस language का नाम रखा"
+    },
+    {
+      "id": 15,
+      "start": 29.47,
+      "end": 31.9,
+      "text": "एक British comedy show से relate करते हुए जोकि था,"
+    },
+    {
+      "id": 16,
+      "start": 32.3,
+      "end": 34.05,
+      "text": "Monty Python's Flying Circus।"
+    },
+    {
+      "id": 17,
+      "start": 34.17,
+      "end": 36.73,
+      "text": "इसी के नाम पर उसने अपनी language का नाम रखा"
+    },
+    {
+      "id": 18,
+      "start": 36.89,
+      "end": 37.35,
+      "text": "Python।"
+    },
+    {
+      "id": 19,
+      "start": 37.47,
+      "end": 40.19,
+      "text": "ये Python language एक इतना बड़ा invention है, जोकि"
+    },
+    {
+      "id": 20,
+      "start": 40.2,
+      "end": 40.95,
+      "text": "machine learning,"
+    },
+    {
+      "id": 21,
+      "start": 40.95,
+      "end": 42.5,
+      "text": "artificial intelligence,"
+    },
+    {
+      "id": 22,
+      "start": 42.51,
+      "end": 44.4,
+      "text": "automation जैसे sectors में"
+    },
+    {
+      "id": 23,
+      "start": 44.52,
+      "end": 46.34,
+      "text": "काफी important role play करती है।"
+    },
+    {
+      "id": 24,
+      "start": 46.39,
+      "end": 49.01,
+      "text": "सोचो, एक उस पुराने time का छोटा सा invention,"
+    },
+    {
+      "id": 25,
+      "start": 49.01,
+      "end": 50.22,
+      "text": "जिसकी वजह से,"
+    },
+    {
+      "id": 26,
+      "start": 50.26,
+      "end": 52.18,
+      "text": "आज कितना बड़ा ecosystem बन चुका है।"
+    }
+  ]
+}

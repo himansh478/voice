@@ -1,0 +1,34 @@
+PYTHON — THE NAME BEHIND THE LANGUAGE
+Original narration: Hindi / Hinglish
+Duration: 52.21875 seconds
+
+FULL TRANSCRIPT
+क्या तुम्हें भी यही लगता है? Python language का नाम Python snake से relate करते हुए रखा है? But ये कहीं भी सही नहीं है। बात थी 1989 की। जहाँ पर एक researcher Guido van Rossum एक ऐसी language चाहता था जोकि C से ज्यादा fast हो, simple हो। वही उसी time अपनी Christmas की छुट्टियों में एक hobby project start करता है। जिसमें वो decide करता है, मैं एक ऐसी language पर work करूँगा जोकि C से ज्यादा fast हो और efficient हो। और उसने इस language का नाम रखा एक British comedy show से relate करते हुए जोकि था, Monty Python's Flying Circus। इसी के नाम पर उसने अपनी language का नाम रखा Python। ये Python language एक इतना बड़ा invention है, जोकि machine learning, artificial intelligence, automation जैसे sectors में काफी important role play करती है। सोचो, एक उस पुराने time का छोटा सा invention, जिसकी वजह से, आज कितना बड़ा ecosystem बन चुका है।
+
+TIMED TRANSCRIPT
+[00:00:00 --> 00:00:01] क्या तुम्हें भी यही लगता है?
+[00:00:01 --> 00:00:03] Python language का नाम
+[00:00:03 --> 00:00:05] Python snake से relate करते हुए रखा है?
+[00:00:06 --> 00:00:08] But ये कहीं भी सही नहीं है।
+[00:00:08 --> 00:00:10] बात थी 1989 की।
+[00:00:10 --> 00:00:12] जहाँ पर एक researcher Guido van Rossum
+[00:00:12 --> 00:00:14] एक ऐसी language चाहता था
+[00:00:14 --> 00:00:16] जोकि C से ज्यादा fast हो, simple हो।
+[00:00:16 --> 00:00:19] वही उसी time अपनी Christmas की छुट्टियों में
+[00:00:19 --> 00:00:21] एक hobby project start करता है।
+[00:00:21 --> 00:00:22] जिसमें वो decide करता है,
+[00:00:22 --> 00:00:24] मैं एक ऐसी language पर work करूँगा
+[00:00:24 --> 00:00:27] जोकि C से ज्यादा fast हो और efficient हो।
+[00:00:27 --> 00:00:29] और उसने इस language का नाम रखा
+[00:00:29 --> 00:00:31] एक British comedy show से relate करते हुए जोकि था,
+[00:00:32 --> 00:00:34] Monty Python's Flying Circus।
+[00:00:34 --> 00:00:36] इसी के नाम पर उसने अपनी language का नाम रखा
+[00:00:36 --> 00:00:37] Python।
+[00:00:37 --> 00:00:40] ये Python language एक इतना बड़ा invention है, जोकि
+[00:00:40 --> 00:00:40] machine learning,
+[00:00:40 --> 00:00:42] artificial intelligence,
+[00:00:42 --> 00:00:44] automation जैसे sectors में
+[00:00:44 --> 00:00:46] काफी important role play करती है।
+[00:00:46 --> 00:00:49] सोचो, एक उस पुराने time का छोटा सा invention,
+[00:00:49 --> 00:00:50] जिसकी वजह से,
+[00:00:50 --> 00:00:52] आज कितना बड़ा ecosystem बन चुका है।

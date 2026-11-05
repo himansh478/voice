@@ -1,0 +1,227 @@
+{
+  "overallWordsPerSecond": 3.034,
+  "measuredPauses": [
+    {
+      "start": 0.0,
+      "end": 0.303832,
+      "duration": 0.303832
+    },
+    {
+      "start": 2.91546,
+      "end": 3.16619,
+      "duration": 0.250726
+    },
+    {
+      "start": 5.88612,
+      "end": 6.14633,
+      "duration": 0.260204
+    },
+    {
+      "start": 10.1527,
+      "end": 10.4672,
+      "duration": 0.31449
+    },
+    {
+      "start": 19.1763,
+      "end": 19.4072,
+      "duration": 0.230952
+    },
+    {
+      "start": 24.7069,
+      "end": 25.1305,
+      "duration": 0.423605
+    },
+    {
+      "start": 44.2569,
+      "end": 44.5255,
+      "duration": 0.268526
+    }
+  ],
+  "sceneDelivery": [
+    {
+      "scene": "S01",
+      "start": 0.0,
+      "end": 3.05,
+      "words": 10,
+      "wordsPerSecond": 3.279,
+      "visualChange": "The Assumption",
+      "reason": "A confrontational kinetic-type cold open: PYTHON assembles letter by letter while a coiled line-art serpent and a huge question mark establish the assumption."
+    },
+    {
+      "scene": "S02",
+      "start": 3.05,
+      "end": 8.26,
+      "words": 15,
+      "wordsPerSecond": 2.879,
+      "visualChange": "Myth, Corrected",
+      "reason": "The serpent is visually connected to Python, then the connection breaks and a decisive NOT THE SNAKE correction replaces it."
+    },
+    {
+      "scene": "S03",
+      "start": 8.26,
+      "end": 10.5,
+      "words": 4,
+      "wordsPerSecond": 1.786,
+      "visualChange": "1989",
+      "reason": "A monumental date emerges from a moving archival timeline; no unrelated historical imagery."
+    },
+    {
+      "scene": "S04",
+      "start": 10.5,
+      "end": 16.45,
+      "words": 20,
+      "wordsPerSecond": 3.361,
+      "visualChange": "The Designer’s Brief",
+      "reason": "A custom researcher identity card and code blueprint introduce Guido; FAST and SIMPLE become the two design requirements."
+    },
+    {
+      "scene": "S05",
+      "start": 16.45,
+      "end": 21.2,
+      "words": 15,
+      "wordsPerSecond": 3.158,
+      "visualChange": "A Christmas Side Project",
+      "reason": "A cinematic 2.5D winter workspace: snow beyond the window, warm practical lights and a laptop where a side project runs for the first time."
+    },
+    {
+      "scene": "S06",
+      "start": 21.2,
+      "end": 27.5,
+      "words": 20,
+      "wordsPerSecond": 3.175,
+      "visualChange": "The Language Core",
+      "reason": "An original Three.js metallic code core assembles from wireframe to solid while FAST and EFFICIENT lock into orbit."
+    },
+    {
+      "scene": "S07",
+      "start": 27.5,
+      "end": 34.05,
+      "words": 21,
+      "wordsPerSecond": 3.206,
+      "visualChange": "The Real Namesake",
+      "reason": "The technical world gives way to a custom retro theatre: curtains open, marquee bulbs illuminate and the comedy-show title takes the stage."
+    },
+    {
+      "scene": "S08",
+      "start": 34.05,
+      "end": 37.45,
+      "words": 11,
+      "wordsPerSecond": 3.235,
+      "visualChange": "Python Gets Its Name",
+      "reason": "A direct visual match: MONTY PYTHON collapses to a single glowing PYTHON nameplate and original two-colour Python-inspired mark."
+    },
+    {
+      "scene": "S09",
+      "start": 37.45,
+      "end": 40.2,
+      "words": 9,
+      "wordsPerSecond": 3.273,
+      "visualChange": "An Invention Expands",
+      "reason": "One small origin node branches into an increasingly dense connected system, making ‘how big an invention’ visible rather than literal."
+    },
+    {
+      "scene": "S10",
+      "start": 40.2,
+      "end": 46.35,
+      "words": 14,
+      "wordsPerSecond": 2.276,
+      "visualChange": "Three Fields, One Language",
+      "reason": "Three synchronized custom infographics: a neural graph for ML, a living processor for AI and an articulated robotic arm for automation."
+    },
+    {
+      "scene": "S11",
+      "start": 46.35,
+      "end": 52.233333,
+      "words": 19,
+      "wordsPerSecond": 3.229,
+      "visualChange": "From Side Project to Ecosystem",
+      "reason": "The tiny origin cube returns, then grows into a luminous Three.js ecosystem globe surrounded by the three fields and a 1989-to-today arc."
+    }
+  ],
+  "emphasisBeats": [
+    {
+      "time": 6.52,
+      "phrase": "But ये कहीं भी सही नहीं है",
+      "type": "myth correction / hard visual reversal"
+    },
+    {
+      "time": 8.78,
+      "phrase": "1989",
+      "type": "date reveal"
+    },
+    {
+      "time": 11.61,
+      "phrase": "Guido van Rossum",
+      "type": "character identity reveal"
+    },
+    {
+      "time": 17.55,
+      "phrase": "Christmas",
+      "type": "warm environmental scene change"
+    },
+    {
+      "time": 19.96,
+      "phrase": "project start",
+      "type": "terminal ignition"
+    },
+    {
+      "time": 25.86,
+      "phrase": "fast",
+      "type": "kinetic typography accent"
+    },
+    {
+      "time": 26.66,
+      "phrase": "efficient",
+      "type": "second kinetic typography accent"
+    },
+    {
+      "time": 32.3,
+      "phrase": "Monty Python's Flying Circus",
+      "type": "central comedy-stage reveal"
+    },
+    {
+      "time": 36.89,
+      "phrase": "Python",
+      "type": "name resolution impact"
+    },
+    {
+      "time": 40.2,
+      "phrase": "machine learning",
+      "type": "first domain panel"
+    },
+    {
+      "time": 40.95,
+      "phrase": "artificial intelligence",
+      "type": "second domain panel"
+    },
+    {
+      "time": 42.51,
+      "phrase": "automation",
+      "type": "third domain panel"
+    },
+    {
+      "time": 50.98,
+      "phrase": "ecosystem",
+      "type": "final globe expansion"
+    }
+  ],
+  "structure": {
+    "introduction": [
+      0,
+      8.26
+    ],
+    "originAndExplanation": [
+      8.26,
+      37.45
+    ],
+    "impact": [
+      37.45,
+      46.35
+    ],
+    "conclusion": [
+      46.35,
+      52.21875
+    ]
+  },
+  "method": "Words and timestamps from the reviewed Whisper timing master; pauses independently measured with FFmpeg silencedetect at -38 dB for at least 220 ms."
+}

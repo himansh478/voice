@@ -1,0 +1,87 @@
+{
+  "file": "renders/python-origin-preview-540x960.mp4",
+  "preview": true,
+  "pass": true,
+  "checks": {
+    "h264Video": true,
+    "aacAudio": true,
+    "dimensions": true,
+    "vertical9x16": true,
+    "30fps": true,
+    "1567Frames": true,
+    "fullSourceAudio": true,
+    "frameRoundedDuration": true,
+    "stereo48kHz": true,
+    "noDetectedBlackFrames": true,
+    "noMissingAssets": true,
+    "wordTimingsValid": true,
+    "158TimedWords": true,
+    "26SubtitleCues": true,
+    "11Scenes": true
+  },
+  "failedChecks": [],
+  "missingAssets": [],
+  "blackFrameEvents": [],
+  "media": {
+    "programs": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 540,
+        "height": 960,
+        "pix_fmt": "yuvj420p",
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "duration": "52.233333",
+        "nb_frames": "1567",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "duration": "52.224000",
+        "nb_frames": "2450"
+      }
+    ],
+    "format": {
+      "filename": "/home/user/voice/AI-Motion-Video/renders/python-origin-preview-540x960.mp4",
+      "duration": "52.233333",
+      "size": "6574505",
+      "bit_rate": "1006943"
+    }
+  },
+  "loudness": {
+    "integratedLUFS": -14.9,
+    "truePeakDbFS": -0.8,
+    "note": "Measured from the encoded AAC track with FFmpeg ebur128."
+  },
+  "sourceAudioSha256": "6b8b155231d2e236010dec3156b1d9ff329e1aadb19a0e3f614d34f343c38367",
+  "subtitleReview": {
+    "language": "Hindi / Hinglish",
+    "maximumLines": 2,
+    "timedWords": 158,
+    "cues": 26,
+    "visualInspection": "20 representative stills plus one-frame-per-second preview contact sheet; longest bilingual cues checked at 540 px width."
+  },
+  "visualInspection": {
+    "sceneCount": 11,
+    "noStockFootage": true,
+    "threeDScenes": [
+      "S06",
+      "S11"
+    ],
+    "manualReviewed": true,
+    "notes": "Typography, Devanagari shaping, mobile safe areas, scene continuity, network reveal and final ecosystem growth reviewed."
+  }
+}

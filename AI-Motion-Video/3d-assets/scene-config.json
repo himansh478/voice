@@ -1,0 +1,21 @@
+{
+  "renderer": "Three.js 0.187.0 / WebGL / ACES Filmic",
+  "core": {
+    "source": "source-project/src/components/ThreeCore.tsx",
+    "geometry": "IcosahedronGeometry(2.05, 2)",
+    "material": "MeshPhysicalMaterial, metallic cyan, clearcoat, flat shading",
+    "rings": [2.85, 3.4, 4.05],
+    "particles": 420,
+    "camera": "38-degree perspective; deterministic 9.4-to-6.9 dolly"
+  },
+  "ecosystem": {
+    "source": "source-project/src/components/ThreeCore.tsx",
+    "geometry": "SphereGeometry(2.05, 32, 24) plus 52-node network",
+    "material": "Metallic blue physical material and cyan wireframe",
+    "rings": [2.85, 3.4, 4.05],
+    "particles": 420,
+    "camera": "38-degree perspective; deterministic pull-back and rise"
+  },
+  "externalModelsRequired": false,
+  "note": "Geometry, lights, particles and camera motion are generated parametrically; this JSON is the editable asset manifest."
+}

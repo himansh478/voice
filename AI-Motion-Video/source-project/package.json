@@ -1,0 +1,46 @@
+{
+  "name": "python-origin-motion-video",
+  "version": "1.0.0",
+  "description": "Premium 9:16 Remotion documentary built around the original Hindi/Hinglish narration",
+  "scripts": {
+    "test": "npm run typecheck",
+    "studio": "remotion studio src/index.ts --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "render": "node scripts/render.mjs final",
+    "preview": "node scripts/render.mjs preview",
+    "stills": "node scripts/render.mjs stills",
+    "timing": "python3 scripts/build_timing.py",
+    "mix-audio": "python scripts/mix_audio.py",
+    "generate-audio": "python scripts/generate_audio.py",
+    "fetch-whisper": "python scripts/fetch_whisper_model.py",
+    "qc": "python scripts/quality_check.py",
+    "qc-preview": "python scripts/quality_check.py ../renders/python-origin-preview-540x960.mp4 --preview",
+    "normalize": "node scripts/normalize-delivery.mjs ../renders/python-origin-1080x1920.mp4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "@ffprobe-installer/ffprobe": "2.1.2",
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/noto-sans-devanagari": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0",
+    "@remotion/bundler": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "@sparticuz/chromium": "153.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.540",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.183.1",
+    "typescript": "^5.9.3"
+  },
+  "private": true
+}

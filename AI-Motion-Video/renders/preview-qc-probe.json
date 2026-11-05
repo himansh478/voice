@@ -1,0 +1,41 @@
+{
+    "programs": [
+
+    ],
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 540,
+            "height": 960,
+            "pix_fmt": "yuvj420p",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "duration": "52.233333",
+            "nb_frames": "1567",
+            "side_data_list": [
+                {
+
+                }
+            ]
+        },
+        {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "duration": "52.224000",
+            "nb_frames": "2450"
+        }
+    ],
+    "format": {
+        "filename": "AI-Motion-Video/renders/python-origin-preview-540x960.mp4",
+        "duration": "52.233333",
+        "size": "7190959",
+        "bit_rate": "1101359"
+    }
+}

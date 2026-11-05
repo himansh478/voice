@@ -1,0 +1,27 @@
+# Local transcription/render runtimes (not source assets)
+.venv/
+.models/
+node_modules/
+**/node_modules/
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Remotion and bundler caches
+.remotion/
+.remotion-bundle/
+.cache/
+dist/
+build/
+
+# Temporary frame sequences; curated QC stills are kept
+AI-Motion-Video/renders/tmp/
+AI-Motion-Video/renders/final-frames/
+
+# Python caches
+__pycache__/
+*.pyc

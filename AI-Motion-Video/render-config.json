@@ -1,0 +1,15 @@
+{
+  "composition": "PythonStory",
+  "entryPoint": "source-project/src/index.ts",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSeconds": 52.21875,
+  "durationInFrames": 1567,
+  "aspectRatio": "9:16",
+  "preview": {"scale": 0.5, "width": 540, "height": 960, "crf": 21, "x264Preset": "veryfast"},
+  "final": {"scale": 1, "codec": "h264", "pixelFormat": "yuv420p", "colorSpace": "bt709", "colorRange": "tv", "fastStart": true, "crf": 17, "x264Preset": "medium", "jpegQuality": 94},
+  "audio": {"codec": "aac", "bitrate": "192k", "sampleRate": 48000, "masterMixSampleRate": 44100, "channels": 2, "integratedTargetLUFS": -14, "truePeakTargetDb": -1},
+  "threeJs": {"gl": "swangle", "toneMapping": "ACESFilmic", "deterministicFrameRendering": true},
+  "commands": {"typecheck": "cd source-project && npm run typecheck", "preview": "cd source-project && npm run preview", "final": "cd source-project && npm run render", "stills": "cd source-project && npm run stills"}
+}

@@ -1,0 +1,26 @@
+[mp3 @ 0x2cf08c80] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from 'AI-Motion-Video/audio/1104.MP3':
+  Metadata:
+    encoder         : LAME3.101 (beta 2)
+  Duration: 00:00:52.22, start: 0.000000, bitrate: 192 kb/s
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf58.24.100
+    Stream #0:0: Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.42.100 pcm_s16le
+size=N/A time=00:00:52.21 bitrate=N/A speed= 975x
+video:0kB audio:8996kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[Parsed_volumedetect_0 @ 0x2cf089c0] n_samples: 4605696
+[Parsed_volumedetect_0 @ 0x2cf089c0] mean_volume: -22.7 dB
+[Parsed_volumedetect_0 @ 0x2cf089c0] max_volume: -2.1 dB
+[Parsed_volumedetect_0 @ 0x2cf089c0] histogram_2db: 35
+[Parsed_volumedetect_0 @ 0x2cf089c0] histogram_3db: 180
+[Parsed_volumedetect_0 @ 0x2cf089c0] histogram_4db: 640
+[Parsed_volumedetect_0 @ 0x2cf089c0] histogram_5db: 1216
+[Parsed_volumedetect_0 @ 0x2cf089c0] histogram_6db: 2323
+[Parsed_volumedetect_0 @ 0x2cf089c0] histogram_7db: 3971

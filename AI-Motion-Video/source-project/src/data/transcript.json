@@ -1,0 +1,2659 @@
+{
+  "audioFile": "audio/1104.MP3",
+  "audioSha256": "6b8b155231d2e236010dec3156b1d9ff329e1aadb19a0e3f614d34f343c38367",
+  "duration": 52.21875,
+  "language": "hi",
+  "languageName": "Hindi / Hinglish",
+  "languageProbability": 0.948018491268158,
+  "asrModel": "OpenAI Whisper small, CTranslate2 int8, Faster-Whisper 1.2.1",
+  "timingMethod": "Three offline ASR passes; pause-aligned re-transcription; manual normalization of obvious ASR spelling and proper nouns. No narration added, removed, translated or regenerated.",
+  "fullText": "क्या तुम्हें भी यही लगता है? Python language का नाम Python snake से relate करते हुए रखा है? But ये कहीं भी सही नहीं है। बात थी 1989 की। जहाँ पर एक researcher Guido van Rossum एक ऐसी language चाहता था जोकि C से ज्यादा fast हो, simple हो। वही उसी time अपनी Christmas की छुट्टियों में एक hobby project start करता है। जिसमें वो decide करता है, मैं एक ऐसी language पर work करूँगा जोकि C से ज्यादा fast हो और efficient हो। और उसने इस language का नाम रखा एक British comedy show से relate करते हुए जोकि था, Monty Python's Flying Circus। इसी के नाम पर उसने अपनी language का नाम रखा Python। ये Python language एक इतना बड़ा invention है, जोकि machine learning, artificial intelligence, automation जैसे sectors में काफी important role play करती है। सोचो, एक उस पुराने time का छोटा सा invention, जिसकी वजह से, आज कितना बड़ा ecosystem बन चुका है।",
+  "words": [
+    {
+      "id": 0,
+      "text": "क्या",
+      "start": 0.42,
+      "end": 0.66,
+      "keyword": false
+    },
+    {
+      "id": 1,
+      "text": "तुम्हें",
+      "start": 0.66,
+      "end": 0.92,
+      "keyword": false
+    },
+    {
+      "id": 2,
+      "text": "भी",
+      "start": 0.92,
+      "end": 1.06,
+      "keyword": false
+    },
+    {
+      "id": 3,
+      "text": "यही",
+      "start": 1.06,
+      "end": 1.2,
+      "keyword": false
+    },
+    {
+      "id": 4,
+      "text": "लगता",
+      "start": 1.2,
+      "end": 1.52,
+      "keyword": false
+    },
+    {
+      "id": 5,
+      "text": "है?",
+      "start": 1.52,
+      "end": 1.68,
+      "keyword": false
+    },
+    {
+      "id": 6,
+      "text": "Python",
+      "start": 1.7,
+      "end": 2.02,
+      "keyword": true
+    },
+    {
+      "id": 7,
+      "text": "language",
+      "start": 2.02,
+      "end": 2.42,
+      "keyword": false
+    },
+    {
+      "id": 8,
+      "text": "का",
+      "start": 2.42,
+      "end": 2.56,
+      "keyword": false
+    },
+    {
+      "id": 9,
+      "text": "नाम",
+      "start": 2.56,
+      "end": 2.76,
+      "keyword": false
+    },
+    {
+      "id": 10,
+      "text": "Python",
+      "start": 3.12,
+      "end": 3.52,
+      "keyword": true
+    },
+    {
+      "id": 11,
+      "text": "snake",
+      "start": 3.56,
+      "end": 3.92,
+      "keyword": true
+    },
+    {
+      "id": 12,
+      "text": "से",
+      "start": 3.92,
+      "end": 4.16,
+      "keyword": false
+    },
+    {
+      "id": 13,
+      "text": "relate",
+      "start": 4.36,
+      "end": 4.76,
+      "keyword": false
+    },
+    {
+      "id": 14,
+      "text": "करते",
+      "start": 4.76,
+      "end": 4.92,
+      "keyword": false
+    },
+    {
+      "id": 15,
+      "text": "हुए",
+      "start": 4.92,
+      "end": 5.26,
+      "keyword": false
+    },
+    {
+      "id": 16,
+      "text": "रखा",
+      "start": 5.28,
+      "end": 5.66,
+      "keyword": false
+    },
+    {
+      "id": 17,
+      "text": "है?",
+      "start": 5.66,
+      "end": 5.86,
+      "keyword": false
+    },
+    {
+      "id": 18,
+      "text": "But",
+      "start": 6.52,
+      "end": 6.78,
+      "keyword": false
+    },
+    {
+      "id": 19,
+      "text": "ये",
+      "start": 6.78,
+      "end": 6.94,
+      "keyword": false
+    },
+    {
+      "id": 20,
+      "text": "कहीं",
+      "start": 6.94,
+      "end": 7.42,
+      "keyword": false
+    },
+    {
+      "id": 21,
+      "text": "भी",
+      "start": 7.42,
+      "end": 7.56,
+      "keyword": false
+    },
+    {
+      "id": 22,
+      "text": "सही",
+      "start": 7.56,
+      "end": 7.72,
+      "keyword": false
+    },
+    {
+      "id": 23,
+      "text": "नहीं",
+      "start": 7.72,
+      "end": 8.02,
+      "keyword": true
+    },
+    {
+      "id": 24,
+      "text": "है।",
+      "start": 8.02,
+      "end": 8.2,
+      "keyword": false
+    },
+    {
+      "id": 25,
+      "text": "बात",
+      "start": 8.32,
+      "end": 8.62,
+      "keyword": false
+    },
+    {
+      "id": 26,
+      "text": "थी",
+      "start": 8.62,
+      "end": 8.78,
+      "keyword": false
+    },
+    {
+      "id": 27,
+      "text": "1989",
+      "start": 8.78,
+      "end": 9.44,
+      "keyword": true
+    },
+    {
+      "id": 28,
+      "text": "की।",
+      "start": 9.44,
+      "end": 10.24,
+      "keyword": false
+    },
+    {
+      "id": 29,
+      "text": "जहाँ",
+      "start": 10.61,
+      "end": 10.75,
+      "keyword": false
+    },
+    {
+      "id": 30,
+      "text": "पर",
+      "start": 10.75,
+      "end": 10.89,
+      "keyword": false
+    },
+    {
+      "id": 31,
+      "text": "एक",
+      "start": 10.89,
+      "end": 11.09,
+      "keyword": false
+    },
+    {
+      "id": 32,
+      "text": "researcher",
+      "start": 11.09,
+      "end": 11.61,
+      "keyword": false
+    },
+    {
+      "id": 33,
+      "text": "Guido",
+      "start": 11.61,
+      "end": 11.9,
+      "keyword": true
+    },
+    {
+      "id": 34,
+      "text": "van",
+      "start": 11.9,
+      "end": 12.15,
+      "keyword": false
+    },
+    {
+      "id": 35,
+      "text": "Rossum",
+      "start": 12.15,
+      "end": 12.51,
+      "keyword": true
+    },
+    {
+      "id": 36,
+      "text": "एक",
+      "start": 12.55,
+      "end": 12.83,
+      "keyword": false
+    },
+    {
+      "id": 37,
+      "text": "ऐसी",
+      "start": 12.83,
+      "end": 13.13,
+      "keyword": false
+    },
+    {
+      "id": 38,
+      "text": "language",
+      "start": 13.13,
+      "end": 13.53,
+      "keyword": false
+    },
+    {
+      "id": 39,
+      "text": "चाहता",
+      "start": 13.53,
+      "end": 13.85,
+      "keyword": false
+    },
+    {
+      "id": 40,
+      "text": "था",
+      "start": 13.85,
+      "end": 14.03,
+      "keyword": false
+    },
+    {
+      "id": 41,
+      "text": "जोकि",
+      "start": 14.03,
+      "end": 14.27,
+      "keyword": false
+    },
+    {
+      "id": 42,
+      "text": "C",
+      "start": 14.27,
+      "end": 14.49,
+      "keyword": false
+    },
+    {
+      "id": 43,
+      "text": "से",
+      "start": 14.49,
+      "end": 14.65,
+      "keyword": false
+    },
+    {
+      "id": 44,
+      "text": "ज्यादा",
+      "start": 14.65,
+      "end": 14.91,
+      "keyword": false
+    },
+    {
+      "id": 45,
+      "text": "fast",
+      "start": 14.91,
+      "end": 15.29,
+      "keyword": true
+    },
+    {
+      "id": 46,
+      "text": "हो,",
+      "start": 15.29,
+      "end": 15.41,
+      "keyword": false
+    },
+    {
+      "id": 47,
+      "text": "simple",
+      "start": 15.51,
+      "end": 15.89,
+      "keyword": true
+    },
+    {
+      "id": 48,
+      "text": "हो।",
+      "start": 15.89,
+      "end": 16.15,
+      "keyword": false
+    },
+    {
+      "id": 49,
+      "text": "वही",
+      "start": 16.55,
+      "end": 16.78,
+      "keyword": false
+    },
+    {
+      "id": 50,
+      "text": "उसी",
+      "start": 16.78,
+      "end": 17.04,
+      "keyword": false
+    },
+    {
+      "id": 51,
+      "text": "time",
+      "start": 17.04,
+      "end": 17.28,
+      "keyword": false
+    },
+    {
+      "id": 52,
+      "text": "अपनी",
+      "start": 17.28,
+      "end": 17.55,
+      "keyword": false
+    },
+    {
+      "id": 53,
+      "text": "Christmas",
+      "start": 17.55,
+      "end": 17.93,
+      "keyword": true
+    },
+    {
+      "id": 54,
+      "text": "की",
+      "start": 17.93,
+      "end": 18.07,
+      "keyword": false
+    },
+    {
+      "id": 55,
+      "text": "छुट्टियों",
+      "start": 18.07,
+      "end": 18.49,
+      "keyword": false
+    },
+    {
+      "id": 56,
+      "text": "में",
+      "start": 18.49,
+      "end": 18.85,
+      "keyword": false
+    },
+    {
+      "id": 57,
+      "text": "एक",
+      "start": 19.4,
+      "end": 19.58,
+      "keyword": false
+    },
+    {
+      "id": 58,
+      "text": "hobby",
+      "start": 19.58,
+      "end": 19.96,
+      "keyword": true
+    },
+    {
+      "id": 59,
+      "text": "project",
+      "start": 19.96,
+      "end": 20.36,
+      "keyword": true
+    },
+    {
+      "id": 60,
+      "text": "start",
+      "start": 20.36,
+      "end": 20.68,
+      "keyword": false
+    },
+    {
+      "id": 61,
+      "text": "करता",
+      "start": 20.68,
+      "end": 21.02,
+      "keyword": false
+    },
+    {
+      "id": 62,
+      "text": "है।",
+      "start": 21.02,
+      "end": 21.18,
+      "keyword": false
+    },
+    {
+      "id": 63,
+      "text": "जिसमें",
+      "start": 21.18,
+      "end": 21.48,
+      "keyword": false
+    },
+    {
+      "id": 64,
+      "text": "वो",
+      "start": 21.58,
+      "end": 21.66,
+      "keyword": false
+    },
+    {
+      "id": 65,
+      "text": "decide",
+      "start": 21.66,
+      "end": 22.04,
+      "keyword": false
+    },
+    {
+      "id": 66,
+      "text": "करता",
+      "start": 22.04,
+      "end": 22.32,
+      "keyword": false
+    },
+    {
+      "id": 67,
+      "text": "है,",
+      "start": 22.32,
+      "end": 22.44,
+      "keyword": false
+    },
+    {
+      "id": 68,
+      "text": "मैं",
+      "start": 22.48,
+      "end": 22.62,
+      "keyword": false
+    },
+    {
+      "id": 69,
+      "text": "एक",
+      "start": 22.62,
+      "end": 22.8,
+      "keyword": false
+    },
+    {
+      "id": 70,
+      "text": "ऐसी",
+      "start": 22.8,
+      "end": 23.1,
+      "keyword": false
+    },
+    {
+      "id": 71,
+      "text": "language",
+      "start": 23.1,
+      "end": 23.42,
+      "keyword": false
+    },
+    {
+      "id": 72,
+      "text": "पर",
+      "start": 23.42,
+      "end": 23.6,
+      "keyword": false
+    },
+    {
+      "id": 73,
+      "text": "work",
+      "start": 23.6,
+      "end": 23.86,
+      "keyword": false
+    },
+    {
+      "id": 74,
+      "text": "करूँगा",
+      "start": 23.86,
+      "end": 24.2,
+      "keyword": false
+    },
+    {
+      "id": 75,
+      "text": "जोकि",
+      "start": 24.24,
+      "end": 24.68,
+      "keyword": false
+    },
+    {
+      "id": 76,
+      "text": "C",
+      "start": 24.68,
+      "end": 25.1,
+      "keyword": false
+    },
+    {
+      "id": 77,
+      "text": "से",
+      "start": 25.34,
+      "end": 25.52,
+      "keyword": false
+    },
+    {
+      "id": 78,
+      "text": "ज्यादा",
+      "start": 25.52,
+      "end": 25.86,
+      "keyword": false
+    },
+    {
+      "id": 79,
+      "text": "fast",
+      "start": 25.86,
+      "end": 26.32,
+      "keyword": true
+    },
+    {
+      "id": 80,
+      "text": "हो",
+      "start": 26.32,
+      "end": 26.42,
+      "keyword": false
+    },
+    {
+      "id": 81,
+      "text": "और",
+      "start": 26.42,
+      "end": 26.66,
+      "keyword": false
+    },
+    {
+      "id": 82,
+      "text": "efficient",
+      "start": 26.66,
+      "end": 27.22,
+      "keyword": true
+    },
+    {
+      "id": 83,
+      "text": "हो।",
+      "start": 27.22,
+      "end": 27.42,
+      "keyword": false
+    },
+    {
+      "id": 84,
+      "text": "और",
+      "start": 27.53,
+      "end": 27.83,
+      "keyword": false
+    },
+    {
+      "id": 85,
+      "text": "उसने",
+      "start": 27.83,
+      "end": 28.13,
+      "keyword": false
+    },
+    {
+      "id": 86,
+      "text": "इस",
+      "start": 28.13,
+      "end": 28.29,
+      "keyword": false
+    },
+    {
+      "id": 87,
+      "text": "language",
+      "start": 28.29,
+      "end": 28.67,
+      "keyword": false
+    },
+    {
+      "id": 88,
+      "text": "का",
+      "start": 28.67,
+      "end": 28.81,
+      "keyword": false
+    },
+    {
+      "id": 89,
+      "text": "नाम",
+      "start": 28.81,
+      "end": 29.09,
+      "keyword": false
+    },
+    {
+      "id": 90,
+      "text": "रखा",
+      "start": 29.09,
+      "end": 29.4,
+      "keyword": false
+    },
+    {
+      "id": 91,
+      "text": "एक",
+      "start": 29.47,
+      "end": 29.69,
+      "keyword": false
+    },
+    {
+      "id": 92,
+      "text": "British",
+      "start": 29.69,
+      "end": 30.05,
+      "keyword": true
+    },
+    {
+      "id": 93,
+      "text": "comedy",
+      "start": 30.05,
+      "end": 30.49,
+      "keyword": true
+    },
+    {
+      "id": 94,
+      "text": "show",
+      "start": 30.49,
+      "end": 30.67,
+      "keyword": false
+    },
+    {
+      "id": 95,
+      "text": "से",
+      "start": 30.67,
+      "end": 30.75,
+      "keyword": false
+    },
+    {
+      "id": 96,
+      "text": "relate",
+      "start": 30.75,
+      "end": 30.99,
+      "keyword": false
+    },
+    {
+      "id": 97,
+      "text": "करते",
+      "start": 30.99,
+      "end": 31.2,
+      "keyword": false
+    },
+    {
+      "id": 98,
+      "text": "हुए",
+      "start": 31.2,
+      "end": 31.39,
+      "keyword": false
+    },
+    {
+      "id": 99,
+      "text": "जोकि",
+      "start": 31.39,
+      "end": 31.71,
+      "keyword": false
+    },
+    {
+      "id": 100,
+      "text": "था,",
+      "start": 31.71,
+      "end": 31.9,
+      "keyword": false
+    },
+    {
+      "id": 101,
+      "text": "Monty",
+      "start": 32.3,
+      "end": 32.64,
+      "keyword": true
+    },
+    {
+      "id": 102,
+      "text": "Python's",
+      "start": 32.64,
+      "end": 33.14,
+      "keyword": true
+    },
+    {
+      "id": 103,
+      "text": "Flying",
+      "start": 33.14,
+      "end": 33.66,
+      "keyword": true
+    },
+    {
+      "id": 104,
+      "text": "Circus।",
+      "start": 33.66,
+      "end": 34.0,
+      "keyword": true
+    },
+    {
+      "id": 105,
+      "text": "इसी",
+      "start": 34.17,
+      "end": 34.37,
+      "keyword": false
+    },
+    {
+      "id": 106,
+      "text": "के",
+      "start": 34.37,
+      "end": 34.55,
+      "keyword": false
+    },
+    {
+      "id": 107,
+      "text": "नाम",
+      "start": 34.55,
+      "end": 34.73,
+      "keyword": false
+    },
+    {
+      "id": 108,
+      "text": "पर",
+      "start": 34.73,
+      "end": 34.89,
+      "keyword": false
+    },
+    {
+      "id": 109,
+      "text": "उसने",
+      "start": 34.89,
+      "end": 35.21,
+      "keyword": false
+    },
+    {
+      "id": 110,
+      "text": "अपनी",
+      "start": 35.21,
+      "end": 35.59,
+      "keyword": false
+    },
+    {
+      "id": 111,
+      "text": "language",
+      "start": 35.59,
+      "end": 36.05,
+      "keyword": false
+    },
+    {
+      "id": 112,
+      "text": "का",
+      "start": 36.05,
+      "end": 36.21,
+      "keyword": false
+    },
+    {
+      "id": 113,
+      "text": "नाम",
+      "start": 36.21,
+      "end": 36.43,
+      "keyword": false
+    },
+    {
+      "id": 114,
+      "text": "रखा",
+      "start": 36.43,
+      "end": 36.67,
+      "keyword": false
+    },
+    {
+      "id": 115,
+      "text": "Python।",
+      "start": 36.89,
+      "end": 37.29,
+      "keyword": true
+    },
+    {
+      "id": 116,
+      "text": "ये",
+      "start": 37.47,
+      "end": 37.59,
+      "keyword": false
+    },
+    {
+      "id": 117,
+      "text": "Python",
+      "start": 37.59,
+      "end": 37.97,
+      "keyword": true
+    },
+    {
+      "id": 118,
+      "text": "language",
+      "start": 37.97,
+      "end": 38.37,
+      "keyword": false
+    },
+    {
+      "id": 119,
+      "text": "एक",
+      "start": 38.37,
+      "end": 38.61,
+      "keyword": false
+    },
+    {
+      "id": 120,
+      "text": "इतना",
+      "start": 38.61,
+      "end": 38.93,
+      "keyword": false
+    },
+    {
+      "id": 121,
+      "text": "बड़ा",
+      "start": 38.93,
+      "end": 39.13,
+      "keyword": false
+    },
+    {
+      "id": 122,
+      "text": "invention",
+      "start": 39.13,
+      "end": 39.73,
+      "keyword": true
+    },
+    {
+      "id": 123,
+      "text": "है,",
+      "start": 39.73,
+      "end": 39.9,
+      "keyword": false
+    },
+    {
+      "id": 124,
+      "text": "जोकि",
+      "start": 39.9,
+      "end": 40.19,
+      "keyword": false
+    },
+    {
+      "id": 125,
+      "text": "machine",
+      "start": 40.2,
+      "end": 40.59,
+      "keyword": true
+    },
+    {
+      "id": 126,
+      "text": "learning,",
+      "start": 40.59,
+      "end": 40.95,
+      "keyword": true
+    },
+    {
+      "id": 127,
+      "text": "artificial",
+      "start": 40.95,
+      "end": 41.53,
+      "keyword": true
+    },
+    {
+      "id": 128,
+      "text": "intelligence,",
+      "start": 41.53,
+      "end": 42.25,
+      "keyword": true
+    },
+    {
+      "id": 129,
+      "text": "automation",
+      "start": 42.51,
+      "end": 43.29,
+      "keyword": true
+    },
+    {
+      "id": 130,
+      "text": "जैसे",
+      "start": 43.29,
+      "end": 43.53,
+      "keyword": false
+    },
+    {
+      "id": 131,
+      "text": "sectors",
+      "start": 43.53,
+      "end": 43.87,
+      "keyword": false
+    },
+    {
+      "id": 132,
+      "text": "में",
+      "start": 43.87,
+      "end": 44.21,
+      "keyword": false
+    },
+    {
+      "id": 133,
+      "text": "काफी",
+      "start": 44.52,
+      "end": 44.83,
+      "keyword": false
+    },
+    {
+      "id": 134,
+      "text": "important",
+      "start": 44.83,
+      "end": 45.26,
+      "keyword": true
+    },
+    {
+      "id": 135,
+      "text": "role",
+      "start": 45.26,
+      "end": 45.56,
+      "keyword": false
+    },
+    {
+      "id": 136,
+      "text": "play",
+      "start": 45.56,
+      "end": 45.82,
+      "keyword": false
+    },
+    {
+      "id": 137,
+      "text": "करती",
+      "start": 45.82,
+      "end": 46.08,
+      "keyword": false
+    },
+    {
+      "id": 138,
+      "text": "है।",
+      "start": 46.08,
+      "end": 46.34,
+      "keyword": false
+    },
+    {
+      "id": 139,
+      "text": "सोचो,",
+      "start": 46.39,
+      "end": 46.83,
+      "keyword": false
+    },
+    {
+      "id": 140,
+      "text": "एक",
+      "start": 46.83,
+      "end": 47.2,
+      "keyword": false
+    },
+    {
+      "id": 141,
+      "text": "उस",
+      "start": 47.2,
+      "end": 47.36,
+      "keyword": false
+    },
+    {
+      "id": 142,
+      "text": "पुराने",
+      "start": 47.36,
+      "end": 47.66,
+      "keyword": false
+    },
+    {
+      "id": 143,
+      "text": "time",
+      "start": 47.66,
+      "end": 47.88,
+      "keyword": false
+    },
+    {
+      "id": 144,
+      "text": "का",
+      "start": 47.88,
+      "end": 48.1,
+      "keyword": false
+    },
+    {
+      "id": 145,
+      "text": "छोटा",
+      "start": 48.1,
+      "end": 48.36,
+      "keyword": false
+    },
+    {
+      "id": 146,
+      "text": "सा",
+      "start": 48.36,
+      "end": 48.5,
+      "keyword": false
+    },
+    {
+      "id": 147,
+      "text": "invention,",
+      "start": 48.5,
+      "end": 49.0,
+      "keyword": true
+    },
+    {
+      "id": 148,
+      "text": "जिसकी",
+      "start": 49.01,
+      "end": 49.36,
+      "keyword": false
+    },
+    {
+      "id": 149,
+      "text": "वजह",
+      "start": 49.36,
+      "end": 49.62,
+      "keyword": false
+    },
+    {
+      "id": 150,
+      "text": "से,",
+      "start": 49.62,
+      "end": 50.21,
+      "keyword": false
+    },
+    {
+      "id": 151,
+      "text": "आज",
+      "start": 50.26,
+      "end": 50.5,
+      "keyword": false
+    },
+    {
+      "id": 152,
+      "text": "कितना",
+      "start": 50.5,
+      "end": 50.78,
+      "keyword": false
+    },
+    {
+      "id": 153,
+      "text": "बड़ा",
+      "start": 50.78,
+      "end": 50.98,
+      "keyword": false
+    },
+    {
+      "id": 154,
+      "text": "ecosystem",
+      "start": 50.98,
+      "end": 51.24,
+      "keyword": true
+    },
+    {
+      "id": 155,
+      "text": "बन",
+      "start": 51.24,
+      "end": 51.54,
+      "keyword": false
+    },
+    {
+      "id": 156,
+      "text": "चुका",
+      "start": 51.54,
+      "end": 51.74,
+      "keyword": false
+    },
+    {
+      "id": 157,
+      "text": "है।",
+      "start": 51.74,
+      "end": 52.08,
+      "keyword": false
+    }
+  ],
+  "captions": [
+    {
+      "id": 1,
+      "start": 0.42,
+      "end": 1.68,
+      "text": "क्या तुम्हें भी यही लगता है?",
+      "words": [
+        {
+          "id": 0,
+          "text": "क्या",
+          "start": 0.42,
+          "end": 0.66,
+          "keyword": false
+        },
+        {
+          "id": 1,
+          "text": "तुम्हें",
+          "start": 0.66,
+          "end": 0.92,
+          "keyword": false
+        },
+        {
+          "id": 2,
+          "text": "भी",
+          "start": 0.92,
+          "end": 1.06,
+          "keyword": false
+        },
+        {
+          "id": 3,
+          "text": "यही",
+          "start": 1.06,
+          "end": 1.2,
+          "keyword": false
+        },
+        {
+          "id": 4,
+          "text": "लगता",
+          "start": 1.2,
+          "end": 1.52,
+          "keyword": false
+        },
+        {
+          "id": 5,
+          "text": "है?",
+          "start": 1.52,
+          "end": 1.68,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1.7,
+      "end": 3.05,
+      "text": "Python language का नाम",
+      "words": [
+        {
+          "id": 6,
+          "text": "Python",
+          "start": 1.7,
+          "end": 2.02,
+          "keyword": true
+        },
+        {
+          "id": 7,
+          "text": "language",
+          "start": 2.02,
+          "end": 2.42,
+          "keyword": false
+        },
+        {
+          "id": 8,
+          "text": "का",
+          "start": 2.42,
+          "end": 2.56,
+          "keyword": false
+        },
+        {
+          "id": 9,
+          "text": "नाम",
+          "start": 2.56,
+          "end": 2.76,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 3.12,
+      "end": 5.9,
+      "text": "Python snake से relate करते हुए रखा है?",
+      "words": [
+        {
+          "id": 10,
+          "text": "Python",
+          "start": 3.12,
+          "end": 3.52,
+          "keyword": true
+        },
+        {
+          "id": 11,
+          "text": "snake",
+          "start": 3.56,
+          "end": 3.92,
+          "keyword": true
+        },
+        {
+          "id": 12,
+          "text": "से",
+          "start": 3.92,
+          "end": 4.16,
+          "keyword": false
+        },
+        {
+          "id": 13,
+          "text": "relate",
+          "start": 4.36,
+          "end": 4.76,
+          "keyword": false
+        },
+        {
+          "id": 14,
+          "text": "करते",
+          "start": 4.76,
+          "end": 4.92,
+          "keyword": false
+        },
+        {
+          "id": 15,
+          "text": "हुए",
+          "start": 4.92,
+          "end": 5.26,
+          "keyword": false
+        },
+        {
+          "id": 16,
+          "text": "रखा",
+          "start": 5.28,
+          "end": 5.66,
+          "keyword": false
+        },
+        {
+          "id": 17,
+          "text": "है?",
+          "start": 5.66,
+          "end": 5.86,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 6.52,
+      "end": 8.2,
+      "text": "But ये कहीं भी सही नहीं है।",
+      "words": [
+        {
+          "id": 18,
+          "text": "But",
+          "start": 6.52,
+          "end": 6.78,
+          "keyword": false
+        },
+        {
+          "id": 19,
+          "text": "ये",
+          "start": 6.78,
+          "end": 6.94,
+          "keyword": false
+        },
+        {
+          "id": 20,
+          "text": "कहीं",
+          "start": 6.94,
+          "end": 7.42,
+          "keyword": false
+        },
+        {
+          "id": 21,
+          "text": "भी",
+          "start": 7.42,
+          "end": 7.56,
+          "keyword": false
+        },
+        {
+          "id": 22,
+          "text": "सही",
+          "start": 7.56,
+          "end": 7.72,
+          "keyword": false
+        },
+        {
+          "id": 23,
+          "text": "नहीं",
+          "start": 7.72,
+          "end": 8.02,
+          "keyword": true
+        },
+        {
+          "id": 24,
+          "text": "है।",
+          "start": 8.02,
+          "end": 8.2,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 8.32,
+      "end": 10.35,
+      "text": "बात थी 1989 की।",
+      "words": [
+        {
+          "id": 25,
+          "text": "बात",
+          "start": 8.32,
+          "end": 8.62,
+          "keyword": false
+        },
+        {
+          "id": 26,
+          "text": "थी",
+          "start": 8.62,
+          "end": 8.78,
+          "keyword": false
+        },
+        {
+          "id": 27,
+          "text": "1989",
+          "start": 8.78,
+          "end": 9.44,
+          "keyword": true
+        },
+        {
+          "id": 28,
+          "text": "की।",
+          "start": 9.44,
+          "end": 10.24,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 10.61,
+      "end": 12.51,
+      "text": "जहाँ पर एक researcher Guido van Rossum",
+      "words": [
+        {
+          "id": 29,
+          "text": "जहाँ",
+          "start": 10.61,
+          "end": 10.75,
+          "keyword": false
+        },
+        {
+          "id": 30,
+          "text": "पर",
+          "start": 10.75,
+          "end": 10.89,
+          "keyword": false
+        },
+        {
+          "id": 31,
+          "text": "एक",
+          "start": 10.89,
+          "end": 11.09,
+          "keyword": false
+        },
+        {
+          "id": 32,
+          "text": "researcher",
+          "start": 11.09,
+          "end": 11.61,
+          "keyword": false
+        },
+        {
+          "id": 33,
+          "text": "Guido",
+          "start": 11.61,
+          "end": 11.9,
+          "keyword": true
+        },
+        {
+          "id": 34,
+          "text": "van",
+          "start": 11.9,
+          "end": 12.15,
+          "keyword": false
+        },
+        {
+          "id": 35,
+          "text": "Rossum",
+          "start": 12.15,
+          "end": 12.51,
+          "keyword": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 12.55,
+      "end": 14.03,
+      "text": "एक ऐसी language चाहता था",
+      "words": [
+        {
+          "id": 36,
+          "text": "एक",
+          "start": 12.55,
+          "end": 12.83,
+          "keyword": false
+        },
+        {
+          "id": 37,
+          "text": "ऐसी",
+          "start": 12.83,
+          "end": 13.13,
+          "keyword": false
+        },
+        {
+          "id": 38,
+          "text": "language",
+          "start": 13.13,
+          "end": 13.53,
+          "keyword": false
+        },
+        {
+          "id": 39,
+          "text": "चाहता",
+          "start": 13.53,
+          "end": 13.85,
+          "keyword": false
+        },
+        {
+          "id": 40,
+          "text": "था",
+          "start": 13.85,
+          "end": 14.03,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 14.03,
+      "end": 16.15,
+      "text": "जोकि C से ज्यादा fast हो, simple हो।",
+      "words": [
+        {
+          "id": 41,
+          "text": "जोकि",
+          "start": 14.03,
+          "end": 14.27,
+          "keyword": false
+        },
+        {
+          "id": 42,
+          "text": "C",
+          "start": 14.27,
+          "end": 14.49,
+          "keyword": false
+        },
+        {
+          "id": 43,
+          "text": "से",
+          "start": 14.49,
+          "end": 14.65,
+          "keyword": false
+        },
+        {
+          "id": 44,
+          "text": "ज्यादा",
+          "start": 14.65,
+          "end": 14.91,
+          "keyword": false
+        },
+        {
+          "id": 45,
+          "text": "fast",
+          "start": 14.91,
+          "end": 15.29,
+          "keyword": true
+        },
+        {
+          "id": 46,
+          "text": "हो,",
+          "start": 15.29,
+          "end": 15.41,
+          "keyword": false
+        },
+        {
+          "id": 47,
+          "text": "simple",
+          "start": 15.51,
+          "end": 15.89,
+          "keyword": true
+        },
+        {
+          "id": 48,
+          "text": "हो।",
+          "start": 15.89,
+          "end": 16.15,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 16.55,
+      "end": 19.0,
+      "text": "वही उसी time अपनी Christmas की छुट्टियों में",
+      "words": [
+        {
+          "id": 49,
+          "text": "वही",
+          "start": 16.55,
+          "end": 16.78,
+          "keyword": false
+        },
+        {
+          "id": 50,
+          "text": "उसी",
+          "start": 16.78,
+          "end": 17.04,
+          "keyword": false
+        },
+        {
+          "id": 51,
+          "text": "time",
+          "start": 17.04,
+          "end": 17.28,
+          "keyword": false
+        },
+        {
+          "id": 52,
+          "text": "अपनी",
+          "start": 17.28,
+          "end": 17.55,
+          "keyword": false
+        },
+        {
+          "id": 53,
+          "text": "Christmas",
+          "start": 17.55,
+          "end": 17.93,
+          "keyword": true
+        },
+        {
+          "id": 54,
+          "text": "की",
+          "start": 17.93,
+          "end": 18.07,
+          "keyword": false
+        },
+        {
+          "id": 55,
+          "text": "छुट्टियों",
+          "start": 18.07,
+          "end": 18.49,
+          "keyword": false
+        },
+        {
+          "id": 56,
+          "text": "में",
+          "start": 18.49,
+          "end": 18.85,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 19.4,
+      "end": 21.2,
+      "text": "एक hobby project start करता है।",
+      "words": [
+        {
+          "id": 57,
+          "text": "एक",
+          "start": 19.4,
+          "end": 19.58,
+          "keyword": false
+        },
+        {
+          "id": 58,
+          "text": "hobby",
+          "start": 19.58,
+          "end": 19.96,
+          "keyword": true
+        },
+        {
+          "id": 59,
+          "text": "project",
+          "start": 19.96,
+          "end": 20.36,
+          "keyword": true
+        },
+        {
+          "id": 60,
+          "text": "start",
+          "start": 20.36,
+          "end": 20.68,
+          "keyword": false
+        },
+        {
+          "id": 61,
+          "text": "करता",
+          "start": 20.68,
+          "end": 21.02,
+          "keyword": false
+        },
+        {
+          "id": 62,
+          "text": "है।",
+          "start": 21.02,
+          "end": 21.18,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 21.18,
+      "end": 22.44,
+      "text": "जिसमें वो decide करता है,",
+      "words": [
+        {
+          "id": 63,
+          "text": "जिसमें",
+          "start": 21.18,
+          "end": 21.48,
+          "keyword": false
+        },
+        {
+          "id": 64,
+          "text": "वो",
+          "start": 21.58,
+          "end": 21.66,
+          "keyword": false
+        },
+        {
+          "id": 65,
+          "text": "decide",
+          "start": 21.66,
+          "end": 22.04,
+          "keyword": false
+        },
+        {
+          "id": 66,
+          "text": "करता",
+          "start": 22.04,
+          "end": 22.32,
+          "keyword": false
+        },
+        {
+          "id": 67,
+          "text": "है,",
+          "start": 22.32,
+          "end": 22.44,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 22.48,
+      "end": 24.24,
+      "text": "मैं एक ऐसी language पर work करूँगा",
+      "words": [
+        {
+          "id": 68,
+          "text": "मैं",
+          "start": 22.48,
+          "end": 22.62,
+          "keyword": false
+        },
+        {
+          "id": 69,
+          "text": "एक",
+          "start": 22.62,
+          "end": 22.8,
+          "keyword": false
+        },
+        {
+          "id": 70,
+          "text": "ऐसी",
+          "start": 22.8,
+          "end": 23.1,
+          "keyword": false
+        },
+        {
+          "id": 71,
+          "text": "language",
+          "start": 23.1,
+          "end": 23.42,
+          "keyword": false
+        },
+        {
+          "id": 72,
+          "text": "पर",
+          "start": 23.42,
+          "end": 23.6,
+          "keyword": false
+        },
+        {
+          "id": 73,
+          "text": "work",
+          "start": 23.6,
+          "end": 23.86,
+          "keyword": false
+        },
+        {
+          "id": 74,
+          "text": "करूँगा",
+          "start": 23.86,
+          "end": 24.2,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 24.24,
+      "end": 27.42,
+      "text": "जोकि C से ज्यादा fast हो और efficient हो।",
+      "words": [
+        {
+          "id": 75,
+          "text": "जोकि",
+          "start": 24.24,
+          "end": 24.68,
+          "keyword": false
+        },
+        {
+          "id": 76,
+          "text": "C",
+          "start": 24.68,
+          "end": 25.1,
+          "keyword": false
+        },
+        {
+          "id": 77,
+          "text": "से",
+          "start": 25.34,
+          "end": 25.52,
+          "keyword": false
+        },
+        {
+          "id": 78,
+          "text": "ज्यादा",
+          "start": 25.52,
+          "end": 25.86,
+          "keyword": false
+        },
+        {
+          "id": 79,
+          "text": "fast",
+          "start": 25.86,
+          "end": 26.32,
+          "keyword": true
+        },
+        {
+          "id": 80,
+          "text": "हो",
+          "start": 26.32,
+          "end": 26.42,
+          "keyword": false
+        },
+        {
+          "id": 81,
+          "text": "और",
+          "start": 26.42,
+          "end": 26.66,
+          "keyword": false
+        },
+        {
+          "id": 82,
+          "text": "efficient",
+          "start": 26.66,
+          "end": 27.22,
+          "keyword": true
+        },
+        {
+          "id": 83,
+          "text": "हो।",
+          "start": 27.22,
+          "end": 27.42,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 27.53,
+      "end": 29.4,
+      "text": "और उसने इस language का नाम रखा",
+      "words": [
+        {
+          "id": 84,
+          "text": "और",
+          "start": 27.53,
+          "end": 27.83,
+          "keyword": false
+        },
+        {
+          "id": 85,
+          "text": "उसने",
+          "start": 27.83,
+          "end": 28.13,
+          "keyword": false
+        },
+        {
+          "id": 86,
+          "text": "इस",
+          "start": 28.13,
+          "end": 28.29,
+          "keyword": false
+        },
+        {
+          "id": 87,
+          "text": "language",
+          "start": 28.29,
+          "end": 28.67,
+          "keyword": false
+        },
+        {
+          "id": 88,
+          "text": "का",
+          "start": 28.67,
+          "end": 28.81,
+          "keyword": false
+        },
+        {
+          "id": 89,
+          "text": "नाम",
+          "start": 28.81,
+          "end": 29.09,
+          "keyword": false
+        },
+        {
+          "id": 90,
+          "text": "रखा",
+          "start": 29.09,
+          "end": 29.4,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 29.47,
+      "end": 31.9,
+      "text": "एक British comedy show से relate करते हुए जोकि था,",
+      "words": [
+        {
+          "id": 91,
+          "text": "एक",
+          "start": 29.47,
+          "end": 29.69,
+          "keyword": false
+        },
+        {
+          "id": 92,
+          "text": "British",
+          "start": 29.69,
+          "end": 30.05,
+          "keyword": true
+        },
+        {
+          "id": 93,
+          "text": "comedy",
+          "start": 30.05,
+          "end": 30.49,
+          "keyword": true
+        },
+        {
+          "id": 94,
+          "text": "show",
+          "start": 30.49,
+          "end": 30.67,
+          "keyword": false
+        },
+        {
+          "id": 95,
+          "text": "से",
+          "start": 30.67,
+          "end": 30.75,
+          "keyword": false
+        },
+        {
+          "id": 96,
+          "text": "relate",
+          "start": 30.75,
+          "end": 30.99,
+          "keyword": false
+        },
+        {
+          "id": 97,
+          "text": "करते",
+          "start": 30.99,
+          "end": 31.2,
+          "keyword": false
+        },
+        {
+          "id": 98,
+          "text": "हुए",
+          "start": 31.2,
+          "end": 31.39,
+          "keyword": false
+        },
+        {
+          "id": 99,
+          "text": "जोकि",
+          "start": 31.39,
+          "end": 31.71,
+          "keyword": false
+        },
+        {
+          "id": 100,
+          "text": "था,",
+          "start": 31.71,
+          "end": 31.9,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 32.3,
+      "end": 34.05,
+      "text": "Monty Python's Flying Circus।",
+      "words": [
+        {
+          "id": 101,
+          "text": "Monty",
+          "start": 32.3,
+          "end": 32.64,
+          "keyword": true
+        },
+        {
+          "id": 102,
+          "text": "Python's",
+          "start": 32.64,
+          "end": 33.14,
+          "keyword": true
+        },
+        {
+          "id": 103,
+          "text": "Flying",
+          "start": 33.14,
+          "end": 33.66,
+          "keyword": true
+        },
+        {
+          "id": 104,
+          "text": "Circus।",
+          "start": 33.66,
+          "end": 34.0,
+          "keyword": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 34.17,
+      "end": 36.73,
+      "text": "इसी के नाम पर उसने अपनी language का नाम रखा",
+      "words": [
+        {
+          "id": 105,
+          "text": "इसी",
+          "start": 34.17,
+          "end": 34.37,
+          "keyword": false
+        },
+        {
+          "id": 106,
+          "text": "के",
+          "start": 34.37,
+          "end": 34.55,
+          "keyword": false
+        },
+        {
+          "id": 107,
+          "text": "नाम",
+          "start": 34.55,
+          "end": 34.73,
+          "keyword": false
+        },
+        {
+          "id": 108,
+          "text": "पर",
+          "start": 34.73,
+          "end": 34.89,
+          "keyword": false
+        },
+        {
+          "id": 109,
+          "text": "उसने",
+          "start": 34.89,
+          "end": 35.21,
+          "keyword": false
+        },
+        {
+          "id": 110,
+          "text": "अपनी",
+          "start": 35.21,
+          "end": 35.59,
+          "keyword": false
+        },
+        {
+          "id": 111,
+          "text": "language",
+          "start": 35.59,
+          "end": 36.05,
+          "keyword": false
+        },
+        {
+          "id": 112,
+          "text": "का",
+          "start": 36.05,
+          "end": 36.21,
+          "keyword": false
+        },
+        {
+          "id": 113,
+          "text": "नाम",
+          "start": 36.21,
+          "end": 36.43,
+          "keyword": false
+        },
+        {
+          "id": 114,
+          "text": "रखा",
+          "start": 36.43,
+          "end": 36.67,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 36.89,
+      "end": 37.35,
+      "text": "Python।",
+      "words": [
+        {
+          "id": 115,
+          "text": "Python।",
+          "start": 36.89,
+          "end": 37.29,
+          "keyword": true
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 37.47,
+      "end": 40.19,
+      "text": "ये Python language एक इतना बड़ा invention है, जोकि",
+      "words": [
+        {
+          "id": 116,
+          "text": "ये",
+          "start": 37.47,
+          "end": 37.59,
+          "keyword": false
+        },
+        {
+          "id": 117,
+          "text": "Python",
+          "start": 37.59,
+          "end": 37.97,
+          "keyword": true
+        },
+        {
+          "id": 118,
+          "text": "language",
+          "start": 37.97,
+          "end": 38.37,
+          "keyword": false
+        },
+        {
+          "id": 119,
+          "text": "एक",
+          "start": 38.37,
+          "end": 38.61,
+          "keyword": false
+        },
+        {
+          "id": 120,
+          "text": "इतना",
+          "start": 38.61,
+          "end": 38.93,
+          "keyword": false
+        },
+        {
+          "id": 121,
+          "text": "बड़ा",
+          "start": 38.93,
+          "end": 39.13,
+          "keyword": false
+        },
+        {
+          "id": 122,
+          "text": "invention",
+          "start": 39.13,
+          "end": 39.73,
+          "keyword": true
+        },
+        {
+          "id": 123,
+          "text": "है,",
+          "start": 39.73,
+          "end": 39.9,
+          "keyword": false
+        },
+        {
+          "id": 124,
+          "text": "जोकि",
+          "start": 39.9,
+          "end": 40.19,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 40.2,
+      "end": 40.95,
+      "text": "machine learning,",
+      "words": [
+        {
+          "id": 125,
+          "text": "machine",
+          "start": 40.2,
+          "end": 40.59,
+          "keyword": true
+        },
+        {
+          "id": 126,
+          "text": "learning,",
+          "start": 40.59,
+          "end": 40.95,
+          "keyword": true
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 40.95,
+      "end": 42.5,
+      "text": "artificial intelligence,",
+      "words": [
+        {
+          "id": 127,
+          "text": "artificial",
+          "start": 40.95,
+          "end": 41.53,
+          "keyword": true
+        },
+        {
+          "id": 128,
+          "text": "intelligence,",
+          "start": 41.53,
+          "end": 42.25,
+          "keyword": true
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 42.51,
+      "end": 44.4,
+      "text": "automation जैसे sectors में",
+      "words": [
+        {
+          "id": 129,
+          "text": "automation",
+          "start": 42.51,
+          "end": 43.29,
+          "keyword": true
+        },
+        {
+          "id": 130,
+          "text": "जैसे",
+          "start": 43.29,
+          "end": 43.53,
+          "keyword": false
+        },
+        {
+          "id": 131,
+          "text": "sectors",
+          "start": 43.53,
+          "end": 43.87,
+          "keyword": false
+        },
+        {
+          "id": 132,
+          "text": "में",
+          "start": 43.87,
+          "end": 44.21,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 44.52,
+      "end": 46.34,
+      "text": "काफी important role play करती है।",
+      "words": [
+        {
+          "id": 133,
+          "text": "काफी",
+          "start": 44.52,
+          "end": 44.83,
+          "keyword": false
+        },
+        {
+          "id": 134,
+          "text": "important",
+          "start": 44.83,
+          "end": 45.26,
+          "keyword": true
+        },
+        {
+          "id": 135,
+          "text": "role",
+          "start": 45.26,
+          "end": 45.56,
+          "keyword": false
+        },
+        {
+          "id": 136,
+          "text": "play",
+          "start": 45.56,
+          "end": 45.82,
+          "keyword": false
+        },
+        {
+          "id": 137,
+          "text": "करती",
+          "start": 45.82,
+          "end": 46.08,
+          "keyword": false
+        },
+        {
+          "id": 138,
+          "text": "है।",
+          "start": 46.08,
+          "end": 46.34,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 46.39,
+      "end": 49.01,
+      "text": "सोचो, एक उस पुराने time का छोटा सा invention,",
+      "words": [
+        {
+          "id": 139,
+          "text": "सोचो,",
+          "start": 46.39,
+          "end": 46.83,
+          "keyword": false
+        },
+        {
+          "id": 140,
+          "text": "एक",
+          "start": 46.83,
+          "end": 47.2,
+          "keyword": false
+        },
+        {
+          "id": 141,
+          "text": "उस",
+          "start": 47.2,
+          "end": 47.36,
+          "keyword": false
+        },
+        {
+          "id": 142,
+          "text": "पुराने",
+          "start": 47.36,
+          "end": 47.66,
+          "keyword": false
+        },
+        {
+          "id": 143,
+          "text": "time",
+          "start": 47.66,
+          "end": 47.88,
+          "keyword": false
+        },
+        {
+          "id": 144,
+          "text": "का",
+          "start": 47.88,
+          "end": 48.1,
+          "keyword": false
+        },
+        {
+          "id": 145,
+          "text": "छोटा",
+          "start": 48.1,
+          "end": 48.36,
+          "keyword": false
+        },
+        {
+          "id": 146,
+          "text": "सा",
+          "start": 48.36,
+          "end": 48.5,
+          "keyword": false
+        },
+        {
+          "id": 147,
+          "text": "invention,",
+          "start": 48.5,
+          "end": 49.0,
+          "keyword": true
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 49.01,
+      "end": 50.22,
+      "text": "जिसकी वजह से,",
+      "words": [
+        {
+          "id": 148,
+          "text": "जिसकी",
+          "start": 49.01,
+          "end": 49.36,
+          "keyword": false
+        },
+        {
+          "id": 149,
+          "text": "वजह",
+          "start": 49.36,
+          "end": 49.62,
+          "keyword": false
+        },
+        {
+          "id": 150,
+          "text": "से,",
+          "start": 49.62,
+          "end": 50.21,
+          "keyword": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 50.26,
+      "end": 52.18,
+      "text": "आज कितना बड़ा ecosystem बन चुका है।",
+      "words": [
+        {
+          "id": 151,
+          "text": "आज",
+          "start": 50.26,
+          "end": 50.5,
+          "keyword": false
+        },
+        {
+          "id": 152,
+          "text": "कितना",
+          "start": 50.5,
+          "end": 50.78,
+          "keyword": false
+        },
+        {
+          "id": 153,
+          "text": "बड़ा",
+          "start": 50.78,
+          "end": 50.98,
+          "keyword": false
+        },
+        {
+          "id": 154,
+          "text": "ecosystem",
+          "start": 50.98,
+          "end": 51.24,
+          "keyword": true
+        },
+        {
+          "id": 155,
+          "text": "बन",
+          "start": 51.24,
+          "end": 51.54,
+          "keyword": false
+        },
+        {
+          "id": 156,
+          "text": "चुका",
+          "start": 51.54,
+          "end": 51.74,
+          "keyword": false
+        },
+        {
+          "id": 157,
+          "text": "है।",
+          "start": 51.74,
+          "end": 52.08,
+          "keyword": false
+        }
+      ]
+    }
+  ],
+  "pauses": [
+    {
+      "start": 0.0,
+      "end": 0.303832,
+      "duration": 0.303832
+    },
+    {
+      "start": 2.91546,
+      "end": 3.16619,
+      "duration": 0.250726
+    },
+    {
+      "start": 5.88612,
+      "end": 6.14633,
+      "duration": 0.260204
+    },
+    {
+      "start": 10.1527,
+      "end": 10.4672,
+      "duration": 0.31449
+    },
+    {
+      "start": 19.1763,
+      "end": 19.4072,
+      "duration": 0.230952
+    },
+    {
+      "start": 24.7069,
+      "end": 25.1305,
+      "duration": 0.423605
+    },
+    {
+      "start": 44.2569,
+      "end": 44.5255,
+      "duration": 0.268526
+    }
+  ],
+  "structure": {
+    "introduction": [
+      0,
+      8.26
+    ],
+    "originAndExplanation": [
+      8.26,
+      37.45
+    ],
+    "impact": [
+      37.45,
+      46.35
+    ],
+    "conclusion": [
+      46.35,
+      52.21875
+    ]
+  },
+  "overallWordsPerSecond": 3.034,
+  "sceneDelivery": [
+    {
+      "scene": "S01",
+      "start": 0.0,
+      "end": 3.05,
+      "words": 10,
+      "wordsPerSecond": 3.279,
+      "visualChange": "The Assumption",
+      "reason": "A confrontational kinetic-type cold open: PYTHON assembles letter by letter while a coiled line-art serpent and a huge question mark establish the assumption."
+    },
+    {
+      "scene": "S02",
+      "start": 3.05,
+      "end": 8.26,
+      "words": 15,
+      "wordsPerSecond": 2.879,
+      "visualChange": "Myth, Corrected",
+      "reason": "The serpent is visually connected to Python, then the connection breaks and a decisive NOT THE SNAKE correction replaces it."
+    },
+    {
+      "scene": "S03",
+      "start": 8.26,
+      "end": 10.5,
+      "words": 4,
+      "wordsPerSecond": 1.786,
+      "visualChange": "1989",
+      "reason": "A monumental date emerges from a moving archival timeline; no unrelated historical imagery."
+    },
+    {
+      "scene": "S04",
+      "start": 10.5,
+      "end": 16.45,
+      "words": 20,
+      "wordsPerSecond": 3.361,
+      "visualChange": "The Designer’s Brief",
+      "reason": "A custom researcher identity card and code blueprint introduce Guido; FAST and SIMPLE become the two design requirements."
+    },
+    {
+      "scene": "S05",
+      "start": 16.45,
+      "end": 21.2,
+      "words": 15,
+      "wordsPerSecond": 3.158,
+      "visualChange": "A Christmas Side Project",
+      "reason": "A cinematic 2.5D winter workspace: snow beyond the window, warm practical lights and a laptop where a side project runs for the first time."
+    },
+    {
+      "scene": "S06",
+      "start": 21.2,
+      "end": 27.5,
+      "words": 20,
+      "wordsPerSecond": 3.175,
+      "visualChange": "The Language Core",
+      "reason": "An original Three.js metallic code core assembles from wireframe to solid while FAST and EFFICIENT lock into orbit."
+    },
+    {
+      "scene": "S07",
+      "start": 27.5,
+      "end": 34.05,
+      "words": 21,
+      "wordsPerSecond": 3.206,
+      "visualChange": "The Real Namesake",
+      "reason": "The technical world gives way to a custom retro theatre: curtains open, marquee bulbs illuminate and the comedy-show title takes the stage."
+    },
+    {
+      "scene": "S08",
+      "start": 34.05,
+      "end": 37.45,
+      "words": 11,
+      "wordsPerSecond": 3.235,
+      "visualChange": "Python Gets Its Name",
+      "reason": "A direct visual match: MONTY PYTHON collapses to a single glowing PYTHON nameplate and original two-colour Python-inspired mark."
+    },
+    {
+      "scene": "S09",
+      "start": 37.45,
+      "end": 40.2,
+      "words": 9,
+      "wordsPerSecond": 3.273,
+      "visualChange": "An Invention Expands",
+      "reason": "One small origin node branches into an increasingly dense connected system, making ‘how big an invention’ visible rather than literal."
+    },
+    {
+      "scene": "S10",
+      "start": 40.2,
+      "end": 46.35,
+      "words": 14,
+      "wordsPerSecond": 2.276,
+      "visualChange": "Three Fields, One Language",
+      "reason": "Three synchronized custom infographics: a neural graph for ML, a living processor for AI and an articulated robotic arm for automation."
+    },
+    {
+      "scene": "S11",
+      "start": 46.35,
+      "end": 52.233333,
+      "words": 19,
+      "wordsPerSecond": 3.229,
+      "visualChange": "From Side Project to Ecosystem",
+      "reason": "The tiny origin cube returns, then grows into a luminous Three.js ecosystem globe surrounded by the three fields and a 1989-to-today arc."
+    }
+  ],
+  "emphasisBeats": [
+    {
+      "time": 6.52,
+      "phrase": "But ये कहीं भी सही नहीं है",
+      "type": "myth correction / hard visual reversal"
+    },
+    {
+      "time": 8.78,
+      "phrase": "1989",
+      "type": "date reveal"
+    },
+    {
+      "time": 11.61,
+      "phrase": "Guido van Rossum",
+      "type": "character identity reveal"
+    },
+    {
+      "time": 17.55,
+      "phrase": "Christmas",
+      "type": "warm environmental scene change"
+    },
+    {
+      "time": 19.96,
+      "phrase": "project start",
+      "type": "terminal ignition"
+    },
+    {
+      "time": 25.86,
+      "phrase": "fast",
+      "type": "kinetic typography accent"
+    },
+    {
+      "time": 26.66,
+      "phrase": "efficient",
+      "type": "second kinetic typography accent"
+    },
+    {
+      "time": 32.3,
+      "phrase": "Monty Python's Flying Circus",
+      "type": "central comedy-stage reveal"
+    },
+    {
+      "time": 36.89,
+      "phrase": "Python",
+      "type": "name resolution impact"
+    },
+    {
+      "time": 40.2,
+      "phrase": "machine learning",
+      "type": "first domain panel"
+    },
+    {
+      "time": 40.95,
+      "phrase": "artificial intelligence",
+      "type": "second domain panel"
+    },
+    {
+      "time": 42.51,
+      "phrase": "automation",
+      "type": "third domain panel"
+    },
+    {
+      "time": 50.98,
+      "phrase": "ecosystem",
+      "type": "final globe expansion"
+    }
+  ]
+}
