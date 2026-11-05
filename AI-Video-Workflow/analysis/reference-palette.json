@@ -1,0 +1,68 @@
+{
+  "accentColors": [
+    {
+      "hex": "#F79E0C",
+      "percent": 19.37
+    },
+    {
+      "hex": "#EBBC70",
+      "percent": 12.81
+    },
+    {
+      "hex": "#DF8307",
+      "percent": 10.94
+    },
+    {
+      "hex": "#F7E1B5",
+      "percent": 10.65
+    },
+    {
+      "hex": "#ACAF84",
+      "percent": 8.83
+    },
+    {
+      "hex": "#F7B33C",
+      "percent": 8.23
+    },
+    {
+      "hex": "#E0880A",
+      "percent": 8.14
+    },
+    {
+      "hex": "#8A6E56",
+      "percent": 8.09
+    },
+    {
+      "hex": "#EA9715",
+      "percent": 7.7
+    },
+    {
+      "hex": "#A2915C",
+      "percent": 5.23
+    }
+  ],
+  "darkColors": [
+    {
+      "hex": "#2F2E33",
+      "percent": 64.16
+    },
+    {
+      "hex": "#5B564E",
+      "percent": 14.66
+    },
+    {
+      "hex": "#2A282D",
+      "percent": 9.91
+    },
+    {
+      "hex": "#302E33",
+      "percent": 6.31
+    },
+    {
+      "hex": "#2E2E32",
+      "percent": 4.97
+    }
+  ],
+  "backgroundEstimate": "#FBFAF1 / #FFFFFF (warm off-white)",
+  "note": "Approximate colors from lossy H.264 frames; accents are quantized only from saturated pixels."
+}

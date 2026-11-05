@@ -1,0 +1,241 @@
+{
+  "method": "Decoded 1 fps frames; palette from six representative frames resized and median-cut quantized. Motion metric is mean absolute luma delta between adjacent 1 fps samples, not an optical-flow measurement.",
+  "palette": [
+    {
+      "hex": "#FEFEFE",
+      "percent": 55.39
+    },
+    {
+      "hex": "#FBFAF1",
+      "percent": 11.66
+    },
+    {
+      "hex": "#F7F1E4",
+      "percent": 8.5
+    },
+    {
+      "hex": "#686055",
+      "percent": 8.31
+    },
+    {
+      "hex": "#FEFCF8",
+      "percent": 7.24
+    },
+    {
+      "hex": "#FEFEFB",
+      "percent": 4.34
+    },
+    {
+      "hex": "#FFFFFF",
+      "percent": 3.22
+    },
+    {
+      "hex": "#FDFEFE",
+      "percent": 0.46
+    },
+    {
+      "hex": "#FFFEFF",
+      "percent": 0.44
+    },
+    {
+      "hex": "#FEFEFF",
+      "percent": 0.44
+    }
+  ],
+  "motion": [
+    {
+      "interval": "0\u20131s",
+      "meanAbsoluteLumaDelta": 2.672
+    },
+    {
+      "interval": "1\u20132s",
+      "meanAbsoluteLumaDelta": 19.538
+    },
+    {
+      "interval": "2\u20133s",
+      "meanAbsoluteLumaDelta": 10.242
+    },
+    {
+      "interval": "3\u20134s",
+      "meanAbsoluteLumaDelta": 1.041
+    },
+    {
+      "interval": "4\u20135s",
+      "meanAbsoluteLumaDelta": 3.118
+    },
+    {
+      "interval": "5\u20136s",
+      "meanAbsoluteLumaDelta": 1.579
+    },
+    {
+      "interval": "6\u20137s",
+      "meanAbsoluteLumaDelta": 2.629
+    },
+    {
+      "interval": "7\u20138s",
+      "meanAbsoluteLumaDelta": 3.226
+    },
+    {
+      "interval": "8\u20139s",
+      "meanAbsoluteLumaDelta": 2.047
+    },
+    {
+      "interval": "9\u201310s",
+      "meanAbsoluteLumaDelta": 3.971
+    },
+    {
+      "interval": "10\u201311s",
+      "meanAbsoluteLumaDelta": 2.461
+    },
+    {
+      "interval": "11\u201312s",
+      "meanAbsoluteLumaDelta": 3.785
+    },
+    {
+      "interval": "12\u201313s",
+      "meanAbsoluteLumaDelta": 2.851
+    },
+    {
+      "interval": "13\u201314s",
+      "meanAbsoluteLumaDelta": 2.369
+    },
+    {
+      "interval": "14\u201315s",
+      "meanAbsoluteLumaDelta": 1.727
+    },
+    {
+      "interval": "15\u201316s",
+      "meanAbsoluteLumaDelta": 2.411
+    },
+    {
+      "interval": "16\u201317s",
+      "meanAbsoluteLumaDelta": 2.427
+    },
+    {
+      "interval": "17\u201318s",
+      "meanAbsoluteLumaDelta": 3.376
+    },
+    {
+      "interval": "18\u201319s",
+      "meanAbsoluteLumaDelta": 3.838
+    },
+    {
+      "interval": "19\u201320s",
+      "meanAbsoluteLumaDelta": 2.987
+    },
+    {
+      "interval": "20\u201321s",
+      "meanAbsoluteLumaDelta": 0.907
+    },
+    {
+      "interval": "21\u201322s",
+      "meanAbsoluteLumaDelta": 2.06
+    },
+    {
+      "interval": "22\u201323s",
+      "meanAbsoluteLumaDelta": 2.126
+    },
+    {
+      "interval": "23\u201324s",
+      "meanAbsoluteLumaDelta": 0.398
+    },
+    {
+      "interval": "24\u201325s",
+      "meanAbsoluteLumaDelta": 2.19
+    },
+    {
+      "interval": "25\u201326s",
+      "meanAbsoluteLumaDelta": 0.783
+    },
+    {
+      "interval": "26\u201327s",
+      "meanAbsoluteLumaDelta": 2.318
+    },
+    {
+      "interval": "27\u201328s",
+      "meanAbsoluteLumaDelta": 1.737
+    },
+    {
+      "interval": "28\u201329s",
+      "meanAbsoluteLumaDelta": 1.714
+    },
+    {
+      "interval": "29\u201330s",
+      "meanAbsoluteLumaDelta": 2.769
+    },
+    {
+      "interval": "30\u201331s",
+      "meanAbsoluteLumaDelta": 2.201
+    },
+    {
+      "interval": "31\u201332s",
+      "meanAbsoluteLumaDelta": 2.121
+    },
+    {
+      "interval": "32\u201333s",
+      "meanAbsoluteLumaDelta": 0.821
+    },
+    {
+      "interval": "33\u201334s",
+      "meanAbsoluteLumaDelta": 1.85
+    },
+    {
+      "interval": "34\u201335s",
+      "meanAbsoluteLumaDelta": 4.011
+    },
+    {
+      "interval": "35\u201336s",
+      "meanAbsoluteLumaDelta": 1.008
+    },
+    {
+      "interval": "36\u201337s",
+      "meanAbsoluteLumaDelta": 0.568
+    },
+    {
+      "interval": "37\u201338s",
+      "meanAbsoluteLumaDelta": 26.263
+    },
+    {
+      "interval": "38\u201339s",
+      "meanAbsoluteLumaDelta": 2.86
+    },
+    {
+      "interval": "39\u201340s",
+      "meanAbsoluteLumaDelta": 0.928
+    }
+  ],
+  "largestChanges": [
+    {
+      "interval": "37\u201338s",
+      "meanAbsoluteLumaDelta": 26.263
+    },
+    {
+      "interval": "1\u20132s",
+      "meanAbsoluteLumaDelta": 19.538
+    },
+    {
+      "interval": "2\u20133s",
+      "meanAbsoluteLumaDelta": 10.242
+    },
+    {
+      "interval": "34\u201335s",
+      "meanAbsoluteLumaDelta": 4.011
+    },
+    {
+      "interval": "9\u201310s",
+      "meanAbsoluteLumaDelta": 3.971
+    },
+    {
+      "interval": "18\u201319s",
+      "meanAbsoluteLumaDelta": 3.838
+    },
+    {
+      "interval": "11\u201312s",
+      "meanAbsoluteLumaDelta": 3.785
+    },
+    {
+      "interval": "17\u201318s",
+      "meanAbsoluteLumaDelta": 3.376
+    }
+  ]
+}

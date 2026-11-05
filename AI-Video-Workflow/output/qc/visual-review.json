@@ -1,0 +1,58 @@
+{
+  "reviewMethod": "Human-visible agent inspection through decoded image outputs; automated QC is reported separately. No claim of continuous real-time playback is made.",
+  "reviewDate": "2026-11-05",
+  "preview-9x16": {
+    "pass": true,
+    "inspectedContactSheet": "output/qc/timeline-preview-9x16.jpg",
+    "decodedTimelineFrames": 19,
+    "representativeStillsDirectory": "output/qc/stills/vertical",
+    "representativeStills": 14,
+    "checks": {
+      "maximumTwoSubtitleLinesAfterCorrection": true,
+      "activeWordDoesNotReflowLines": true,
+      "noTextClippingOrUnsafeEdges": true,
+      "sceneOrderMatchesNarration": true,
+      "typeCardsHighlightAtExpectedPhrases": true,
+      "noReferenceFootageOrStockMediaVisible": true,
+      "openingAndEndingReadable": true
+    },
+    "notes": "Inspected the decoded one-frame-per-second preview sheet and 14 full representative vertical renders. Corrected subtitle auto-width and stable word padding, rerendered all stills, and verified the revised two-line result. Scene fade frames remain on the warm canvas, not black."
+  },
+  "final-9x16": {
+    "pass": true,
+    "inspectedContactSheet": "output/qc/timeline-final-9x16.jpg",
+    "decodedFinalTimelineFrames": 19,
+    "representativeStillsDirectory": "output/qc/stills/vertical",
+    "representativeStills": 14,
+    "checks": {
+      "maximumTwoSubtitleLines": true,
+      "activeWordHighlightsReadable": true,
+      "noTextClippingOrUnsafeEdges": true,
+      "sceneOrderMatchesNarration": true,
+      "semanticTypeHighlightsCorrect": true,
+      "noReferenceFootageOrStockMediaVisible": true,
+      "colorAndContrastReadableAfterBt709Normalization": true,
+      "openingAndEndingReadable": true
+    },
+    "notes": "Inspected all 19 decoded one-second frames from the delivered 1080x1920 MP4 and 14 representative vertical renders. Two-line subtitle correction remains intact; no clipping, accidental blank/black scene, or unsafe text was observed."
+  },
+  "final-16x9": {
+    "pass": true,
+    "inspectedContactSheet": "output/qc/timeline-final-16x9.jpg",
+    "decodedFinalTimelineFrames": 19,
+    "representativeStillsDirectory": "output/qc/stills/horizontal",
+    "representativeStills": 14,
+    "checks": {
+      "maximumTwoSubtitleLines": true,
+      "activeWordHighlightsReadable": true,
+      "noTextClippingOrUnsafeEdges": true,
+      "sceneOrderMatchesNarration": true,
+      "semanticTypeHighlightsCorrect": true,
+      "noReferenceFootageOrStockMediaVisible": true,
+      "colorAndContrastReadableAfterBt709Normalization": true,
+      "openingAndEndingReadable": true,
+      "separateResponsiveCompositionNotStretched": true
+    },
+    "notes": "Inspected all 19 decoded one-second frames from the delivered 1920x1080 MP4 and 14 representative horizontal renders. The horizontal version uses separate left/right or four-column compositions, not a stretched or center-cropped vertical export."
+  }
+}

@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:02,080
+To data type se matlab,
+kis tarah ka
+
+2
+00:00:02,080 --> 00:00:04,040
+data variable store
+kar sakta hai?
+
+3
+00:00:04,040 --> 00:00:06,580
+To integer ek type hota hai,
+float ek type hota hai,
+
+4
+00:00:06,580 --> 00:00:09,160
+string ek type hota hai,
+boolean ek type hota hai.
+
+5
+00:00:09,160 --> 00:00:11,680
+Aur ye data type ko represent
+karne ke liye Python
+
+6
+00:00:11,680 --> 00:00:13,640
+mein koi alag se symbol
+nahi lagana padta hai.
+
+7
+00:00:13,640 --> 00:00:16,220
+Python ka variable automatically
+samajh jaata hai ki
+
+8
+00:00:16,220 --> 00:00:18,600
+ye kis tarah ka data type
+store kar raha hai.

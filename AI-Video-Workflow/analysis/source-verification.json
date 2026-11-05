@@ -1,0 +1,70 @@
+{
+  "verifiedAt": "2026-11-05T13:58:34.625416+00:00",
+  "voice": {
+    "repository": "https://github.com/himansh478/voice.git",
+    "commit": "993b4bedbb078988a25a9213cede66718a9a1b28",
+    "path": "1104 (1)(2).MP3",
+    "expectedGitBlob": "0666e805fe775ea9acea24470b74e727527ece74",
+    "localGitBlob": "0666e805fe775ea9acea24470b74e727527ece74",
+    "sha256": "b3f32f124211e2df597f06553d09555ccc6d79a6df07f795f4444267f4aab5a7",
+    "identicalToCommittedSource": true,
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 2,
+          "duration": "18.834250"
+        }
+      ],
+      "format": {
+        "filename": "AI-Video-Workflow/assets/audio/1104 (1)(2).MP3",
+        "duration": "18.834250",
+        "size": "452072",
+        "bit_rate": "192021"
+      }
+    }
+  },
+  "reference": {
+    "repository": "https://github.com/himansh478/refrence-video.git",
+    "commit": "cda241a79a179f916b1c936fcecd2ad846a1b147",
+    "path": "Video-43221.mp4",
+    "expectedGitBlob": "0a71703c14582c9848449769ccdf20c47aeedd29",
+    "localGitBlob": "0a71703c14582c9848449769ccdf20c47aeedd29",
+    "sha256": "4e23506ce11b04abcd757618f44032d426454d83efb95fbafaf62e02f217a265",
+    "identicalToCommittedSource": true,
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "duration": "40.500000",
+          "nb_frames": "1215"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "duration": "40.585624",
+          "nb_frames": "874"
+        }
+      ],
+      "format": {
+        "filename": "AI-Video-Workflow/assets/reference/Video-43221.mp4",
+        "duration": "40.585624",
+        "size": "1700649",
+        "bit_rate": "335221"
+      }
+    }
+  }
+}

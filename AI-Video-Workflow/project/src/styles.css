@@ -1,0 +1,11 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/space-grotesk/500.css';
+@import '@fontsource/space-grotesk/600.css';
+@import '@fontsource/space-grotesk/700.css';
+
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #FBFAF4; }
+body { font-family: 'Inter', sans-serif; }

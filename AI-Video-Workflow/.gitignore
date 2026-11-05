@@ -1,0 +1,25 @@
+# Private/reference media must not be committed into another repository.
+assets/reference/
+
+# Local audit evidence and decoded frames, including third-party source snapshots.
+logs/
+
+# Heavy/local runtimes and model weights.
+.venv/
+assets/models/
+project/node_modules
+project/node_modules/
+project/.remotion/
+project/dist/
+project/build/
+
+# Intermediate previews and decoded QC frames. Final MP4s and review sheets are delivered.
+output/preview_voice_video_*.mp4
+output/frames/
+output/qc-frames/
+output/qc/*-frames/
+output/*.log
+
+# OS/editor files.
+.DS_Store
+Thumbs.db
