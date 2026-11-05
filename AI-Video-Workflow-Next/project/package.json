@@ -1,0 +1,41 @@
+{
+  "name": "voice-data-types-next-motion-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next original dark data-console motion-graphics version using the unchanged GitHub narration",
+  "type": "module",
+  "scripts": {
+    "timing": "node scripts/python.mjs scripts/build_timing.py",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck",
+    "studio": "remotion studio src/index.ts --host 0.0.0.0",
+    "stills": "node scripts/render.mjs stills",
+    "contact-sheet": "node scripts/python.mjs scripts/create_contact_sheet.py",
+    "timeline-sheet": "node scripts/python.mjs scripts/create_timeline_sheet.py",
+    "preview": "node scripts/render.mjs preview",
+    "render:vertical": "node scripts/render.mjs vertical",
+    "render:horizontal": "node scripts/render.mjs horizontal",
+    "render": "npm run render:vertical && npm run render:horizontal",
+    "qc": "node scripts/python.mjs scripts/quality_check.py",
+    "normalize": "node scripts/normalize-delivery.mjs"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "@ffprobe-installer/ffprobe": "2.1.2",
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0",
+    "@remotion/bundler": "4.0.540",
+    "@remotion/cli": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "@sparticuz/chromium": "153.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.3",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

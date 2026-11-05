@@ -1,0 +1,748 @@
+{
+  "duration": 18.83425,
+  "fps": 30,
+  "durationInFrames": 566,
+  "sourceSha256": "b3f32f124211e2df597f06553d09555ccc6d79a6df07f795f4444267f4aab5a7",
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "end": 1.15,
+      "title": "DATA TYPES",
+      "purpose": "Immediate data-types hook with an original variable/type relationship."
+    },
+    {
+      "id": "S02",
+      "start": 1.15,
+      "end": 4.04,
+      "title": "WHAT CAN IT STORE?",
+      "purpose": "Show a dark variable/data memory console and numbered relationship rail without adding an example or new claim."
+    },
+    {
+      "id": "S03",
+      "start": 4.04,
+      "end": 6.58,
+      "title": "NUMERIC TYPES",
+      "purpose": "Reveal numbered integer and float rails at their spoken anchors."
+    },
+    {
+      "id": "S04",
+      "start": 6.58,
+      "end": 9.16,
+      "title": "TEXT + LOGIC",
+      "purpose": "Complete the dark four-cell type stack with string and boolean cards."
+    },
+    {
+      "id": "S05",
+      "start": 9.16,
+      "end": 13.64,
+      "title": "NO EXTRA SYMBOL",
+      "purpose": "Transition a generic symbol module to NOT REQUIRED while retaining the variable/data association."
+    },
+    {
+      "id": "S06",
+      "start": 13.64,
+      "end": 18.866666666666667,
+      "title": "AUTOMATIC RECOGNITION",
+      "purpose": "Scan the console and show generic automatic type recognition without selecting an unspoken example type."
+    }
+  ],
+  "captions": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.08,
+      "text": "To data type se matlab, kis tarah ka",
+      "lines": [
+        "To data type se matlab,",
+        "kis tarah ka"
+      ],
+      "breakAfter": [
+        4
+      ],
+      "words": [
+        {
+          "id": 0,
+          "text": "To",
+          "start": 0.0,
+          "end": 0.32,
+          "keyword": false,
+          "sceneId": "S01"
+        },
+        {
+          "id": 1,
+          "text": "data",
+          "start": 0.32,
+          "end": 0.58,
+          "keyword": true,
+          "sceneId": "S01"
+        },
+        {
+          "id": 2,
+          "text": "type",
+          "start": 0.58,
+          "end": 0.78,
+          "keyword": true,
+          "sceneId": "S01"
+        },
+        {
+          "id": 3,
+          "text": "se",
+          "start": 0.78,
+          "end": 0.88,
+          "keyword": false,
+          "sceneId": "S01"
+        },
+        {
+          "id": 4,
+          "text": "matlab,",
+          "start": 0.88,
+          "end": 1.24,
+          "keyword": true,
+          "sceneId": "S01"
+        },
+        {
+          "id": 5,
+          "text": "kis",
+          "start": 1.24,
+          "end": 1.58,
+          "keyword": false,
+          "sceneId": "S02"
+        },
+        {
+          "id": 6,
+          "text": "tarah",
+          "start": 1.58,
+          "end": 1.72,
+          "keyword": false,
+          "sceneId": "S02"
+        },
+        {
+          "id": 7,
+          "text": "ka",
+          "start": 1.72,
+          "end": 2.08,
+          "keyword": false,
+          "sceneId": "S02"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 2.08,
+      "end": 4.04,
+      "text": "data variable store kar sakta hai?",
+      "lines": [
+        "data variable store",
+        "kar sakta hai?"
+      ],
+      "breakAfter": [
+        2
+      ],
+      "words": [
+        {
+          "id": 8,
+          "text": "data",
+          "start": 2.08,
+          "end": 2.48,
+          "keyword": true,
+          "sceneId": "S02"
+        },
+        {
+          "id": 9,
+          "text": "variable",
+          "start": 2.48,
+          "end": 2.9,
+          "keyword": true,
+          "sceneId": "S02"
+        },
+        {
+          "id": 10,
+          "text": "store",
+          "start": 2.9,
+          "end": 3.3,
+          "keyword": false,
+          "sceneId": "S02"
+        },
+        {
+          "id": 11,
+          "text": "kar",
+          "start": 3.3,
+          "end": 3.44,
+          "keyword": false,
+          "sceneId": "S02"
+        },
+        {
+          "id": 12,
+          "text": "sakta",
+          "start": 3.44,
+          "end": 3.76,
+          "keyword": false,
+          "sceneId": "S02"
+        },
+        {
+          "id": 13,
+          "text": "hai?",
+          "start": 3.76,
+          "end": 4.04,
+          "keyword": false,
+          "sceneId": "S02"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 4.04,
+      "end": 6.58,
+      "text": "To integer ek type hota hai, float ek type hota hai,",
+      "lines": [
+        "To integer ek type hota hai,",
+        "float ek type hota hai,"
+      ],
+      "breakAfter": [
+        5
+      ],
+      "words": [
+        {
+          "id": 14,
+          "text": "To",
+          "start": 4.04,
+          "end": 4.14,
+          "keyword": false,
+          "sceneId": "S03"
+        },
+        {
+          "id": 15,
+          "text": "integer",
+          "start": 4.14,
+          "end": 4.64,
+          "keyword": true,
+          "sceneId": "S03"
+        },
+        {
+          "id": 16,
+          "text": "ek",
+          "start": 4.64,
+          "end": 4.76,
+          "keyword": false,
+          "sceneId": "S03"
+        },
+        {
+          "id": 17,
+          "text": "type",
+          "start": 4.76,
+          "end": 5.0,
+          "keyword": true,
+          "sceneId": "S03"
+        },
+        {
+          "id": 18,
+          "text": "hota",
+          "start": 5.0,
+          "end": 5.18,
+          "keyword": false,
+          "sceneId": "S03"
+        },
+        {
+          "id": 19,
+          "text": "hai,",
+          "start": 5.18,
+          "end": 5.28,
+          "keyword": false,
+          "sceneId": "S03"
+        },
+        {
+          "id": 20,
+          "text": "float",
+          "start": 5.34,
+          "end": 5.62,
+          "keyword": true,
+          "sceneId": "S03"
+        },
+        {
+          "id": 21,
+          "text": "ek",
+          "start": 5.62,
+          "end": 5.86,
+          "keyword": false,
+          "sceneId": "S03"
+        },
+        {
+          "id": 22,
+          "text": "type",
+          "start": 5.86,
+          "end": 6.12,
+          "keyword": true,
+          "sceneId": "S03"
+        },
+        {
+          "id": 23,
+          "text": "hota",
+          "start": 6.12,
+          "end": 6.36,
+          "keyword": false,
+          "sceneId": "S03"
+        },
+        {
+          "id": 24,
+          "text": "hai,",
+          "start": 6.36,
+          "end": 6.58,
+          "keyword": false,
+          "sceneId": "S03"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 6.58,
+      "end": 9.16,
+      "text": "string ek type hota hai, boolean ek type hota hai.",
+      "lines": [
+        "string ek type hota hai,",
+        "boolean ek type hota hai."
+      ],
+      "breakAfter": [
+        4
+      ],
+      "words": [
+        {
+          "id": 25,
+          "text": "string",
+          "start": 6.6,
+          "end": 7.14,
+          "keyword": true,
+          "sceneId": "S04"
+        },
+        {
+          "id": 26,
+          "text": "ek",
+          "start": 7.14,
+          "end": 7.32,
+          "keyword": false,
+          "sceneId": "S04"
+        },
+        {
+          "id": 27,
+          "text": "type",
+          "start": 7.32,
+          "end": 7.54,
+          "keyword": true,
+          "sceneId": "S04"
+        },
+        {
+          "id": 28,
+          "text": "hota",
+          "start": 7.54,
+          "end": 7.74,
+          "keyword": false,
+          "sceneId": "S04"
+        },
+        {
+          "id": 29,
+          "text": "hai,",
+          "start": 7.74,
+          "end": 7.88,
+          "keyword": false,
+          "sceneId": "S04"
+        },
+        {
+          "id": 30,
+          "text": "boolean",
+          "start": 7.92,
+          "end": 8.24,
+          "keyword": true,
+          "sceneId": "S04"
+        },
+        {
+          "id": 31,
+          "text": "ek",
+          "start": 8.24,
+          "end": 8.5,
+          "keyword": false,
+          "sceneId": "S04"
+        },
+        {
+          "id": 32,
+          "text": "type",
+          "start": 8.5,
+          "end": 8.7,
+          "keyword": true,
+          "sceneId": "S04"
+        },
+        {
+          "id": 33,
+          "text": "hota",
+          "start": 8.7,
+          "end": 8.92,
+          "keyword": false,
+          "sceneId": "S04"
+        },
+        {
+          "id": 34,
+          "text": "hai.",
+          "start": 8.92,
+          "end": 9.16,
+          "keyword": false,
+          "sceneId": "S04"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 9.16,
+      "end": 11.68,
+      "text": "Aur ye data type ko represent karne ke liye Python",
+      "lines": [
+        "Aur ye data type ko represent",
+        "karne ke liye Python"
+      ],
+      "breakAfter": [
+        5
+      ],
+      "words": [
+        {
+          "id": 35,
+          "text": "Aur",
+          "start": 9.16,
+          "end": 9.32,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 36,
+          "text": "ye",
+          "start": 9.32,
+          "end": 9.44,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 37,
+          "text": "data",
+          "start": 9.44,
+          "end": 9.74,
+          "keyword": true,
+          "sceneId": "S05"
+        },
+        {
+          "id": 38,
+          "text": "type",
+          "start": 9.74,
+          "end": 9.96,
+          "keyword": true,
+          "sceneId": "S05"
+        },
+        {
+          "id": 39,
+          "text": "ko",
+          "start": 9.96,
+          "end": 10.2,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 40,
+          "text": "represent",
+          "start": 10.2,
+          "end": 10.8,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 41,
+          "text": "karne",
+          "start": 10.8,
+          "end": 11.14,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 42,
+          "text": "ke",
+          "start": 11.14,
+          "end": 11.26,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 43,
+          "text": "liye",
+          "start": 11.26,
+          "end": 11.38,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 44,
+          "text": "Python",
+          "start": 11.38,
+          "end": 11.68,
+          "keyword": true,
+          "sceneId": "S05"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 11.68,
+      "end": 13.64,
+      "text": "mein koi alag se symbol nahi lagana padta hai.",
+      "lines": [
+        "mein koi alag se symbol",
+        "nahi lagana padta hai."
+      ],
+      "breakAfter": [
+        4
+      ],
+      "words": [
+        {
+          "id": 45,
+          "text": "mein",
+          "start": 11.68,
+          "end": 11.84,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 46,
+          "text": "koi",
+          "start": 11.84,
+          "end": 12.02,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 47,
+          "text": "alag",
+          "start": 12.02,
+          "end": 12.28,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 48,
+          "text": "se",
+          "start": 12.28,
+          "end": 12.4,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 49,
+          "text": "symbol",
+          "start": 12.4,
+          "end": 12.78,
+          "keyword": true,
+          "sceneId": "S05"
+        },
+        {
+          "id": 50,
+          "text": "nahi",
+          "start": 12.78,
+          "end": 13.0,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 51,
+          "text": "lagana",
+          "start": 13.0,
+          "end": 13.26,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 52,
+          "text": "padta",
+          "start": 13.26,
+          "end": 13.54,
+          "keyword": false,
+          "sceneId": "S05"
+        },
+        {
+          "id": 53,
+          "text": "hai.",
+          "start": 13.54,
+          "end": 13.64,
+          "keyword": false,
+          "sceneId": "S05"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 13.64,
+      "end": 16.22,
+      "text": "Python ka variable automatically samajh jaata hai ki",
+      "lines": [
+        "Python ka variable automatically",
+        "samajh jaata hai ki"
+      ],
+      "breakAfter": [
+        3
+      ],
+      "words": [
+        {
+          "id": 54,
+          "text": "Python",
+          "start": 13.64,
+          "end": 14.36,
+          "keyword": true,
+          "sceneId": "S06"
+        },
+        {
+          "id": 55,
+          "text": "ka",
+          "start": 14.36,
+          "end": 14.5,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 56,
+          "text": "variable",
+          "start": 14.5,
+          "end": 14.9,
+          "keyword": true,
+          "sceneId": "S06"
+        },
+        {
+          "id": 57,
+          "text": "automatically",
+          "start": 14.9,
+          "end": 15.5,
+          "keyword": true,
+          "sceneId": "S06"
+        },
+        {
+          "id": 58,
+          "text": "samajh",
+          "start": 15.5,
+          "end": 15.76,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 59,
+          "text": "jaata",
+          "start": 15.76,
+          "end": 16.02,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 60,
+          "text": "hai",
+          "start": 16.02,
+          "end": 16.08,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 61,
+          "text": "ki",
+          "start": 16.08,
+          "end": 16.22,
+          "keyword": false,
+          "sceneId": "S06"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 16.22,
+      "end": 18.6,
+      "text": "ye kis tarah ka data type store kar raha hai.",
+      "lines": [
+        "ye kis tarah ka data type",
+        "store kar raha hai."
+      ],
+      "breakAfter": [
+        5
+      ],
+      "words": [
+        {
+          "id": 62,
+          "text": "ye",
+          "start": 16.22,
+          "end": 16.3,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 63,
+          "text": "kis",
+          "start": 16.3,
+          "end": 16.5,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 64,
+          "text": "tarah",
+          "start": 16.5,
+          "end": 16.68,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 65,
+          "text": "ka",
+          "start": 16.68,
+          "end": 16.82,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 66,
+          "text": "data",
+          "start": 16.82,
+          "end": 17.08,
+          "keyword": true,
+          "sceneId": "S06"
+        },
+        {
+          "id": 67,
+          "text": "type",
+          "start": 17.08,
+          "end": 17.28,
+          "keyword": true,
+          "sceneId": "S06"
+        },
+        {
+          "id": 68,
+          "text": "store",
+          "start": 17.28,
+          "end": 17.6,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 69,
+          "text": "kar",
+          "start": 17.6,
+          "end": 17.74,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 70,
+          "text": "raha",
+          "start": 17.74,
+          "end": 18.0,
+          "keyword": false,
+          "sceneId": "S06"
+        },
+        {
+          "id": 71,
+          "text": "hai.",
+          "start": 18.0,
+          "end": 18.22,
+          "keyword": false,
+          "sceneId": "S06"
+        }
+      ]
+    }
+  ]
+}

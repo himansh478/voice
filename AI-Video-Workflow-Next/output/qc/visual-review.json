@@ -1,0 +1,58 @@
+{
+  "reviewMethod": "Agent visual inspection of actual rendered images and decoded MP4 frames; automated QC is separate. No continuous physical-device playback claim.",
+  "reviewDate": "2026-11-05",
+  "preview-9x16": {
+    "pass": true,
+    "inspectedContactSheet": "output/qc/timeline-preview-9x16.jpg",
+    "decodedTimelineFrames": 19,
+    "representativeStillsDirectory": "output/qc/stills/vertical",
+    "representativeStills": 15,
+    "checks": {
+      "maximumTwoSubtitleLines": true,
+      "activeWordDoesNotReflowLines": true,
+      "noTextClippingAfterCenteringFix": true,
+      "symbolTextDoesNotOverlapAfterFadeFix": true,
+      "sceneOrderMatchesNarration": true,
+      "darkThemeContrastReadable": true,
+      "noReferenceFootageOrStockMediaVisible": true
+    },
+    "notes": "Inspected 15 representative vertical stills and all 19 decoded preview frames. Corrected old/new symbol text overlap and missing vertical S05/S06 result centering, regenerated every still, then rendered and inspected the complete preview."
+  },
+  "final-9x16": {
+    "pass": true,
+    "inspectedContactSheet": "output/qc/timeline-final-9x16.jpg",
+    "decodedFinalTimelineFrames": 19,
+    "representativeStillsDirectory": "output/qc/stills/vertical",
+    "representativeStills": 15,
+    "checks": {
+      "maximumTwoSubtitleLines": true,
+      "activeWordHighlightsReadable": true,
+      "noTextClippingOrUnsafeEdges": true,
+      "symbolTextDoesNotOverlap": true,
+      "sceneOrderMatchesNarration": true,
+      "semanticTypeHighlightsCorrect": true,
+      "darkContrastReadableAfterBt709Normalization": true,
+      "noReferenceFootageOrStockMediaVisible": true
+    },
+    "notes": "Inspected all 19 decoded one-second frames from the delivered 1080x1920 dark-console MP4 and 15 representative vertical renders. The corrected S05/S06 centering and symbol fades remain intact; no clipping or unreadable subtitle was observed."
+  },
+  "final-16x9": {
+    "pass": true,
+    "inspectedContactSheet": "output/qc/timeline-final-16x9.jpg",
+    "decodedFinalTimelineFrames": 19,
+    "representativeStillsDirectory": "output/qc/stills/horizontal",
+    "representativeStills": 15,
+    "checks": {
+      "maximumTwoSubtitleLines": true,
+      "activeWordHighlightsReadable": true,
+      "noTextClippingOrUnsafeEdges": true,
+      "symbolTextDoesNotOverlap": true,
+      "sceneOrderMatchesNarration": true,
+      "semanticTypeHighlightsCorrect": true,
+      "darkContrastReadableAfterBt709Normalization": true,
+      "noReferenceFootageOrStockMediaVisible": true,
+      "separateResponsiveCompositionNotStretched": true
+    },
+    "notes": "Inspected all 19 decoded one-second frames from the delivered 1920x1080 MP4 and 15 representative horizontal renders. Split consoles, paired numeric cards and four-column layouts are independently composed, not stretched or cropped from vertical."
+  }
+}

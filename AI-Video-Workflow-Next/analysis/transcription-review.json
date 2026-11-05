@@ -1,0 +1,476 @@
+{
+  "status": "REVIEW REQUIRED — raw ASR is not the final subtitle master",
+  "language": "Hindi / Hinglish with English programming terms",
+  "sourceDuration": 18.83425,
+  "lowConfidenceTokens": [
+    {
+      "pass": "first",
+      "start": 0.0,
+      "end": 0.32,
+      "rawToken": "तो",
+      "probability": 0.5871
+    },
+    {
+      "pass": "first",
+      "start": 0.32,
+      "end": 0.58,
+      "rawToken": "देटा",
+      "probability": 0.6405
+    },
+    {
+      "pass": "first",
+      "start": 0.58,
+      "end": 0.78,
+      "rawToken": "ताइप",
+      "probability": 0.6243
+    },
+    {
+      "pass": "first",
+      "start": 0.78,
+      "end": 0.88,
+      "rawToken": "से",
+      "probability": 0.4746
+    },
+    {
+      "pass": "first",
+      "start": 0.88,
+      "end": 1.24,
+      "rawToken": "मडब",
+      "probability": 0.5494
+    },
+    {
+      "pass": "first",
+      "start": 1.58,
+      "end": 1.72,
+      "rawToken": "तरा",
+      "probability": 0.5506
+    },
+    {
+      "pass": "first",
+      "start": 1.72,
+      "end": 2.08,
+      "rawToken": "का",
+      "probability": 0.6233
+    },
+    {
+      "pass": "first",
+      "start": 2.48,
+      "end": 2.9,
+      "rawToken": "वेरियवल",
+      "probability": 0.6276
+    },
+    {
+      "pass": "first",
+      "start": 2.9,
+      "end": 3.3,
+      "rawToken": "इस्टोर",
+      "probability": 0.658
+    },
+    {
+      "pass": "first",
+      "start": 4.64,
+      "end": 4.76,
+      "rawToken": "एक",
+      "probability": 0.6922
+    },
+    {
+      "pass": "first",
+      "start": 6.6,
+      "end": 7.14,
+      "rawToken": "अस्ट्रिंग",
+      "probability": 0.6605
+    },
+    {
+      "pass": "first",
+      "start": 7.92,
+      "end": 8.24,
+      "rawToken": "बूलिन",
+      "probability": 0.6529
+    },
+    {
+      "pass": "first",
+      "start": 9.16,
+      "end": 9.32,
+      "rawToken": "और",
+      "probability": 0.6624
+    },
+    {
+      "pass": "first",
+      "start": 9.32,
+      "end": 9.44,
+      "rawToken": "ये",
+      "probability": 0.6137
+    },
+    {
+      "pass": "first",
+      "start": 9.44,
+      "end": 9.74,
+      "rawToken": "देटा",
+      "probability": 0.6882
+    },
+    {
+      "pass": "first",
+      "start": 10.2,
+      "end": 10.8,
+      "rawToken": "रिप्रज़ें",
+      "probability": 0.6589
+    },
+    {
+      "pass": "first",
+      "start": 11.14,
+      "end": 11.38,
+      "rawToken": "किलिए",
+      "probability": 0.5443
+    },
+    {
+      "pass": "first",
+      "start": 11.38,
+      "end": 11.68,
+      "rawToken": "पाइदन",
+      "probability": 0.6804
+    },
+    {
+      "pass": "first",
+      "start": 11.84,
+      "end": 12.02,
+      "rawToken": "कोई",
+      "probability": 0.6598
+    },
+    {
+      "pass": "first",
+      "start": 12.02,
+      "end": 12.28,
+      "rawToken": "अलेक",
+      "probability": 0.5726
+    },
+    {
+      "pass": "first",
+      "start": 12.28,
+      "end": 12.4,
+      "rawToken": "से",
+      "probability": 0.6695
+    },
+    {
+      "pass": "first",
+      "start": 12.4,
+      "end": 12.78,
+      "rawToken": "सिंबोल",
+      "probability": 0.6024
+    },
+    {
+      "pass": "first",
+      "start": 13.14,
+      "end": 13.26,
+      "rawToken": "रहा",
+      "probability": 0.5404
+    },
+    {
+      "pass": "first",
+      "start": 13.26,
+      "end": 13.54,
+      "rawToken": "पड़ता",
+      "probability": 0.6741
+    },
+    {
+      "pass": "first",
+      "start": 14.5,
+      "end": 14.9,
+      "rawToken": "विर्यवल",
+      "probability": 0.6579
+    },
+    {
+      "pass": "first",
+      "start": 14.9,
+      "end": 15.5,
+      "rawToken": "अतोमेटिकलि",
+      "probability": 0.5903
+    },
+    {
+      "pass": "first",
+      "start": 15.5,
+      "end": 15.76,
+      "rawToken": "समझ",
+      "probability": 0.6225
+    },
+    {
+      "pass": "first",
+      "start": 16.08,
+      "end": 16.22,
+      "rawToken": "के",
+      "probability": 0.5295
+    },
+    {
+      "pass": "first",
+      "start": 16.5,
+      "end": 16.8,
+      "rawToken": "तरागा",
+      "probability": 0.6385
+    },
+    {
+      "pass": "first",
+      "start": 17.28,
+      "end": 17.6,
+      "rawToken": "इस्तूर",
+      "probability": 0.6379
+    },
+    {
+      "pass": "second",
+      "start": 0.0,
+      "end": 0.3,
+      "rawToken": "तो",
+      "probability": 0.5901
+    },
+    {
+      "pass": "second",
+      "start": 0.3,
+      "end": 0.58,
+      "rawToken": "देटा",
+      "probability": 0.6615
+    },
+    {
+      "pass": "second",
+      "start": 0.58,
+      "end": 0.78,
+      "rawToken": "ताइप",
+      "probability": 0.6208
+    },
+    {
+      "pass": "second",
+      "start": 0.78,
+      "end": 0.88,
+      "rawToken": "से",
+      "probability": 0.4578
+    },
+    {
+      "pass": "second",
+      "start": 0.88,
+      "end": 1.24,
+      "rawToken": "मडब",
+      "probability": 0.556
+    },
+    {
+      "pass": "second",
+      "start": 1.58,
+      "end": 1.72,
+      "rawToken": "तरा",
+      "probability": 0.5544
+    },
+    {
+      "pass": "second",
+      "start": 1.72,
+      "end": 2.08,
+      "rawToken": "का",
+      "probability": 0.636
+    },
+    {
+      "pass": "second",
+      "start": 2.48,
+      "end": 2.9,
+      "rawToken": "वेरियवल",
+      "probability": 0.5938
+    },
+    {
+      "pass": "second",
+      "start": 2.9,
+      "end": 3.3,
+      "rawToken": "इस्टोर",
+      "probability": 0.6589
+    },
+    {
+      "pass": "second",
+      "start": 4.64,
+      "end": 4.76,
+      "rawToken": "एक",
+      "probability": 0.699
+    },
+    {
+      "pass": "second",
+      "start": 6.6,
+      "end": 7.14,
+      "rawToken": "इस्ट्रिंग",
+      "probability": 0.6988
+    },
+    {
+      "pass": "second",
+      "start": 7.92,
+      "end": 8.24,
+      "rawToken": "बूलिन",
+      "probability": 0.6598
+    },
+    {
+      "pass": "second",
+      "start": 9.16,
+      "end": 9.32,
+      "rawToken": "और",
+      "probability": 0.6596
+    },
+    {
+      "pass": "second",
+      "start": 9.32,
+      "end": 9.44,
+      "rawToken": "ये",
+      "probability": 0.5659
+    },
+    {
+      "pass": "second",
+      "start": 9.44,
+      "end": 9.76,
+      "rawToken": "देटा",
+      "probability": 0.6927
+    },
+    {
+      "pass": "second",
+      "start": 9.76,
+      "end": 9.96,
+      "rawToken": "ताइप",
+      "probability": 0.6789
+    },
+    {
+      "pass": "second",
+      "start": 10.2,
+      "end": 10.8,
+      "rawToken": "रिप्रज़ें",
+      "probability": 0.6648
+    },
+    {
+      "pass": "second",
+      "start": 11.14,
+      "end": 11.26,
+      "rawToken": "के",
+      "probability": 0.5341
+    },
+    {
+      "pass": "second",
+      "start": 11.38,
+      "end": 11.7,
+      "rawToken": "पाइदन",
+      "probability": 0.6779
+    },
+    {
+      "pass": "second",
+      "start": 11.88,
+      "end": 12.0,
+      "rawToken": "कोई",
+      "probability": 0.6824
+    },
+    {
+      "pass": "second",
+      "start": 12.0,
+      "end": 12.28,
+      "rawToken": "अलेक",
+      "probability": 0.5578
+    },
+    {
+      "pass": "second",
+      "start": 12.28,
+      "end": 12.4,
+      "rawToken": "से",
+      "probability": 0.688
+    },
+    {
+      "pass": "second",
+      "start": 12.4,
+      "end": 12.78,
+      "rawToken": "सिंबोल",
+      "probability": 0.5998
+    },
+    {
+      "pass": "second",
+      "start": 13.16,
+      "end": 13.26,
+      "rawToken": "रहा",
+      "probability": 0.5505
+    },
+    {
+      "pass": "second",
+      "start": 13.26,
+      "end": 13.54,
+      "rawToken": "पड़ता",
+      "probability": 0.6929
+    },
+    {
+      "pass": "second",
+      "start": 13.54,
+      "end": 13.78,
+      "rawToken": "हैं,",
+      "probability": 0.6636
+    },
+    {
+      "pass": "second",
+      "start": 14.5,
+      "end": 14.9,
+      "rawToken": "विरियवल",
+      "probability": 0.687
+    },
+    {
+      "pass": "second",
+      "start": 14.9,
+      "end": 15.36,
+      "rawToken": "अतोमेटी",
+      "probability": 0.6092
+    },
+    {
+      "pass": "second",
+      "start": 15.36,
+      "end": 15.48,
+      "rawToken": "के",
+      "probability": 0.4555
+    },
+    {
+      "pass": "second",
+      "start": 15.62,
+      "end": 15.76,
+      "rawToken": "समझ",
+      "probability": 0.5751
+    },
+    {
+      "pass": "second",
+      "start": 16.02,
+      "end": 16.18,
+      "rawToken": "हैं,",
+      "probability": 0.6566
+    },
+    {
+      "pass": "second",
+      "start": 16.18,
+      "end": 16.28,
+      "rawToken": "ये",
+      "probability": 0.6389
+    },
+    {
+      "pass": "second",
+      "start": 16.28,
+      "end": 16.5,
+      "rawToken": "किस",
+      "probability": 0.69
+    },
+    {
+      "pass": "second",
+      "start": 16.5,
+      "end": 16.68,
+      "rawToken": "तरा",
+      "probability": 0.6094
+    },
+    {
+      "pass": "second",
+      "start": 16.68,
+      "end": 16.82,
+      "rawToken": "का",
+      "probability": 0.5856
+    },
+    {
+      "pass": "second",
+      "start": 17.28,
+      "end": 17.62,
+      "rawToken": "इस्टोर",
+      "probability": 0.5572
+    }
+  ],
+  "firstPassText": "तो देटा ताइप से मडब किस तरा का देटा वेरियवल इस्टोर कर सकता हैं तो इंटीजर एक ताइप होता हैं, फलोड एक ताइप होता हैं, अस्ट्रिंग एक ताइप होता हैं, बूलिन एक ताइप होता हैं और ये देटा ताईप को रिप्रज़ें करने किलिए पाइदन में कोई अलेक से सिंबोल नहीं लगा रहा पड़ता है पाइदन का विर्यवल अतोमेटिकलि समझ जाता है के ये किस तरागा देटा ताईप इस्तूर कर रहा है",
+  "secondPassText": "तो देटा ताइप से मडब किस तरा का देटा वेरियवल इस्टोर कर सकता हैं तो इंटीजर एक ताइप होता हैं, फलोड एक ताइप होता हैं, इस्ट्रिंग एक ताइप होता हैं, बूलिन एक ताइप होता हैं और ये देटा ताइप को रिप्रज़ें करने के लिए पाइदन में कोई अलेक से सिंबोल नहीं लगा रहा पड़ता हैं, पाइदन का विरियवल अतोमेटी के लिए समझ जाता हैं, ये किस तरा का देटा ताइप इस्टोर कर रहा हैं",
+  "reviewNotes": [
+    "The opening token transcribed as मडब is not reliable enough to normalize silently.",
+    "The token around 14.50–14.90 seconds transcribed as विर्यवल is unclear; variable and interpreter must not be substituted without listening/user review.",
+    "English technical terms integer, float, string, boolean and Python are contextually supported but remain subject to final subtitle review."
+  ]
+}

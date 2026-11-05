@@ -1,0 +1,181 @@
+{
+  "project": "Next AI Video \u2014 Dark Data Console",
+  "date": "2026-11-05",
+  "branch": "arena/9e7493f5-voice",
+  "primaryOutput": "output/final_voice_video_9x16.mp4",
+  "previousProjectPreserved": "AI-Video-Workflow/",
+  "source": {
+    "commit": "993b4bedbb078988a25a9213cede66718a9a1b28",
+    "gitBlob": "0666e805fe775ea9acea24470b74e727527ece74",
+    "sha256": "b3f32f124211e2df597f06553d09555ccc6d79a6df07f795f4444267f4aab5a7",
+    "durationSeconds": 18.83425
+  },
+  "timeline": {
+    "fps": 30,
+    "frames": 566,
+    "videoDurationSeconds": 18.866666666666667,
+    "timedWords": 72,
+    "subtitleCues": 8,
+    "scenes": 6
+  },
+  "qc": {
+    "9x16": {
+      "pass": true,
+      "checksPassed": 27,
+      "checksTotal": 27,
+      "failedChecks": []
+    },
+    "16x9": {
+      "pass": true,
+      "checksPassed": 27,
+      "checksTotal": 27,
+      "failedChecks": []
+    }
+  },
+  "files": [
+    {
+      "path": "output/final_voice_video_9x16.mp4",
+      "bytes": 2681563,
+      "sha256": "2f9d72318d701e91d8848dcbe725831c2f6a54cb75eefcabeeca2e391d83166d"
+    },
+    {
+      "path": "output/final_voice_video_16x9.mp4",
+      "bytes": 2409560,
+      "sha256": "00930a4c03a9ffe3f9574f3bcf896eabcc6353c0c8724719f891260641933957"
+    },
+    {
+      "path": "assets/audio/1104 (1)(2).MP3",
+      "bytes": 452072,
+      "sha256": "b3f32f124211e2df597f06553d09555ccc6d79a6df07f795f4444267f4aab5a7"
+    },
+    {
+      "path": "project/public/1104 (1)(2).MP3",
+      "bytes": 452072,
+      "sha256": "b3f32f124211e2df597f06553d09555ccc6d79a6df07f795f4444267f4aab5a7"
+    },
+    {
+      "path": "analysis/transcript.md",
+      "bytes": 2232,
+      "sha256": "f5216bee976e59636f122d8a89c1e83ad0de59c5e542acc722affc0a73761136"
+    },
+    {
+      "path": "analysis/transcript.json",
+      "bytes": 25647,
+      "sha256": "9e0c613d50ca415acb9a4e034c9b0ed4ea56d06e701c86f876012c7e8859c5e2"
+    },
+    {
+      "path": "analysis/subtitles.srt",
+      "bytes": 636,
+      "sha256": "b6c9d6342df0358fab8fa2a541291e34e120cc31df4c960e68affb1b33501eda"
+    },
+    {
+      "path": "analysis/subtitles.txt",
+      "bytes": 376,
+      "sha256": "cfdadd2865665472171f8dec281568966485da707bf6ab9e320074002279974d"
+    },
+    {
+      "path": "analysis/scene-plan.md",
+      "bytes": 1449,
+      "sha256": "f52c7a5c310b83bfee6cb37ad743ae6bd0cf9624aceaef125e1f4e51715bb844"
+    },
+    {
+      "path": "analysis/scene-plan.json",
+      "bytes": 1346,
+      "sha256": "ef01cdbd987e303f6fca9a24bc6b8e31dc76acda7308bdc9b245ab6fa83e81f9"
+    },
+    {
+      "path": "analysis/architecture.md",
+      "bytes": 2504,
+      "sha256": "8a15d23ce8904ad9df2365281a36b7bbf3ff9ab697efb3ff4d2d629b93ad3183"
+    },
+    {
+      "path": "analysis/source-verification.md",
+      "bytes": 1116,
+      "sha256": "ded771a793faa5c7e62817d3ffa5814a39e85f4ea67e704f22131df28701efce"
+    },
+    {
+      "path": "analysis/source-verification.json",
+      "bytes": 655,
+      "sha256": "a9782867847ad4450222b7d73ce8afbc32680c1ef7f26fcb7d83a556b03259b9"
+    },
+    {
+      "path": "project/package.json",
+      "bytes": 1558,
+      "sha256": "7913097660a4f9e488af3fb208e709bda7314a9eee172a5899d8ed4aebfeed13"
+    },
+    {
+      "path": "project/package-lock.json",
+      "bytes": 137199,
+      "sha256": "255192d89f537031f0ada825b1980d64c423ade959886fea173f4e047a03bb6e"
+    },
+    {
+      "path": "project/src/Video.tsx",
+      "bytes": 2516,
+      "sha256": "c82a3010a6beb5be2c71ff0678f666e7ebd86e844125649fd476f90462ad91f6"
+    },
+    {
+      "path": "project/components/Scenes.tsx",
+      "bytes": 14593,
+      "sha256": "d94bc42cb9d3936c2d894f0d206be2699dd2d10a167ac0ff04e6e2abda553536"
+    },
+    {
+      "path": "output/QUALITY-CONTROL-9x16.md",
+      "bytes": 2340,
+      "sha256": "59409dbff895e21086cf1dbb3f595a9f3e60bb4fdf9ddf632ec3d83c7001c420"
+    },
+    {
+      "path": "output/QUALITY-CONTROL-16x9.md",
+      "bytes": 2402,
+      "sha256": "f9d5d86a476af818dc01980c08af479a4add6467bee77a5d3c229f8209a3deac"
+    },
+    {
+      "path": "output/qc/final-9x16-qc-report.json",
+      "bytes": 4141,
+      "sha256": "b651a44d17c65c66956e9fb2a1e5e5271fc821a88c79915f1f1558b4e6c8928f"
+    },
+    {
+      "path": "output/qc/final-16x9-qc-report.json",
+      "bytes": 4205,
+      "sha256": "cca30d5cd5ddd7618695c184b93113e05b4a5624efc1c2ac624bf3927cc53054"
+    },
+    {
+      "path": "output/qc/visual-review.json",
+      "bytes": 2874,
+      "sha256": "4f779d343db2529804f0cef485446b785b1bac7aca281fa76bdb64a821690ecf"
+    },
+    {
+      "path": "output/qc/timeline-final-9x16.jpg",
+      "bytes": 402349,
+      "sha256": "09654e59abd4b94a36f6c9d6ca8e7daaa4bb98b6f6bb218373bb5eaca4b53e71"
+    },
+    {
+      "path": "output/qc/timeline-final-16x9.jpg",
+      "bytes": 337245,
+      "sha256": "2b3c26b9a1c4d5a6dc41cb1de4de74d4ca62fcc9b205cd62e043800c224f6595"
+    },
+    {
+      "path": "output/qc/contact-sheet-vertical.jpg",
+      "bytes": 317459,
+      "sha256": "934d418f68540ceaaf9bd683ce3f6117112590449556968a820c7f7aedba48c4"
+    },
+    {
+      "path": "output/qc/contact-sheet-horizontal.jpg",
+      "bytes": 274466,
+      "sha256": "3ffd3cf0e9c6610d41ac4af8dfb65d20bd3a63b79be823a4d37c957c5963c0d4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5276,
+      "sha256": "6c992d96273b31afa98cc6017ced87d9d98ba77eba326374b479170bb9e261ad"
+    },
+    {
+      "path": "DELIVERY.md",
+      "bytes": 1442,
+      "sha256": "22e6efa0eb49c4721f14a6e71e1c5c0659737b3c453ad6edf307f3be589920b4"
+    }
+  ],
+  "notes": [
+    "AAC audio is lossy and is not claimed to be bit-identical to MP3; both stored MP3 copies match the GitHub source.",
+    "Preview MP4, dependency symlink, Python caches, and decoded one-second frame folders are Git-ignored. Final MP4s, representative stills, contact sheets, and QC evidence are delivered."
+  ]
+}

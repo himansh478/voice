@@ -1,0 +1,17 @@
+{
+  "verifiedOn": "2026-11-05",
+  "repository": "https://github.com/himansh478/voice.git",
+  "file": "1104 (1)(2).MP3",
+  "originMainCommit": "993b4bedbb078988a25a9213cede66718a9a1b28",
+  "expectedGitBlob": "0666e805fe775ea9acea24470b74e727527ece74",
+  "localGitBlob": "0666e805fe775ea9acea24470b74e727527ece74",
+  "sha256": "b3f32f124211e2df597f06553d09555ccc6d79a6df07f795f4444267f4aab5a7",
+  "durationSeconds": 18.83425,
+  "sampleRate": 44100,
+  "channels": 2,
+  "localAndPublicCopiesByteIdentical": true,
+  "reviewedTimingWords": 72,
+  "reviewedSubtitleCues": 8,
+  "newVisualVersion": "dark-data-console",
+  "previousLightVersionOverwritten": false
+}

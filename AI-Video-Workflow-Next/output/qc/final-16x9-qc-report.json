@@ -1,0 +1,122 @@
+{
+  "file": "output/final_voice_video_16x9.mp4",
+  "profile": "final-16x9",
+  "pass": true,
+  "checks": {
+    "h264Video": true,
+    "aacAudio": true,
+    "dimensions": true,
+    "requestedAspectRatio": true,
+    "30fps": true,
+    "566Frames": true,
+    "completeNarration": true,
+    "frameRoundedVideoDuration": true,
+    "stereo48kHz": true,
+    "bt709LimitedRange": true,
+    "fastStartMp4": true,
+    "completeDecodeClean": true,
+    "noDetectedBlackFrames": true,
+    "noMissingAssets": true,
+    "sourceAudioSha256Preserved": true,
+    "publicAudioCopyIdentical": true,
+    "voiceWaveformPreserved": true,
+    "voiceLevelPreserved": true,
+    "wordTimingsValid": true,
+    "72TimedWords": true,
+    "8SubtitleCues": true,
+    "maximumTwoSubtitleLines": true,
+    "romanHinglishSubtitles": true,
+    "transcriptMatchesWordTokens": true,
+    "6Scenes": true,
+    "renderTimingMatchesReviewedMaster": true,
+    "documentedVisualReviewPassed": true
+  },
+  "failedChecks": [],
+  "missingAssets": [],
+  "blackFrameEvents": [],
+  "media": {
+    "programs": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "duration": "18.866667",
+        "nb_frames": "566"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "duration": "18.880000",
+        "nb_frames": "887"
+      }
+    ],
+    "format": {
+      "filename": "/home/user/voice/AI-Video-Workflow-Next/output/final_voice_video_16x9.mp4",
+      "duration": "18.880000",
+      "size": "2409560",
+      "bit_rate": "1021000"
+    }
+  },
+  "loudness": {
+    "integratedLUFS": -14.6,
+    "truePeakDbFS": -2.0,
+    "sourceIntegratedLUFS": -14.6,
+    "absoluteIntegratedDeltaDb": 0.0
+  },
+  "waveformComparison": {
+    "pearsonCorrelationZeroLag": 0.9999532609205161,
+    "lagSeconds": 0.0,
+    "sourceDecodedSeconds": 18.834291666666665,
+    "exportDecodedSeconds": 18.88,
+    "sourceRMS": 0.18245091208323533,
+    "exportRMS": 0.1822296880192761,
+    "method": "Both audio tracks decoded independently to mono float PCM at 48 kHz, then compared over their shared duration at zero lag. AAC is lossy, so this is a similarity check, not a bit-identical audio claim."
+  },
+  "sourceAudioSha256": "b3f32f124211e2df597f06553d09555ccc6d79a6df07f795f4444267f4aab5a7",
+  "subtitleReview": {
+    "language": "Roman Hinglish",
+    "maximumLines": 2,
+    "timedWords": 72,
+    "cues": 8,
+    "timingsMatchRenderer": true
+  },
+  "visualReview": {
+    "pass": true,
+    "inspectedContactSheet": "output/qc/timeline-final-16x9.jpg",
+    "decodedFinalTimelineFrames": 19,
+    "representativeStillsDirectory": "output/qc/stills/horizontal",
+    "representativeStills": 15,
+    "checks": {
+      "maximumTwoSubtitleLines": true,
+      "activeWordHighlightsReadable": true,
+      "noTextClippingOrUnsafeEdges": true,
+      "symbolTextDoesNotOverlap": true,
+      "sceneOrderMatchesNarration": true,
+      "semanticTypeHighlightsCorrect": true,
+      "darkContrastReadableAfterBt709Normalization": true,
+      "noReferenceFootageOrStockMediaVisible": true,
+      "separateResponsiveCompositionNotStretched": true
+    },
+    "notes": "Inspected all 19 decoded one-second frames from the delivered 1920x1080 MP4 and 15 representative horizontal renders. Split consoles, paired numeric cards and four-column layouts are independently composed, not stretched or cropped from vertical."
+  },
+  "editorialNotes": [
+    "No reference footage, stock media, music, or sound effects are included.",
+    "The 566-frame video duration is whole-frame quantization of the 18.83425-second source; no narration was stretched.",
+    "The encoded AAC stream may include normal codec padding. Waveform alignment and similarity are measured independently of container duration."
+  ]
+}

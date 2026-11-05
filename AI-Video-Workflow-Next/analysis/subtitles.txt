@@ -1,0 +1,7 @@
+To data type se matlab, kis tarah ka data variable store kar sakta hai?
+
+To integer ek type hota hai, float ek type hota hai, string ek type hota hai, boolean ek type hota hai.
+
+Aur ye data type ko represent karne ke liye Python mein koi alag se symbol nahi lagana padta hai.
+
+Python ka variable automatically samajh jaata hai ki ye kis tarah ka data type store kar raha hai.

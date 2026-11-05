@@ -1,0 +1,48 @@
+{
+  "fps": 30,
+  "durationInFrames": 566,
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "end": 1.15,
+      "title": "DATA TYPES",
+      "purpose": "Immediate data-types hook with an original variable/type relationship."
+    },
+    {
+      "id": "S02",
+      "start": 1.15,
+      "end": 4.04,
+      "title": "WHAT CAN IT STORE?",
+      "purpose": "Show a dark variable/data memory console and numbered relationship rail without adding an example or new claim."
+    },
+    {
+      "id": "S03",
+      "start": 4.04,
+      "end": 6.58,
+      "title": "NUMERIC TYPES",
+      "purpose": "Reveal numbered integer and float rails at their spoken anchors."
+    },
+    {
+      "id": "S04",
+      "start": 6.58,
+      "end": 9.16,
+      "title": "TEXT + LOGIC",
+      "purpose": "Complete the dark four-cell type stack with string and boolean cards."
+    },
+    {
+      "id": "S05",
+      "start": 9.16,
+      "end": 13.64,
+      "title": "NO EXTRA SYMBOL",
+      "purpose": "Transition a generic symbol module to NOT REQUIRED while retaining the variable/data association."
+    },
+    {
+      "id": "S06",
+      "start": 13.64,
+      "end": 18.866666666666667,
+      "title": "AUTOMATIC RECOGNITION",
+      "purpose": "Scan the console and show generic automatic type recognition without selecting an unspoken example type."
+    }
+  ]
+}
