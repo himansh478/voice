@@ -49,7 +49,7 @@ const CaptionCard: React.FC<{caption: Caption}> = ({caption}) => {
         boxShadow:'0 18px 60px #0008',backdropFilter:'blur(16px)',
         transform:`translateY(${(1-enter)*24-(1-exit)*10}px)`,
       }}>
-        <div style={{fontFamily:'Inter, Noto Sans Devanagari, sans-serif',fontSize:43,fontWeight:600,lineHeight:1.42,textAlign:'center',letterSpacing:.1}}>
+        <div style={{fontFamily:'Inter, sans-serif',fontSize:43,fontWeight:600,lineHeight:1.42,textAlign:'center',letterSpacing:.1}}>
           {lines.map((line,lineIndex)=><div key={lineIndex} style={{display:'flex',justifyContent:'center',alignItems:'baseline',flexWrap:'nowrap',whiteSpace:'nowrap'}}>
             {line.map((word) => {
               const index = wordIndex++;
@@ -103,7 +103,7 @@ const GlobalFinish: React.FC = () => (
 
 export const PythonStory: React.FC = () => {
   return (
-    <AbsoluteFill style={{backgroundColor:C.ink,fontFamily:'Inter, Noto Sans Devanagari, sans-serif',overflow:'hidden'}}>
+    <AbsoluteFill style={{backgroundColor:C.ink,fontFamily:'Inter, sans-serif',overflow:'hidden'}}>
       <Audio src={staticFile('audio/master-mix.mp3')} />
       {scenePlan.scenes.map((scene,index)=>{
         const Component = SCENE_COMPONENTS[index];

@@ -8,7 +8,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S01 · 00.00–03.05 · The Assumption
 
-**Narration:** क्या तुम्हें भी यही लगता है? Python language का नाम…
+**Narration:** kya tumhe bhi yahi lagta hai? Python language ka नाम…
 
 **Visual concept:** A confrontational kinetic-type cold open: PYTHON assembles letter by letter while a coiled line-art serpent and a huge question mark establish the assumption.
 
@@ -16,7 +16,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 **Animated objects:** Custom SVG serpent, sliced typographic masks, question-mark orbit and scanning rule.
 
-**Typography:** Space Grotesk 800 with faux-3D extrusion; Noto Sans Devanagari for spoken captions.
+**Typography:** Space Grotesk 800 with faux-3D extrusion; Inter for Roman Hinglish spoken captions.
 
 **Camera:** Fast 4% push-in; slight perspective settling after the title lands.
 
@@ -26,7 +26,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S02 · 03.05–08.26 · Myth, Corrected
 
-**Narration:** Python snake से relate करते हुए रखा है? But ये कहीं भी सही नहीं है।
+**Narration:** Python snake se relate karte hue rakha hai? But ye kahin bhi sahi nahi hai.
 
 **Visual concept:** The serpent is visually connected to Python, then the connection breaks and a decisive NOT THE SNAKE correction replaces it.
 
@@ -34,9 +34,9 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 **Animated objects:** Animated SVG snake path, broken connector, circular strike and editorial labels.
 
-**Typography:** Condensed uppercase statement with mask reveal; oversized नहीं as the emotional beat.
+**Typography:** Condensed uppercase statement with mask reveal; oversized NAHIN as the emotional beat.
 
-**Camera:** Lateral drift followed by a rapid 6% punch on ‘नहीं’.
+**Camera:** Lateral drift followed by a rapid 6% punch on ‘NAHIN’.
 
 **Transition:** The strike circle becomes the rim of the 1989 timeline.
 
@@ -44,7 +44,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S03 · 08.26–10.50 · 1989
 
-**Narration:** बात थी 1989 की।
+**Narration:** baat thi 1989 ki.
 
 **Visual concept:** A monumental date emerges from a moving archival timeline; no unrelated historical imagery.
 
@@ -62,7 +62,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S04 · 10.50–16.45 · The Designer’s Brief
 
-**Narration:** जहाँ पर एक researcher Guido van Rossum एक ऐसी language चाहता था जोकि C से ज्यादा fast हो, simple हो।
+**Narration:** jahan par ek researcher Guido van Rossum ek aisi language chahta tha joki C se zyada fast ho, simple ho.
 
 **Visual concept:** A custom researcher identity card and code blueprint introduce Guido; FAST and SIMPLE become the two design requirements.
 
@@ -80,7 +80,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S05 · 16.45–21.20 · A Christmas Side Project
 
-**Narration:** वही उसी time अपनी Christmas की छुट्टियों में एक hobby project start करता है।
+**Narration:** wahi usi time apni Christmas ki chuttiyon mein ek hobby project start karta hai.
 
 **Visual concept:** A cinematic 2.5D winter workspace: snow beyond the window, warm practical lights and a laptop where a side project runs for the first time.
 
@@ -98,7 +98,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S06 · 21.20–27.50 · The Language Core
 
-**Narration:** जिसमें वो decide करता है, मैं एक ऐसी language पर work करूँगा जोकि C से ज्यादा fast हो और efficient हो।
+**Narration:** jismein wo decide karta hai, main ek aisi language par work karunga joki C se zyada fast ho aur efficient ho.
 
 **Visual concept:** An original Three.js metallic code core assembles from wireframe to solid while FAST and EFFICIENT lock into orbit.
 
@@ -116,7 +116,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S07 · 27.50–34.05 · The Real Namesake
 
-**Narration:** और उसने इस language का नाम रखा एक British comedy show से relate करते हुए, जोकि था Monty Python’s Flying Circus।
+**Narration:** aur usne is language ka naam rakha ek British comedy show se relate karte hue, joki tha Monty Python’s Flying Circus.
 
 **Visual concept:** The technical world gives way to a custom retro theatre: curtains open, marquee bulbs illuminate and the comedy-show title takes the stage.
 
@@ -134,7 +134,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S08 · 34.05–37.45 · Python Gets Its Name
 
-**Narration:** इसी के नाम पर उसने अपनी language का नाम रखा — Python।
+**Narration:** isi ke naam par usne apni language ka naam rakha — Python.
 
 **Visual concept:** A direct visual match: MONTY PYTHON collapses to a single glowing PYTHON nameplate and original two-colour Python-inspired mark.
 
@@ -152,7 +152,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S09 · 37.45–40.20 · An Invention Expands
 
-**Narration:** ये Python language एक इतना बड़ा invention है, जोकि…
+**Narration:** ye Python language ek itna bada invention hai, जोकि…
 
 **Visual concept:** One small origin node branches into an increasingly dense connected system, making ‘how big an invention’ visible rather than literal.
 
@@ -170,7 +170,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S10 · 40.20–46.35 · Three Fields, One Language
 
-**Narration:** machine learning, artificial intelligence, automation जैसे sectors में काफी important role play करती है।
+**Narration:** machine learning, artificial intelligence, automation jaise sectors mein kaafi important role play karti hai.
 
 **Visual concept:** Three synchronized custom infographics: a neural graph for ML, a living processor for AI and an articulated robotic arm for automation.
 
@@ -188,7 +188,7 @@ The original Hindi/Hinglish voice is the timing master. All visuals are original
 
 ## S11 · 46.35–52.23 · From Side Project to Ecosystem
 
-**Narration:** सोचो, एक उस पुराने time का छोटा सा invention, जिसकी वजह से आज कितना बड़ा ecosystem बन चुका है।
+**Narration:** socho, ek us purane time ka chhota sa invention, jiski wajah se aaj kitna bada ecosystem ban chuka hai.
 
 **Visual concept:** The tiny origin cube returns, then grows into a luminous Three.js ecosystem globe surrounded by the three fields and a 1989-to-today arc.
 

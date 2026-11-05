@@ -86,7 +86,7 @@ The mix script uses the platform-specific FFmpeg supplied by npm. It preserves `
 
 - All motion is frame-deterministic; no wall-clock or unseeded animation.
 - No external footage, web fonts or remote assets are requested at render time.
-- Subtitles use bundled Inter and Noto Sans Devanagari fonts.
+- Subtitles use bundled Inter in Roman Hinglish / Latin script; the spoken Hinglish is transliterated, not translated.
 - Three.js renders through software-compatible WebGL (`swangle`) in the sandbox.
 - Final renders are automatically normalized to BT.709 limited-range yuv420p with fast-start MP4 metadata for Reels, Shorts and Facebook.
 - AAC audio is copied without another encode during delivery normalization.

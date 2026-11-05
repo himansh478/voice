@@ -10,7 +10,7 @@ A premium vertical technology documentary explaining the narration’s central r
 - **Audio:** AAC, 48 kHz stereo, 192 kbps; original narration remains the primary track
 - **Duration:** 52.21875 seconds of source audio; 1567 video frames (52.2333 seconds, one-frame rounding)
 - **Scenes:** 11 distinct, purpose-built motion-design scenes
-- **Subtitles:** 26 cues, 158 timed words, maximum two lines, original Hindi/Hinglish
+- **Subtitles:** 26 cues, 158 timed words, maximum two lines, Roman Hinglish in Inter / Latin font (not translated)
 
 ## Deliverables
 

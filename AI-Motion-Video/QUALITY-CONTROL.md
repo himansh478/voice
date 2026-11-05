@@ -21,8 +21,11 @@
 | noDetectedBlackFrames | PASS |
 | noMissingAssets | PASS |
 | wordTimingsValid | PASS |
+| wordTimingsPreservedFromCuratedMaster | PASS |
+| cueTimingsPreservedFromCuratedMaster | PASS |
 | 158TimedWords | PASS |
 | 26SubtitleCues | PASS |
+| romanHinglishSubtitles | PASS |
 | 11Scenes | PASS |
 
 ## Measured output
@@ -32,7 +35,7 @@
 - Container duration: 52.233333 seconds; source recording: 52.21875 seconds
 - Integrated loudness: **-14.9 LUFS**
 - True peak: **-0.8 dBFS**
-- File size: 23.60 MB
+- File size: 23.77 MB
 - Black-frame events: **0**
 - Original audio SHA-256: `6b8b155231d2e236010dec3156b1d9ff329e1aadb19a0e3f614d34f343c38367`
 
@@ -43,7 +46,8 @@ The video is 1567 frames long (52.2333 seconds) so it contains the complete 52.2
 - Complete low-resolution preview rendered and inspected before this master.
 - 20 representative scene frames plus a one-frame-per-second full-timeline contact sheet reviewed.
 - All 11 scenes checked against the corresponding spoken phrase; no unrelated stock footage.
-- Hindi/Hinglish shaping, proper names, spelling, mobile contrast and safe areas reviewed.
+- Roman Hinglish spelling, Inter / Latin-font subtitles, proper names, mobile contrast and safe areas reviewed.
+- All 158 word timings and 26 cue timings preserved exactly from the curated pre-transliteration master (word SHA-256: 502a06cd87fbaffb25fbe11378113df1b5c2cc92be836deecb76ce3be313e1d6).
 - Longest bilingual subtitles checked at 540-pixel preview width; SRT explicitly limited to two lines.
 - Corrected the invention-network reveal and delayed the ecosystem growth to match the narration.
 - Original voice retained; music and SFX are local procedural stems below the narration.

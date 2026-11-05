@@ -3,50 +3,51 @@
   "audioSha256": "6b8b155231d2e236010dec3156b1d9ff329e1aadb19a0e3f614d34f343c38367",
   "duration": 52.21875,
   "language": "hi",
-  "languageName": "Hindi / Hinglish",
+  "languageName": "Hinglish (Roman script)",
+  "script": "Latin",
   "languageProbability": 0.948018491268158,
   "asrModel": "OpenAI Whisper small, CTranslate2 int8, Faster-Whisper 1.2.1",
-  "timingMethod": "Three offline ASR passes; pause-aligned re-transcription; manual normalization of obvious ASR spelling and proper nouns. No narration added, removed, translated or regenerated.",
-  "fullText": "क्या तुम्हें भी यही लगता है? Python language का नाम Python snake से relate करते हुए रखा है? But ये कहीं भी सही नहीं है। बात थी 1989 की। जहाँ पर एक researcher Guido van Rossum एक ऐसी language चाहता था जोकि C से ज्यादा fast हो, simple हो। वही उसी time अपनी Christmas की छुट्टियों में एक hobby project start करता है। जिसमें वो decide करता है, मैं एक ऐसी language पर work करूँगा जोकि C से ज्यादा fast हो और efficient हो। और उसने इस language का नाम रखा एक British comedy show से relate करते हुए जोकि था, Monty Python's Flying Circus। इसी के नाम पर उसने अपनी language का नाम रखा Python। ये Python language एक इतना बड़ा invention है, जोकि machine learning, artificial intelligence, automation जैसे sectors में काफी important role play करती है। सोचो, एक उस पुराने time का छोटा सा invention, जिसकी वजह से, आज कितना बड़ा ecosystem बन चुका है।",
+  "timingMethod": "Three offline ASR passes; pause-aligned re-transcription; manual normalization of obvious ASR spelling and proper nouns. Subtitles are Roman-script Hinglish, transliterated rather than translated. No narration added, removed or regenerated.",
+  "fullText": "Kya tumhe bhi yahi lagta hai? Python language ka naam Python snake se relate karte hue rakha hai? But ye kahin bhi sahi nahi hai. Baat thi 1989 ki. Jahan par ek researcher Guido van Rossum ek aisi language chahta tha joki C se zyada fast ho, simple ho. Wahi usi time apni Christmas ki chuttiyon mein ek hobby project start karta hai. Jismein wo decide karta hai, Main ek aisi language par work karunga joki C se zyada fast ho aur efficient ho. Aur usne is language ka naam rakha ek British comedy show se relate karte hue joki tha, Monty Python's Flying Circus. Isi ke naam par usne apni language ka naam rakha Python. Ye Python language ek itna bada invention hai, joki machine learning, artificial intelligence, automation jaise sectors mein kaafi important role play karti hai. Socho, ek us purane time ka chhota sa invention, jiski wajah se, aaj kitna bada ecosystem ban chuka hai.",
   "words": [
     {
       "id": 0,
-      "text": "क्या",
+      "text": "Kya",
       "start": 0.42,
       "end": 0.66,
       "keyword": false
     },
     {
       "id": 1,
-      "text": "तुम्हें",
+      "text": "tumhe",
       "start": 0.66,
       "end": 0.92,
       "keyword": false
     },
     {
       "id": 2,
-      "text": "भी",
+      "text": "bhi",
       "start": 0.92,
       "end": 1.06,
       "keyword": false
     },
     {
       "id": 3,
-      "text": "यही",
+      "text": "yahi",
       "start": 1.06,
       "end": 1.2,
       "keyword": false
     },
     {
       "id": 4,
-      "text": "लगता",
+      "text": "lagta",
       "start": 1.2,
       "end": 1.52,
       "keyword": false
     },
     {
       "id": 5,
-      "text": "है?",
+      "text": "hai?",
       "start": 1.52,
       "end": 1.68,
       "keyword": false
@@ -67,14 +68,14 @@
     },
     {
       "id": 8,
-      "text": "का",
+      "text": "ka",
       "start": 2.42,
       "end": 2.56,
       "keyword": false
     },
     {
       "id": 9,
-      "text": "नाम",
+      "text": "naam",
       "start": 2.56,
       "end": 2.76,
       "keyword": false
@@ -95,7 +96,7 @@
     },
     {
       "id": 12,
-      "text": "से",
+      "text": "se",
       "start": 3.92,
       "end": 4.16,
       "keyword": false
@@ -109,28 +110,28 @@
     },
     {
       "id": 14,
-      "text": "करते",
+      "text": "karte",
       "start": 4.76,
       "end": 4.92,
       "keyword": false
     },
     {
       "id": 15,
-      "text": "हुए",
+      "text": "hue",
       "start": 4.92,
       "end": 5.26,
       "keyword": false
     },
     {
       "id": 16,
-      "text": "रखा",
+      "text": "rakha",
       "start": 5.28,
       "end": 5.66,
       "keyword": false
     },
     {
       "id": 17,
-      "text": "है?",
+      "text": "hai?",
       "start": 5.66,
       "end": 5.86,
       "keyword": false
@@ -144,56 +145,56 @@
     },
     {
       "id": 19,
-      "text": "ये",
+      "text": "ye",
       "start": 6.78,
       "end": 6.94,
       "keyword": false
     },
     {
       "id": 20,
-      "text": "कहीं",
+      "text": "kahin",
       "start": 6.94,
       "end": 7.42,
       "keyword": false
     },
     {
       "id": 21,
-      "text": "भी",
+      "text": "bhi",
       "start": 7.42,
       "end": 7.56,
       "keyword": false
     },
     {
       "id": 22,
-      "text": "सही",
+      "text": "sahi",
       "start": 7.56,
       "end": 7.72,
       "keyword": false
     },
     {
       "id": 23,
-      "text": "नहीं",
+      "text": "nahi",
       "start": 7.72,
       "end": 8.02,
       "keyword": true
     },
     {
       "id": 24,
-      "text": "है।",
+      "text": "hai.",
       "start": 8.02,
       "end": 8.2,
       "keyword": false
     },
     {
       "id": 25,
-      "text": "बात",
+      "text": "Baat",
       "start": 8.32,
       "end": 8.62,
       "keyword": false
     },
     {
       "id": 26,
-      "text": "थी",
+      "text": "thi",
       "start": 8.62,
       "end": 8.78,
       "keyword": false
@@ -207,28 +208,28 @@
     },
     {
       "id": 28,
-      "text": "की।",
+      "text": "ki.",
       "start": 9.44,
       "end": 10.24,
       "keyword": false
     },
     {
       "id": 29,
-      "text": "जहाँ",
+      "text": "Jahan",
       "start": 10.61,
       "end": 10.75,
       "keyword": false
     },
     {
       "id": 30,
-      "text": "पर",
+      "text": "par",
       "start": 10.75,
       "end": 10.89,
       "keyword": false
     },
     {
       "id": 31,
-      "text": "एक",
+      "text": "ek",
       "start": 10.89,
       "end": 11.09,
       "keyword": false
@@ -263,14 +264,14 @@
     },
     {
       "id": 36,
-      "text": "एक",
+      "text": "ek",
       "start": 12.55,
       "end": 12.83,
       "keyword": false
     },
     {
       "id": 37,
-      "text": "ऐसी",
+      "text": "aisi",
       "start": 12.83,
       "end": 13.13,
       "keyword": false
@@ -284,21 +285,21 @@
     },
     {
       "id": 39,
-      "text": "चाहता",
+      "text": "chahta",
       "start": 13.53,
       "end": 13.85,
       "keyword": false
     },
     {
       "id": 40,
-      "text": "था",
+      "text": "tha",
       "start": 13.85,
       "end": 14.03,
       "keyword": false
     },
     {
       "id": 41,
-      "text": "जोकि",
+      "text": "joki",
       "start": 14.03,
       "end": 14.27,
       "keyword": false
@@ -312,14 +313,14 @@
     },
     {
       "id": 43,
-      "text": "से",
+      "text": "se",
       "start": 14.49,
       "end": 14.65,
       "keyword": false
     },
     {
       "id": 44,
-      "text": "ज्यादा",
+      "text": "zyada",
       "start": 14.65,
       "end": 14.91,
       "keyword": false
@@ -333,7 +334,7 @@
     },
     {
       "id": 46,
-      "text": "हो,",
+      "text": "ho,",
       "start": 15.29,
       "end": 15.41,
       "keyword": false
@@ -347,21 +348,21 @@
     },
     {
       "id": 48,
-      "text": "हो।",
+      "text": "ho.",
       "start": 15.89,
       "end": 16.15,
       "keyword": false
     },
     {
       "id": 49,
-      "text": "वही",
+      "text": "Wahi",
       "start": 16.55,
       "end": 16.78,
       "keyword": false
     },
     {
       "id": 50,
-      "text": "उसी",
+      "text": "usi",
       "start": 16.78,
       "end": 17.04,
       "keyword": false
@@ -375,7 +376,7 @@
     },
     {
       "id": 52,
-      "text": "अपनी",
+      "text": "apni",
       "start": 17.28,
       "end": 17.55,
       "keyword": false
@@ -389,28 +390,28 @@
     },
     {
       "id": 54,
-      "text": "की",
+      "text": "ki",
       "start": 17.93,
       "end": 18.07,
       "keyword": false
     },
     {
       "id": 55,
-      "text": "छुट्टियों",
+      "text": "chuttiyon",
       "start": 18.07,
       "end": 18.49,
       "keyword": false
     },
     {
       "id": 56,
-      "text": "में",
+      "text": "mein",
       "start": 18.49,
       "end": 18.85,
       "keyword": false
     },
     {
       "id": 57,
-      "text": "एक",
+      "text": "ek",
       "start": 19.4,
       "end": 19.58,
       "keyword": false
@@ -438,28 +439,28 @@
     },
     {
       "id": 61,
-      "text": "करता",
+      "text": "karta",
       "start": 20.68,
       "end": 21.02,
       "keyword": false
     },
     {
       "id": 62,
-      "text": "है।",
+      "text": "hai.",
       "start": 21.02,
       "end": 21.18,
       "keyword": false
     },
     {
       "id": 63,
-      "text": "जिसमें",
+      "text": "Jismein",
       "start": 21.18,
       "end": 21.48,
       "keyword": false
     },
     {
       "id": 64,
-      "text": "वो",
+      "text": "wo",
       "start": 21.58,
       "end": 21.66,
       "keyword": false
@@ -473,35 +474,35 @@
     },
     {
       "id": 66,
-      "text": "करता",
+      "text": "karta",
       "start": 22.04,
       "end": 22.32,
       "keyword": false
     },
     {
       "id": 67,
-      "text": "है,",
+      "text": "hai,",
       "start": 22.32,
       "end": 22.44,
       "keyword": false
     },
     {
       "id": 68,
-      "text": "मैं",
+      "text": "Main",
       "start": 22.48,
       "end": 22.62,
       "keyword": false
     },
     {
       "id": 69,
-      "text": "एक",
+      "text": "ek",
       "start": 22.62,
       "end": 22.8,
       "keyword": false
     },
     {
       "id": 70,
-      "text": "ऐसी",
+      "text": "aisi",
       "start": 22.8,
       "end": 23.1,
       "keyword": false
@@ -515,7 +516,7 @@
     },
     {
       "id": 72,
-      "text": "पर",
+      "text": "par",
       "start": 23.42,
       "end": 23.6,
       "keyword": false
@@ -529,14 +530,14 @@
     },
     {
       "id": 74,
-      "text": "करूँगा",
+      "text": "karunga",
       "start": 23.86,
       "end": 24.2,
       "keyword": false
     },
     {
       "id": 75,
-      "text": "जोकि",
+      "text": "joki",
       "start": 24.24,
       "end": 24.68,
       "keyword": false
@@ -550,14 +551,14 @@
     },
     {
       "id": 77,
-      "text": "से",
+      "text": "se",
       "start": 25.34,
       "end": 25.52,
       "keyword": false
     },
     {
       "id": 78,
-      "text": "ज्यादा",
+      "text": "zyada",
       "start": 25.52,
       "end": 25.86,
       "keyword": false
@@ -571,14 +572,14 @@
     },
     {
       "id": 80,
-      "text": "हो",
+      "text": "ho",
       "start": 26.32,
       "end": 26.42,
       "keyword": false
     },
     {
       "id": 81,
-      "text": "और",
+      "text": "aur",
       "start": 26.42,
       "end": 26.66,
       "keyword": false
@@ -592,28 +593,28 @@
     },
     {
       "id": 83,
-      "text": "हो।",
+      "text": "ho.",
       "start": 27.22,
       "end": 27.42,
       "keyword": false
     },
     {
       "id": 84,
-      "text": "और",
+      "text": "Aur",
       "start": 27.53,
       "end": 27.83,
       "keyword": false
     },
     {
       "id": 85,
-      "text": "उसने",
+      "text": "usne",
       "start": 27.83,
       "end": 28.13,
       "keyword": false
     },
     {
       "id": 86,
-      "text": "इस",
+      "text": "is",
       "start": 28.13,
       "end": 28.29,
       "keyword": false
@@ -627,28 +628,28 @@
     },
     {
       "id": 88,
-      "text": "का",
+      "text": "ka",
       "start": 28.67,
       "end": 28.81,
       "keyword": false
     },
     {
       "id": 89,
-      "text": "नाम",
+      "text": "naam",
       "start": 28.81,
       "end": 29.09,
       "keyword": false
     },
     {
       "id": 90,
-      "text": "रखा",
+      "text": "rakha",
       "start": 29.09,
       "end": 29.4,
       "keyword": false
     },
     {
       "id": 91,
-      "text": "एक",
+      "text": "ek",
       "start": 29.47,
       "end": 29.69,
       "keyword": false
@@ -676,7 +677,7 @@
     },
     {
       "id": 95,
-      "text": "से",
+      "text": "se",
       "start": 30.67,
       "end": 30.75,
       "keyword": false
@@ -690,28 +691,28 @@
     },
     {
       "id": 97,
-      "text": "करते",
+      "text": "karte",
       "start": 30.99,
       "end": 31.2,
       "keyword": false
     },
     {
       "id": 98,
-      "text": "हुए",
+      "text": "hue",
       "start": 31.2,
       "end": 31.39,
       "keyword": false
     },
     {
       "id": 99,
-      "text": "जोकि",
+      "text": "joki",
       "start": 31.39,
       "end": 31.71,
       "keyword": false
     },
     {
       "id": 100,
-      "text": "था,",
+      "text": "tha,",
       "start": 31.71,
       "end": 31.9,
       "keyword": false
@@ -739,49 +740,49 @@
     },
     {
       "id": 104,
-      "text": "Circus।",
+      "text": "Circus.",
       "start": 33.66,
       "end": 34.0,
       "keyword": true
     },
     {
       "id": 105,
-      "text": "इसी",
+      "text": "Isi",
       "start": 34.17,
       "end": 34.37,
       "keyword": false
     },
     {
       "id": 106,
-      "text": "के",
+      "text": "ke",
       "start": 34.37,
       "end": 34.55,
       "keyword": false
     },
     {
       "id": 107,
-      "text": "नाम",
+      "text": "naam",
       "start": 34.55,
       "end": 34.73,
       "keyword": false
     },
     {
       "id": 108,
-      "text": "पर",
+      "text": "par",
       "start": 34.73,
       "end": 34.89,
       "keyword": false
     },
     {
       "id": 109,
-      "text": "उसने",
+      "text": "usne",
       "start": 34.89,
       "end": 35.21,
       "keyword": false
     },
     {
       "id": 110,
-      "text": "अपनी",
+      "text": "apni",
       "start": 35.21,
       "end": 35.59,
       "keyword": false
@@ -795,35 +796,35 @@
     },
     {
       "id": 112,
-      "text": "का",
+      "text": "ka",
       "start": 36.05,
       "end": 36.21,
       "keyword": false
     },
     {
       "id": 113,
-      "text": "नाम",
+      "text": "naam",
       "start": 36.21,
       "end": 36.43,
       "keyword": false
     },
     {
       "id": 114,
-      "text": "रखा",
+      "text": "rakha",
       "start": 36.43,
       "end": 36.67,
       "keyword": false
     },
     {
       "id": 115,
-      "text": "Python।",
+      "text": "Python.",
       "start": 36.89,
       "end": 37.29,
       "keyword": true
     },
     {
       "id": 116,
-      "text": "ये",
+      "text": "Ye",
       "start": 37.47,
       "end": 37.59,
       "keyword": false
@@ -844,21 +845,21 @@
     },
     {
       "id": 119,
-      "text": "एक",
+      "text": "ek",
       "start": 38.37,
       "end": 38.61,
       "keyword": false
     },
     {
       "id": 120,
-      "text": "इतना",
+      "text": "itna",
       "start": 38.61,
       "end": 38.93,
       "keyword": false
     },
     {
       "id": 121,
-      "text": "बड़ा",
+      "text": "bada",
       "start": 38.93,
       "end": 39.13,
       "keyword": false
@@ -872,14 +873,14 @@
     },
     {
       "id": 123,
-      "text": "है,",
+      "text": "hai,",
       "start": 39.73,
       "end": 39.9,
       "keyword": false
     },
     {
       "id": 124,
-      "text": "जोकि",
+      "text": "joki",
       "start": 39.9,
       "end": 40.19,
       "keyword": false
@@ -921,7 +922,7 @@
     },
     {
       "id": 130,
-      "text": "जैसे",
+      "text": "jaise",
       "start": 43.29,
       "end": 43.53,
       "keyword": false
@@ -935,14 +936,14 @@
     },
     {
       "id": 132,
-      "text": "में",
+      "text": "mein",
       "start": 43.87,
       "end": 44.21,
       "keyword": false
     },
     {
       "id": 133,
-      "text": "काफी",
+      "text": "kaafi",
       "start": 44.52,
       "end": 44.83,
       "keyword": false
@@ -970,42 +971,42 @@
     },
     {
       "id": 137,
-      "text": "करती",
+      "text": "karti",
       "start": 45.82,
       "end": 46.08,
       "keyword": false
     },
     {
       "id": 138,
-      "text": "है।",
+      "text": "hai.",
       "start": 46.08,
       "end": 46.34,
       "keyword": false
     },
     {
       "id": 139,
-      "text": "सोचो,",
+      "text": "Socho,",
       "start": 46.39,
       "end": 46.83,
       "keyword": false
     },
     {
       "id": 140,
-      "text": "एक",
+      "text": "ek",
       "start": 46.83,
       "end": 47.2,
       "keyword": false
     },
     {
       "id": 141,
-      "text": "उस",
+      "text": "us",
       "start": 47.2,
       "end": 47.36,
       "keyword": false
     },
     {
       "id": 142,
-      "text": "पुराने",
+      "text": "purane",
       "start": 47.36,
       "end": 47.66,
       "keyword": false
@@ -1019,21 +1020,21 @@
     },
     {
       "id": 144,
-      "text": "का",
+      "text": "ka",
       "start": 47.88,
       "end": 48.1,
       "keyword": false
     },
     {
       "id": 145,
-      "text": "छोटा",
+      "text": "chhota",
       "start": 48.1,
       "end": 48.36,
       "keyword": false
     },
     {
       "id": 146,
-      "text": "सा",
+      "text": "sa",
       "start": 48.36,
       "end": 48.5,
       "keyword": false
@@ -1047,42 +1048,42 @@
     },
     {
       "id": 148,
-      "text": "जिसकी",
+      "text": "jiski",
       "start": 49.01,
       "end": 49.36,
       "keyword": false
     },
     {
       "id": 149,
-      "text": "वजह",
+      "text": "wajah",
       "start": 49.36,
       "end": 49.62,
       "keyword": false
     },
     {
       "id": 150,
-      "text": "से,",
+      "text": "se,",
       "start": 49.62,
       "end": 50.21,
       "keyword": false
     },
     {
       "id": 151,
-      "text": "आज",
+      "text": "aaj",
       "start": 50.26,
       "end": 50.5,
       "keyword": false
     },
     {
       "id": 152,
-      "text": "कितना",
+      "text": "kitna",
       "start": 50.5,
       "end": 50.78,
       "keyword": false
     },
     {
       "id": 153,
-      "text": "बड़ा",
+      "text": "bada",
       "start": 50.78,
       "end": 50.98,
       "keyword": false
@@ -1096,21 +1097,21 @@
     },
     {
       "id": 155,
-      "text": "बन",
+      "text": "ban",
       "start": 51.24,
       "end": 51.54,
       "keyword": false
     },
     {
       "id": 156,
-      "text": "चुका",
+      "text": "chuka",
       "start": 51.54,
       "end": 51.74,
       "keyword": false
     },
     {
       "id": 157,
-      "text": "है।",
+      "text": "hai.",
       "start": 51.74,
       "end": 52.08,
       "keyword": false
@@ -1121,46 +1122,46 @@
       "id": 1,
       "start": 0.42,
       "end": 1.68,
-      "text": "क्या तुम्हें भी यही लगता है?",
+      "text": "Kya tumhe bhi yahi lagta hai?",
       "words": [
         {
           "id": 0,
-          "text": "क्या",
+          "text": "Kya",
           "start": 0.42,
           "end": 0.66,
           "keyword": false
         },
         {
           "id": 1,
-          "text": "तुम्हें",
+          "text": "tumhe",
           "start": 0.66,
           "end": 0.92,
           "keyword": false
         },
         {
           "id": 2,
-          "text": "भी",
+          "text": "bhi",
           "start": 0.92,
           "end": 1.06,
           "keyword": false
         },
         {
           "id": 3,
-          "text": "यही",
+          "text": "yahi",
           "start": 1.06,
           "end": 1.2,
           "keyword": false
         },
         {
           "id": 4,
-          "text": "लगता",
+          "text": "lagta",
           "start": 1.2,
           "end": 1.52,
           "keyword": false
         },
         {
           "id": 5,
-          "text": "है?",
+          "text": "hai?",
           "start": 1.52,
           "end": 1.68,
           "keyword": false
@@ -1171,7 +1172,7 @@
       "id": 2,
       "start": 1.7,
       "end": 3.05,
-      "text": "Python language का नाम",
+      "text": "Python language ka naam",
       "words": [
         {
           "id": 6,
@@ -1189,14 +1190,14 @@
         },
         {
           "id": 8,
-          "text": "का",
+          "text": "ka",
           "start": 2.42,
           "end": 2.56,
           "keyword": false
         },
         {
           "id": 9,
-          "text": "नाम",
+          "text": "naam",
           "start": 2.56,
           "end": 2.76,
           "keyword": false
@@ -1207,7 +1208,7 @@
       "id": 3,
       "start": 3.12,
       "end": 5.9,
-      "text": "Python snake से relate करते हुए रखा है?",
+      "text": "Python snake se relate karte hue rakha hai?",
       "words": [
         {
           "id": 10,
@@ -1225,7 +1226,7 @@
         },
         {
           "id": 12,
-          "text": "से",
+          "text": "se",
           "start": 3.92,
           "end": 4.16,
           "keyword": false
@@ -1239,28 +1240,28 @@
         },
         {
           "id": 14,
-          "text": "करते",
+          "text": "karte",
           "start": 4.76,
           "end": 4.92,
           "keyword": false
         },
         {
           "id": 15,
-          "text": "हुए",
+          "text": "hue",
           "start": 4.92,
           "end": 5.26,
           "keyword": false
         },
         {
           "id": 16,
-          "text": "रखा",
+          "text": "rakha",
           "start": 5.28,
           "end": 5.66,
           "keyword": false
         },
         {
           "id": 17,
-          "text": "है?",
+          "text": "hai?",
           "start": 5.66,
           "end": 5.86,
           "keyword": false
@@ -1271,7 +1272,7 @@
       "id": 4,
       "start": 6.52,
       "end": 8.2,
-      "text": "But ये कहीं भी सही नहीं है।",
+      "text": "But ye kahin bhi sahi nahi hai.",
       "words": [
         {
           "id": 18,
@@ -1282,42 +1283,42 @@
         },
         {
           "id": 19,
-          "text": "ये",
+          "text": "ye",
           "start": 6.78,
           "end": 6.94,
           "keyword": false
         },
         {
           "id": 20,
-          "text": "कहीं",
+          "text": "kahin",
           "start": 6.94,
           "end": 7.42,
           "keyword": false
         },
         {
           "id": 21,
-          "text": "भी",
+          "text": "bhi",
           "start": 7.42,
           "end": 7.56,
           "keyword": false
         },
         {
           "id": 22,
-          "text": "सही",
+          "text": "sahi",
           "start": 7.56,
           "end": 7.72,
           "keyword": false
         },
         {
           "id": 23,
-          "text": "नहीं",
+          "text": "nahi",
           "start": 7.72,
           "end": 8.02,
           "keyword": true
         },
         {
           "id": 24,
-          "text": "है।",
+          "text": "hai.",
           "start": 8.02,
           "end": 8.2,
           "keyword": false
@@ -1328,18 +1329,18 @@
       "id": 5,
       "start": 8.32,
       "end": 10.35,
-      "text": "बात थी 1989 की।",
+      "text": "Baat thi 1989 ki.",
       "words": [
         {
           "id": 25,
-          "text": "बात",
+          "text": "Baat",
           "start": 8.32,
           "end": 8.62,
           "keyword": false
         },
         {
           "id": 26,
-          "text": "थी",
+          "text": "thi",
           "start": 8.62,
           "end": 8.78,
           "keyword": false
@@ -1353,7 +1354,7 @@
         },
         {
           "id": 28,
-          "text": "की।",
+          "text": "ki.",
           "start": 9.44,
           "end": 10.24,
           "keyword": false
@@ -1364,25 +1365,25 @@
       "id": 6,
       "start": 10.61,
       "end": 12.51,
-      "text": "जहाँ पर एक researcher Guido van Rossum",
+      "text": "Jahan par ek researcher Guido van Rossum",
       "words": [
         {
           "id": 29,
-          "text": "जहाँ",
+          "text": "Jahan",
           "start": 10.61,
           "end": 10.75,
           "keyword": false
         },
         {
           "id": 30,
-          "text": "पर",
+          "text": "par",
           "start": 10.75,
           "end": 10.89,
           "keyword": false
         },
         {
           "id": 31,
-          "text": "एक",
+          "text": "ek",
           "start": 10.89,
           "end": 11.09,
           "keyword": false
@@ -1421,18 +1422,18 @@
       "id": 7,
       "start": 12.55,
       "end": 14.03,
-      "text": "एक ऐसी language चाहता था",
+      "text": "ek aisi language chahta tha",
       "words": [
         {
           "id": 36,
-          "text": "एक",
+          "text": "ek",
           "start": 12.55,
           "end": 12.83,
           "keyword": false
         },
         {
           "id": 37,
-          "text": "ऐसी",
+          "text": "aisi",
           "start": 12.83,
           "end": 13.13,
           "keyword": false
@@ -1446,14 +1447,14 @@
         },
         {
           "id": 39,
-          "text": "चाहता",
+          "text": "chahta",
           "start": 13.53,
           "end": 13.85,
           "keyword": false
         },
         {
           "id": 40,
-          "text": "था",
+          "text": "tha",
           "start": 13.85,
           "end": 14.03,
           "keyword": false
@@ -1464,11 +1465,11 @@
       "id": 8,
       "start": 14.03,
       "end": 16.15,
-      "text": "जोकि C से ज्यादा fast हो, simple हो।",
+      "text": "joki C se zyada fast ho, simple ho.",
       "words": [
         {
           "id": 41,
-          "text": "जोकि",
+          "text": "joki",
           "start": 14.03,
           "end": 14.27,
           "keyword": false
@@ -1482,14 +1483,14 @@
         },
         {
           "id": 43,
-          "text": "से",
+          "text": "se",
           "start": 14.49,
           "end": 14.65,
           "keyword": false
         },
         {
           "id": 44,
-          "text": "ज्यादा",
+          "text": "zyada",
           "start": 14.65,
           "end": 14.91,
           "keyword": false
@@ -1503,7 +1504,7 @@
         },
         {
           "id": 46,
-          "text": "हो,",
+          "text": "ho,",
           "start": 15.29,
           "end": 15.41,
           "keyword": false
@@ -1517,7 +1518,7 @@
         },
         {
           "id": 48,
-          "text": "हो।",
+          "text": "ho.",
           "start": 15.89,
           "end": 16.15,
           "keyword": false
@@ -1528,18 +1529,18 @@
       "id": 9,
       "start": 16.55,
       "end": 19.0,
-      "text": "वही उसी time अपनी Christmas की छुट्टियों में",
+      "text": "Wahi usi time apni Christmas ki chuttiyon mein",
       "words": [
         {
           "id": 49,
-          "text": "वही",
+          "text": "Wahi",
           "start": 16.55,
           "end": 16.78,
           "keyword": false
         },
         {
           "id": 50,
-          "text": "उसी",
+          "text": "usi",
           "start": 16.78,
           "end": 17.04,
           "keyword": false
@@ -1553,7 +1554,7 @@
         },
         {
           "id": 52,
-          "text": "अपनी",
+          "text": "apni",
           "start": 17.28,
           "end": 17.55,
           "keyword": false
@@ -1567,21 +1568,21 @@
         },
         {
           "id": 54,
-          "text": "की",
+          "text": "ki",
           "start": 17.93,
           "end": 18.07,
           "keyword": false
         },
         {
           "id": 55,
-          "text": "छुट्टियों",
+          "text": "chuttiyon",
           "start": 18.07,
           "end": 18.49,
           "keyword": false
         },
         {
           "id": 56,
-          "text": "में",
+          "text": "mein",
           "start": 18.49,
           "end": 18.85,
           "keyword": false
@@ -1592,11 +1593,11 @@
       "id": 10,
       "start": 19.4,
       "end": 21.2,
-      "text": "एक hobby project start करता है।",
+      "text": "ek hobby project start karta hai.",
       "words": [
         {
           "id": 57,
-          "text": "एक",
+          "text": "ek",
           "start": 19.4,
           "end": 19.58,
           "keyword": false
@@ -1624,14 +1625,14 @@
         },
         {
           "id": 61,
-          "text": "करता",
+          "text": "karta",
           "start": 20.68,
           "end": 21.02,
           "keyword": false
         },
         {
           "id": 62,
-          "text": "है।",
+          "text": "hai.",
           "start": 21.02,
           "end": 21.18,
           "keyword": false
@@ -1642,18 +1643,18 @@
       "id": 11,
       "start": 21.18,
       "end": 22.44,
-      "text": "जिसमें वो decide करता है,",
+      "text": "Jismein wo decide karta hai,",
       "words": [
         {
           "id": 63,
-          "text": "जिसमें",
+          "text": "Jismein",
           "start": 21.18,
           "end": 21.48,
           "keyword": false
         },
         {
           "id": 64,
-          "text": "वो",
+          "text": "wo",
           "start": 21.58,
           "end": 21.66,
           "keyword": false
@@ -1667,14 +1668,14 @@
         },
         {
           "id": 66,
-          "text": "करता",
+          "text": "karta",
           "start": 22.04,
           "end": 22.32,
           "keyword": false
         },
         {
           "id": 67,
-          "text": "है,",
+          "text": "hai,",
           "start": 22.32,
           "end": 22.44,
           "keyword": false
@@ -1685,25 +1686,25 @@
       "id": 12,
       "start": 22.48,
       "end": 24.24,
-      "text": "मैं एक ऐसी language पर work करूँगा",
+      "text": "Main ek aisi language par work karunga",
       "words": [
         {
           "id": 68,
-          "text": "मैं",
+          "text": "Main",
           "start": 22.48,
           "end": 22.62,
           "keyword": false
         },
         {
           "id": 69,
-          "text": "एक",
+          "text": "ek",
           "start": 22.62,
           "end": 22.8,
           "keyword": false
         },
         {
           "id": 70,
-          "text": "ऐसी",
+          "text": "aisi",
           "start": 22.8,
           "end": 23.1,
           "keyword": false
@@ -1717,7 +1718,7 @@
         },
         {
           "id": 72,
-          "text": "पर",
+          "text": "par",
           "start": 23.42,
           "end": 23.6,
           "keyword": false
@@ -1731,7 +1732,7 @@
         },
         {
           "id": 74,
-          "text": "करूँगा",
+          "text": "karunga",
           "start": 23.86,
           "end": 24.2,
           "keyword": false
@@ -1742,11 +1743,11 @@
       "id": 13,
       "start": 24.24,
       "end": 27.42,
-      "text": "जोकि C से ज्यादा fast हो और efficient हो।",
+      "text": "joki C se zyada fast ho aur efficient ho.",
       "words": [
         {
           "id": 75,
-          "text": "जोकि",
+          "text": "joki",
           "start": 24.24,
           "end": 24.68,
           "keyword": false
@@ -1760,14 +1761,14 @@
         },
         {
           "id": 77,
-          "text": "से",
+          "text": "se",
           "start": 25.34,
           "end": 25.52,
           "keyword": false
         },
         {
           "id": 78,
-          "text": "ज्यादा",
+          "text": "zyada",
           "start": 25.52,
           "end": 25.86,
           "keyword": false
@@ -1781,14 +1782,14 @@
         },
         {
           "id": 80,
-          "text": "हो",
+          "text": "ho",
           "start": 26.32,
           "end": 26.42,
           "keyword": false
         },
         {
           "id": 81,
-          "text": "और",
+          "text": "aur",
           "start": 26.42,
           "end": 26.66,
           "keyword": false
@@ -1802,7 +1803,7 @@
         },
         {
           "id": 83,
-          "text": "हो।",
+          "text": "ho.",
           "start": 27.22,
           "end": 27.42,
           "keyword": false
@@ -1813,25 +1814,25 @@
       "id": 14,
       "start": 27.53,
       "end": 29.4,
-      "text": "और उसने इस language का नाम रखा",
+      "text": "Aur usne is language ka naam rakha",
       "words": [
         {
           "id": 84,
-          "text": "और",
+          "text": "Aur",
           "start": 27.53,
           "end": 27.83,
           "keyword": false
         },
         {
           "id": 85,
-          "text": "उसने",
+          "text": "usne",
           "start": 27.83,
           "end": 28.13,
           "keyword": false
         },
         {
           "id": 86,
-          "text": "इस",
+          "text": "is",
           "start": 28.13,
           "end": 28.29,
           "keyword": false
@@ -1845,21 +1846,21 @@
         },
         {
           "id": 88,
-          "text": "का",
+          "text": "ka",
           "start": 28.67,
           "end": 28.81,
           "keyword": false
         },
         {
           "id": 89,
-          "text": "नाम",
+          "text": "naam",
           "start": 28.81,
           "end": 29.09,
           "keyword": false
         },
         {
           "id": 90,
-          "text": "रखा",
+          "text": "rakha",
           "start": 29.09,
           "end": 29.4,
           "keyword": false
@@ -1870,11 +1871,11 @@
       "id": 15,
       "start": 29.47,
       "end": 31.9,
-      "text": "एक British comedy show से relate करते हुए जोकि था,",
+      "text": "ek British comedy show se relate karte hue joki tha,",
       "words": [
         {
           "id": 91,
-          "text": "एक",
+          "text": "ek",
           "start": 29.47,
           "end": 29.69,
           "keyword": false
@@ -1902,7 +1903,7 @@
         },
         {
           "id": 95,
-          "text": "से",
+          "text": "se",
           "start": 30.67,
           "end": 30.75,
           "keyword": false
@@ -1916,28 +1917,28 @@
         },
         {
           "id": 97,
-          "text": "करते",
+          "text": "karte",
           "start": 30.99,
           "end": 31.2,
           "keyword": false
         },
         {
           "id": 98,
-          "text": "हुए",
+          "text": "hue",
           "start": 31.2,
           "end": 31.39,
           "keyword": false
         },
         {
           "id": 99,
-          "text": "जोकि",
+          "text": "joki",
           "start": 31.39,
           "end": 31.71,
           "keyword": false
         },
         {
           "id": 100,
-          "text": "था,",
+          "text": "tha,",
           "start": 31.71,
           "end": 31.9,
           "keyword": false
@@ -1948,7 +1949,7 @@
       "id": 16,
       "start": 32.3,
       "end": 34.05,
-      "text": "Monty Python's Flying Circus।",
+      "text": "Monty Python's Flying Circus.",
       "words": [
         {
           "id": 101,
@@ -1973,7 +1974,7 @@
         },
         {
           "id": 104,
-          "text": "Circus।",
+          "text": "Circus.",
           "start": 33.66,
           "end": 34.0,
           "keyword": true
@@ -1984,46 +1985,46 @@
       "id": 17,
       "start": 34.17,
       "end": 36.73,
-      "text": "इसी के नाम पर उसने अपनी language का नाम रखा",
+      "text": "Isi ke naam par usne apni language ka naam rakha",
       "words": [
         {
           "id": 105,
-          "text": "इसी",
+          "text": "Isi",
           "start": 34.17,
           "end": 34.37,
           "keyword": false
         },
         {
           "id": 106,
-          "text": "के",
+          "text": "ke",
           "start": 34.37,
           "end": 34.55,
           "keyword": false
         },
         {
           "id": 107,
-          "text": "नाम",
+          "text": "naam",
           "start": 34.55,
           "end": 34.73,
           "keyword": false
         },
         {
           "id": 108,
-          "text": "पर",
+          "text": "par",
           "start": 34.73,
           "end": 34.89,
           "keyword": false
         },
         {
           "id": 109,
-          "text": "उसने",
+          "text": "usne",
           "start": 34.89,
           "end": 35.21,
           "keyword": false
         },
         {
           "id": 110,
-          "text": "अपनी",
+          "text": "apni",
           "start": 35.21,
           "end": 35.59,
           "keyword": false
@@ -2037,21 +2038,21 @@
         },
         {
           "id": 112,
-          "text": "का",
+          "text": "ka",
           "start": 36.05,
           "end": 36.21,
           "keyword": false
         },
         {
           "id": 113,
-          "text": "नाम",
+          "text": "naam",
           "start": 36.21,
           "end": 36.43,
           "keyword": false
         },
         {
           "id": 114,
-          "text": "रखा",
+          "text": "rakha",
           "start": 36.43,
           "end": 36.67,
           "keyword": false
@@ -2062,11 +2063,11 @@
       "id": 18,
       "start": 36.89,
       "end": 37.35,
-      "text": "Python।",
+      "text": "Python.",
       "words": [
         {
           "id": 115,
-          "text": "Python।",
+          "text": "Python.",
           "start": 36.89,
           "end": 37.29,
           "keyword": true
@@ -2077,11 +2078,11 @@
       "id": 19,
       "start": 37.47,
       "end": 40.19,
-      "text": "ये Python language एक इतना बड़ा invention है, जोकि",
+      "text": "Ye Python language ek itna bada invention hai, joki",
       "words": [
         {
           "id": 116,
-          "text": "ये",
+          "text": "Ye",
           "start": 37.47,
           "end": 37.59,
           "keyword": false
@@ -2102,21 +2103,21 @@
         },
         {
           "id": 119,
-          "text": "एक",
+          "text": "ek",
           "start": 38.37,
           "end": 38.61,
           "keyword": false
         },
         {
           "id": 120,
-          "text": "इतना",
+          "text": "itna",
           "start": 38.61,
           "end": 38.93,
           "keyword": false
         },
         {
           "id": 121,
-          "text": "बड़ा",
+          "text": "bada",
           "start": 38.93,
           "end": 39.13,
           "keyword": false
@@ -2130,14 +2131,14 @@
         },
         {
           "id": 123,
-          "text": "है,",
+          "text": "hai,",
           "start": 39.73,
           "end": 39.9,
           "keyword": false
         },
         {
           "id": 124,
-          "text": "जोकि",
+          "text": "joki",
           "start": 39.9,
           "end": 40.19,
           "keyword": false
@@ -2192,7 +2193,7 @@
       "id": 22,
       "start": 42.51,
       "end": 44.4,
-      "text": "automation जैसे sectors में",
+      "text": "automation jaise sectors mein",
       "words": [
         {
           "id": 129,
@@ -2203,7 +2204,7 @@
         },
         {
           "id": 130,
-          "text": "जैसे",
+          "text": "jaise",
           "start": 43.29,
           "end": 43.53,
           "keyword": false
@@ -2217,7 +2218,7 @@
         },
         {
           "id": 132,
-          "text": "में",
+          "text": "mein",
           "start": 43.87,
           "end": 44.21,
           "keyword": false
@@ -2228,11 +2229,11 @@
       "id": 23,
       "start": 44.52,
       "end": 46.34,
-      "text": "काफी important role play करती है।",
+      "text": "kaafi important role play karti hai.",
       "words": [
         {
           "id": 133,
-          "text": "काफी",
+          "text": "kaafi",
           "start": 44.52,
           "end": 44.83,
           "keyword": false
@@ -2260,14 +2261,14 @@
         },
         {
           "id": 137,
-          "text": "करती",
+          "text": "karti",
           "start": 45.82,
           "end": 46.08,
           "keyword": false
         },
         {
           "id": 138,
-          "text": "है।",
+          "text": "hai.",
           "start": 46.08,
           "end": 46.34,
           "keyword": false
@@ -2278,32 +2279,32 @@
       "id": 24,
       "start": 46.39,
       "end": 49.01,
-      "text": "सोचो, एक उस पुराने time का छोटा सा invention,",
+      "text": "Socho, ek us purane time ka chhota sa invention,",
       "words": [
         {
           "id": 139,
-          "text": "सोचो,",
+          "text": "Socho,",
           "start": 46.39,
           "end": 46.83,
           "keyword": false
         },
         {
           "id": 140,
-          "text": "एक",
+          "text": "ek",
           "start": 46.83,
           "end": 47.2,
           "keyword": false
         },
         {
           "id": 141,
-          "text": "उस",
+          "text": "us",
           "start": 47.2,
           "end": 47.36,
           "keyword": false
         },
         {
           "id": 142,
-          "text": "पुराने",
+          "text": "purane",
           "start": 47.36,
           "end": 47.66,
           "keyword": false
@@ -2317,21 +2318,21 @@
         },
         {
           "id": 144,
-          "text": "का",
+          "text": "ka",
           "start": 47.88,
           "end": 48.1,
           "keyword": false
         },
         {
           "id": 145,
-          "text": "छोटा",
+          "text": "chhota",
           "start": 48.1,
           "end": 48.36,
           "keyword": false
         },
         {
           "id": 146,
-          "text": "सा",
+          "text": "sa",
           "start": 48.36,
           "end": 48.5,
           "keyword": false
@@ -2349,25 +2350,25 @@
       "id": 25,
       "start": 49.01,
       "end": 50.22,
-      "text": "जिसकी वजह से,",
+      "text": "jiski wajah se,",
       "words": [
         {
           "id": 148,
-          "text": "जिसकी",
+          "text": "jiski",
           "start": 49.01,
           "end": 49.36,
           "keyword": false
         },
         {
           "id": 149,
-          "text": "वजह",
+          "text": "wajah",
           "start": 49.36,
           "end": 49.62,
           "keyword": false
         },
         {
           "id": 150,
-          "text": "से,",
+          "text": "se,",
           "start": 49.62,
           "end": 50.21,
           "keyword": false
@@ -2378,25 +2379,25 @@
       "id": 26,
       "start": 50.26,
       "end": 52.18,
-      "text": "आज कितना बड़ा ecosystem बन चुका है।",
+      "text": "aaj kitna bada ecosystem ban chuka hai.",
       "words": [
         {
           "id": 151,
-          "text": "आज",
+          "text": "aaj",
           "start": 50.26,
           "end": 50.5,
           "keyword": false
         },
         {
           "id": 152,
-          "text": "कितना",
+          "text": "kitna",
           "start": 50.5,
           "end": 50.78,
           "keyword": false
         },
         {
           "id": 153,
-          "text": "बड़ा",
+          "text": "bada",
           "start": 50.78,
           "end": 50.98,
           "keyword": false
@@ -2410,21 +2411,21 @@
         },
         {
           "id": 155,
-          "text": "बन",
+          "text": "ban",
           "start": 51.24,
           "end": 51.54,
           "keyword": false
         },
         {
           "id": 156,
-          "text": "चुका",
+          "text": "chuka",
           "start": 51.54,
           "end": 51.74,
           "keyword": false
         },
         {
           "id": 157,
-          "text": "है।",
+          "text": "hai.",
           "start": 51.74,
           "end": 52.08,
           "keyword": false
@@ -2592,7 +2593,7 @@
   "emphasisBeats": [
     {
       "time": 6.52,
-      "phrase": "But ये कहीं भी सही नहीं है",
+      "phrase": "But ye kahin bhi sahi nahi hai",
       "type": "myth correction / hard visual reversal"
     },
     {

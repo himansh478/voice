@@ -12,11 +12,16 @@
     "fullSourceAudio": true,
     "frameRoundedDuration": true,
     "stereo48kHz": true,
+    "bt709LimitedRange": true,
+    "fastStartMp4": true,
     "noDetectedBlackFrames": true,
     "noMissingAssets": true,
     "wordTimingsValid": true,
+    "wordTimingsPreservedFromCuratedMaster": true,
+    "cueTimingsPreservedFromCuratedMaster": true,
     "158TimedWords": true,
     "26SubtitleCues": true,
+    "romanHinglishSubtitles": true,
     "11Scenes": true
   },
   "failedChecks": [],
@@ -57,8 +62,8 @@
     "format": {
       "filename": "/home/user/voice/AI-Motion-Video/renders/python-origin-preview-540x960.mp4",
       "duration": "52.233333",
-      "size": "6574505",
-      "bit_rate": "1006943"
+      "size": "6617108",
+      "bit_rate": "1013469"
     }
   },
   "loudness": {
@@ -68,10 +73,13 @@
   },
   "sourceAudioSha256": "6b8b155231d2e236010dec3156b1d9ff329e1aadb19a0e3f614d34f343c38367",
   "subtitleReview": {
-    "language": "Hindi / Hinglish",
+    "language": "Hinglish (Roman script / Inter Latin font)",
     "maximumLines": 2,
     "timedWords": 158,
     "cues": 26,
+    "wordTimingSha256": "502a06cd87fbaffb25fbe11378113df1b5c2cc92be836deecb76ce3be313e1d6",
+    "cueTimingSha256": "492974095b2332f4865377cbde62c2ea02327cde1da48187c4b62fa1661b56c9",
+    "timingsPreservedFromCuratedMaster": true,
     "visualInspection": "20 representative stills plus one-frame-per-second preview contact sheet; longest bilingual cues checked at 540 px width."
   },
   "visualInspection": {
@@ -82,6 +90,6 @@
       "S11"
     ],
     "manualReviewed": true,
-    "notes": "Typography, Devanagari shaping, mobile safe areas, scene continuity, network reveal and final ecosystem growth reviewed."
+    "notes": "Roman Hinglish typography, Latin-font readability, mobile safe areas, scene continuity, network reveal and final ecosystem growth reviewed."
   }
 }

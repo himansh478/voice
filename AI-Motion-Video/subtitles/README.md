@@ -2,11 +2,11 @@
 
 ## Timing masters — use these
 
-- `transcript.txt`: reviewed full Hindi/Hinglish transcript with cue timestamps.
+- `transcript.txt`: reviewed full Roman Hinglish transcript with cue timestamps.
 - `transcript.srt`: 26 subtitle cues.
 - `transcript.json`: the same cues plus 158 word-level timings, keywords, measured pauses and narrative structure.
 
-These are the files used by the Remotion composition. Obvious ASR spelling mistakes and proper nouns were normalized without changing narration order or meaning.
+These are the files used by the Remotion composition. Obvious ASR spelling mistakes and proper nouns were normalized without changing narration order or meaning. Subtitles use Inter / Latin letters and preserve the original Hinglish wording through transliteration, not English translation.
 
 ## ASR audit files — not subtitle masters
 

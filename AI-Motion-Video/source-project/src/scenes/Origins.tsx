@@ -13,7 +13,7 @@ export const HookScene: React.FC<{duration: number}> = ({duration}) => {
       <div style={{position:'absolute',right:-80,top:120,fontFamily:'Space Grotesk',fontSize:760,fontWeight:700,lineHeight:1,color:'#d7ff4f08',transform:`rotate(${8+frame*.03}deg)`}}>?</div>
       <Reveal at={0.28} style={{position:'absolute',top:245,left:72,right:72}}>
         <Eyebrow>A QUESTION ABOUT A NAME</Eyebrow>
-        <div style={{marginTop:24,fontFamily:'Noto Sans Devanagari',fontSize:46,fontWeight:600,color:C.ivory}}>क्या तुम्हें भी यही लगता है?</div>
+        <div style={{marginTop:24,fontFamily:'Space Grotesk',fontSize:43,fontWeight:600,color:C.ivory}}>Kya tumhe bhi yahi lagta hai?</div>
       </Reveal>
       <div style={{position:'absolute',top:490,left:62,right:62,display:'flex',justifyContent:'center',perspective:900}}>
         {letters.map((letter,i) => {
@@ -56,7 +56,7 @@ export const MythScene: React.FC<{duration: number}> = ({duration}) => {
         <circle cx="540" cy="640" r={230+corrected*30} fill="none" stroke={C.red} strokeWidth={3+corrected*5} strokeDasharray="16 14" opacity={correctionOpacity*.45} transform={`rotate(${frame*.8} 540 640)`}/>
       </svg>
       <div style={{position:'absolute',left:60,right:60,top:1005,textAlign:'center',opacity:correctionOpacity,transform:`scale(${.65+corrected*.35})`}}>
-        <div style={{fontFamily:'Noto Sans Devanagari',fontSize:184,lineHeight:1,fontWeight:800,color:C.red,textShadow:'0 18px 50px #0008'}}>नहीं.</div>
+        <div style={{fontFamily:'Space Grotesk',fontSize:170,lineHeight:1,fontWeight:700,letterSpacing:-7,color:C.red,textShadow:'0 18px 50px #0008'}}>NAHIN.</div>
         <div style={{marginTop:35,fontFamily:'Space Grotesk',fontSize:48,fontWeight:700,letterSpacing:7,color:C.ivory}}>NOT THE SNAKE</div>
         <div style={{margin:'30px auto 0',width:90,height:6,background:C.red}}/>
       </div>

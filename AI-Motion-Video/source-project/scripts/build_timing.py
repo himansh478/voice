@@ -42,11 +42,48 @@ CUES = [
     (50.26, 52.18, [("आज",50.26,50.50),("कितना",50.50,50.78),("बड़ा",50.78,50.98),("ecosystem",50.98,51.24),("बन",51.24,51.54),("चुका",51.54,51.74),("है।",51.74,52.08)]),
 ]
 
-KEYWORDS = {"Python", "snake", "नहीं", "1989", "Guido", "Rossum", "fast", "simple", "Christmas", "hobby", "project", "efficient", "British", "comedy", "Monty", "Python's", "Flying", "Circus।", "invention", "machine", "learning,", "artificial", "intelligence,", "automation", "important", "ecosystem"}
+ROMAN_HINGLISH = {
+    "क्या":"kya", "तुम्हें":"tumhe", "भी":"bhi", "यही":"yahi", "लगता":"lagta", "है":"hai",
+    "का":"ka", "नाम":"naam", "से":"se", "करते":"karte", "हुए":"hue", "रखा":"rakha",
+    "ये":"ye", "कहीं":"kahin", "सही":"sahi", "नहीं":"nahi", "बात":"baat", "थी":"thi", "की":"ki",
+    "जहाँ":"jahan", "पर":"par", "एक":"ek", "ऐसी":"aisi", "चाहता":"chahta", "था":"tha",
+    "जोकि":"joki", "ज्यादा":"zyada", "हो":"ho", "वही":"wahi", "उसी":"usi", "अपनी":"apni",
+    "छुट्टियों":"chuttiyon", "में":"mein", "करता":"karta", "जिसमें":"jismein", "वो":"wo",
+    "मैं":"main", "करूँगा":"karunga", "और":"aur", "उसने":"usne", "इस":"is", "इसी":"isi",
+    "के":"ke", "इतना":"itna", "बड़ा":"bada", "जैसे":"jaise", "काफी":"kaafi", "करती":"karti",
+    "सोचो":"socho", "उस":"us", "पुराने":"purane", "छोटा":"chhota", "सा":"sa", "जिसकी":"jiski",
+    "वजह":"wajah", "आज":"aaj", "कितना":"kitna", "बन":"ban", "चुका":"chuka",
+}
+
+
+def roman_word(text: str) -> str:
+    """Transliterate one timed token without changing its timestamp or Hinglish wording."""
+    ending = ""
+    while text and text[-1] in "?,।":
+        mark = text[-1]
+        text = text[:-1]
+        ending = ("." if mark == "।" else mark) + ending
+    return ROMAN_HINGLISH.get(text, text) + ending
+
+
+def roman_text(text: str) -> str:
+    return " ".join(roman_word(word) for word in text.split(" "))
+
+
+CUES = [(start, end, [(roman_word(text), ws, we) for text, ws, we in items]) for start, end, items in CUES]
+LOWERCASE_FIRST_CUES = {7, 8, 10, 13, 15, 20, 21, 22, 23, 25, 26}
+for cue_index, (_, _, items) in enumerate(CUES, 1):
+    text, ws, we = items[0]
+    initial = text[:1].lower() if cue_index in LOWERCASE_FIRST_CUES else text[:1].upper()
+    items[0] = (initial + text[1:], ws, we)
+
+KEYWORDS = {"Python", "snake", "nahi", "1989", "Guido", "Rossum", "fast", "simple", "Christmas", "hobby", "project", "efficient", "British", "comedy", "Monty", "Python's", "Flying", "Circus", "invention", "machine", "learning", "artificial", "intelligence", "automation", "important", "ecosystem"}
+
+KEYWORD_LOOKUP = {keyword.lower() for keyword in KEYWORDS}
 
 SCENES = [
-    {"id":"S01","start":0.00,"end":3.05,"title":"The Assumption","spoken":"क्या तुम्हें भी यही लगता है? Python language का नाम…","concept":"A confrontational kinetic-type cold open: PYTHON assembles letter by letter while a coiled line-art serpent and a huge question mark establish the assumption.","background":"Midnight indigo editorial grid, radial spotlight, fine film grain and restrained chartreuse accents.","objects":"Custom SVG serpent, sliced typographic masks, question-mark orbit and scanning rule.","typography":"Space Grotesk 800 with faux-3D extrusion; Noto Sans Devanagari for spoken captions.","camera":"Fast 4% push-in; slight perspective settling after the title lands.","transition":"A chartreuse scan bar wipes into the snake hypothesis.","sfx":"0.08 s soft impact; 1.66 s title slam; 2.88 s whoosh."},
-    {"id":"S02","start":3.05,"end":8.26,"title":"Myth, Corrected","spoken":"Python snake से relate करते हुए रखा है? But ये कहीं भी सही नहीं है।","concept":"The serpent is visually connected to Python, then the connection breaks and a decisive NOT THE SNAKE correction replaces it.","background":"Deep navy with a drafting-board circle and restrained red correction marks.","objects":"Animated SVG snake path, broken connector, circular strike and editorial labels.","typography":"Condensed uppercase statement with mask reveal; oversized नहीं as the emotional beat.","camera":"Lateral drift followed by a rapid 6% punch on ‘नहीं’.","transition":"The strike circle becomes the rim of the 1989 timeline.","sfx":"4.30 s subtle digital ticks; 6.48 s low impact; 8.10 s morph whoosh."},
+    {"id":"S01","start":0.00,"end":3.05,"title":"The Assumption","spoken":"क्या तुम्हें भी यही लगता है? Python language का नाम…","concept":"A confrontational kinetic-type cold open: PYTHON assembles letter by letter while a coiled line-art serpent and a huge question mark establish the assumption.","background":"Midnight indigo editorial grid, radial spotlight, fine film grain and restrained chartreuse accents.","objects":"Custom SVG serpent, sliced typographic masks, question-mark orbit and scanning rule.","typography":"Space Grotesk 800 with faux-3D extrusion; Inter for Roman Hinglish spoken captions.","camera":"Fast 4% push-in; slight perspective settling after the title lands.","transition":"A chartreuse scan bar wipes into the snake hypothesis.","sfx":"0.08 s soft impact; 1.66 s title slam; 2.88 s whoosh."},
+    {"id":"S02","start":3.05,"end":8.26,"title":"Myth, Corrected","spoken":"Python snake से relate करते हुए रखा है? But ये कहीं भी सही नहीं है।","concept":"The serpent is visually connected to Python, then the connection breaks and a decisive NOT THE SNAKE correction replaces it.","background":"Deep navy with a drafting-board circle and restrained red correction marks.","objects":"Animated SVG snake path, broken connector, circular strike and editorial labels.","typography":"Condensed uppercase statement with mask reveal; oversized NAHIN as the emotional beat.","camera":"Lateral drift followed by a rapid 6% punch on ‘NAHIN’.","transition":"The strike circle becomes the rim of the 1989 timeline.","sfx":"4.30 s subtle digital ticks; 6.48 s low impact; 8.10 s morph whoosh."},
     {"id":"S03","start":8.26,"end":10.50,"title":"1989","spoken":"बात थी 1989 की।","concept":"A monumental date emerges from a moving archival timeline; no unrelated historical imagery.","background":"Warm charcoal paper texture meeting cool midnight blue, with a fine horizontal time ruler.","objects":"1989 extruded numerals, year ticks, a single glowing origin node and archival registration marks.","typography":"Tabular Space Grotesk numerals, very large and tightly tracked.","camera":"Timeline trucks left while the camera pushes toward the selected year.","transition":"The origin node expands into Guido’s research blueprint.","sfx":"8.28 s year impact; 9.36 s soft clock tick; 10.34 s whoosh."},
     {"id":"S04","start":10.50,"end":16.45,"title":"The Designer’s Brief","spoken":"जहाँ पर एक researcher Guido van Rossum एक ऐसी language चाहता था जोकि C से ज्यादा fast हो, simple हो।","concept":"A custom researcher identity card and code blueprint introduce Guido; FAST and SIMPLE become the two design requirements.","background":"Cyan-on-navy technical drafting surface with depth-separated grid planes.","objects":"GVR monogram, animated terminal lines, C block, two requirement cards and connecting paths.","typography":"Editorial nameplate plus monospaced code and bold requirement labels.","camera":"2.5D parallax push through foreground grid, identity card and rear code plane.","transition":"Terminal window folds into the laptop on the Christmas desk.","sfx":"11.05 s UI confirm; 14.86 s fast tick; 15.48 s simple chime."},
     {"id":"S05","start":16.45,"end":21.20,"title":"A Christmas Side Project","spoken":"वही उसी time अपनी Christmas की छुट्टियों में एक hobby project start करता है।","concept":"A cinematic 2.5D winter workspace: snow beyond the window, warm practical lights and a laptop where a side project runs for the first time.","background":"Cool blue night exterior contrasted with an amber interior, soft shadows and layered depth of field.","objects":"Snow layers, window mullions, desk, coffee steam, fairy lights, laptop code and HOBBY PROJECT stamp.","typography":"Small warm editorial labels; PROJECT START appears as a terminal confirmation.","camera":"Slow lateral dolly and push-in; snow and desk move at different depths.","transition":"Laptop screen zooms into the abstract 3D language core.","sfx":"16.60 s soft winter bell; 19.94 s project-start impact; 21.02 s screen whoosh."},
@@ -57,6 +94,10 @@ SCENES = [
     {"id":"S10","start":40.20,"end":46.35,"title":"Three Fields, One Language","spoken":"machine learning, artificial intelligence, automation जैसे sectors में काफी important role play करती है।","concept":"Three synchronized custom infographics: a neural graph for ML, a living processor for AI and an articulated robotic arm for automation.","background":"Three premium glass/metal instrument panels over a shared dark grid; cyan, violet and amber distinguish the fields.","objects":"Neural nodes, chip traces, robotic joints, gear teeth, data rails and sequential status lines.","typography":"Large numbered domain names; IMPORTANT ROLE resolves as the shared conclusion.","camera":"Virtual camera pans across the triptych, then lifts to show all three working together.","transition":"Panels collapse to one small origin cube, matching the final reflection.","sfx":"40.18 s ML ping; 40.94 s AI ping; 42.49 s automation servo; 44.50 s shared impact."},
     {"id":"S11","start":46.35,"end":52.233333,"title":"From Side Project to Ecosystem","spoken":"सोचो, एक उस पुराने time का छोटा सा invention, जिसकी वजह से आज कितना बड़ा ecosystem बन चुका है।","concept":"The tiny origin cube returns, then grows into a luminous Three.js ecosystem globe surrounded by the three fields and a 1989-to-today arc.","background":"Cinematic midnight-to-dawn gradient with a fine orbital horizon and atmospheric particles.","objects":"Three.js network sphere, orbiting rings and points; domain satellites, 1989 origin marker and final Python mark.","typography":"Small idea, big ecosystem: SMALL IDEA scales into ECOSYSTEM; final 1989 → TODAY lockup.","camera":"Measured 3D pull-back, final two-degree rise and stable end hold.","transition":"Clean final hold; music and visual motion resolve with the last spoken word.","sfx":"46.38 s reflective tone; 49.00 s growth whoosh; 50.96 s final warm impact; 52.08 s soft resolve."},
 ]
+
+
+for scene in SCENES:
+    scene["spoken"] = roman_text(scene["spoken"])
 
 
 def srt_time(seconds: float) -> str:
@@ -88,7 +129,7 @@ def main() -> None:
     for index, (start, end, items) in enumerate(CUES, 1):
         cue_words = []
         for text, word_start, word_end in items:
-            word = {"id": len(words), "text": text, "start": word_start, "end": word_end, "keyword": text.strip(".,?।") in KEYWORDS or text in KEYWORDS}
+            word = {"id": len(words), "text": text, "start": word_start, "end": word_end, "keyword": text.strip(".,?।").lower() in KEYWORD_LOOKUP}
             words.append(word)
             cue_words.append(word)
         captions.append({"id": index, "start": start, "end": end, "text": " ".join(w["text"] for w in cue_words), "words": cue_words})
@@ -118,15 +159,17 @@ def main() -> None:
         {"time":42.51,"phrase":"automation","type":"third domain panel"},
         {"time":50.98,"phrase":"ecosystem","type":"final globe expansion"},
     ]
+    emphasis_beats = [{**beat, "phrase": roman_text(beat["phrase"])} for beat in emphasis_beats]
     transcript = {
         "audioFile": "audio/1104.MP3",
         "audioSha256": "6b8b155231d2e236010dec3156b1d9ff329e1aadb19a0e3f614d34f343c38367",
         "duration": 52.21875,
         "language": "hi",
-        "languageName": "Hindi / Hinglish",
+        "languageName": "Hinglish (Roman script)",
+        "script": "Latin",
         "languageProbability": 0.948018491268158,
         "asrModel": "OpenAI Whisper small, CTranslate2 int8, Faster-Whisper 1.2.1",
-        "timingMethod": "Three offline ASR passes; pause-aligned re-transcription; manual normalization of obvious ASR spelling and proper nouns. No narration added, removed, translated or regenerated.",
+        "timingMethod": "Three offline ASR passes; pause-aligned re-transcription; manual normalization of obvious ASR spelling and proper nouns. Subtitles are Roman-script Hinglish, transliterated rather than translated. No narration added, removed or regenerated.",
         "fullText": full_text,
         "words": words,
         "captions": captions,
@@ -148,6 +191,7 @@ def main() -> None:
         "project":"PYTHON — The Name Behind the Language",
         "format":{"width":1080,"height":1920,"fps":30,"duration":52.21875,"durationInFrames":1567,"aspectRatio":"9:16","videoCodec":"H.264","audioCodec":"AAC"},
         "creativeDirection":"Premium editorial technology documentary with kinetic typography, custom SVG infographics, cinematic 2.5D and selective real-time Three.js. Midnight navy, chartreuse, cyan, warm brass and burgundy form one consistent visual identity.",
+        "subtitles":{"language":"Hinglish","script":"Latin","font":"Inter","translated":False,"transliterated":True},
         "audio":{"voice":"Original 1104.MP3, unedited and primary","music":"Original locally synthesized ambient cinematic score, ducked below narration","soundDesign":"Soft transition whooshes, restrained UI ticks and tonal impacts synchronized to visual events"},
         "scenes":SCENES,
     }
@@ -174,7 +218,7 @@ def main() -> None:
     srt = "\n\n".join(f"{c['id']}\n{srt_time(c['start'])} --> {srt_time(c['end'])}\n{chr(10).join(subtitle_lines(c['words']))}" for c in captions) + "\n"
     (OUT / "subtitles" / "transcript.srt").write_text(srt, encoding="utf-8")
     (OUT / "transcript.srt").write_text(srt, encoding="utf-8")
-    text_lines = ["PYTHON — THE NAME BEHIND THE LANGUAGE", "Original narration: Hindi / Hinglish", "Duration: 52.21875 seconds", "", "FULL TRANSCRIPT", full_text, "", "TIMED TRANSCRIPT"]
+    text_lines = ["PYTHON — THE NAME BEHIND THE LANGUAGE", "Subtitles: Hinglish in Roman / Latin script (not translated)", "Duration: 52.21875 seconds", "", "FULL TRANSCRIPT", full_text, "", "TIMED TRANSCRIPT"]
     text_lines += [f"[{srt_time(c['start'])[:-4]} --> {srt_time(c['end'])[:-4]}] {c['text']}" for c in captions]
     (OUT / "subtitles" / "transcript.txt").write_text("\n".join(text_lines) + "\n", encoding="utf-8")
     (OUT / "transcript.txt").write_text("\n".join(text_lines) + "\n", encoding="utf-8")

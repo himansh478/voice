@@ -2,14 +2,14 @@
   "scenes": [
     {
       "id": "S01",
-      "start": 0,
+      "start": 0.0,
       "end": 3.05,
       "title": "The Assumption",
-      "spoken": "क्या तुम्हें भी यही लगता है? Python language का नाम…",
+      "spoken": "kya tumhe bhi yahi lagta hai? Python language ka नाम…",
       "concept": "A confrontational kinetic-type cold open: PYTHON assembles letter by letter while a coiled line-art serpent and a huge question mark establish the assumption.",
       "background": "Midnight indigo editorial grid, radial spotlight, fine film grain and restrained chartreuse accents.",
       "objects": "Custom SVG serpent, sliced typographic masks, question-mark orbit and scanning rule.",
-      "typography": "Space Grotesk 800 with faux-3D extrusion; Noto Sans Devanagari for spoken captions.",
+      "typography": "Space Grotesk 800 with faux-3D extrusion; Inter for Roman Hinglish spoken captions.",
       "camera": "Fast 4% push-in; slight perspective settling after the title lands.",
       "transition": "A chartreuse scan bar wipes into the snake hypothesis.",
       "sfx": "0.08 s soft impact; 1.66 s title slam; 2.88 s whoosh."
@@ -19,12 +19,12 @@
       "start": 3.05,
       "end": 8.26,
       "title": "Myth, Corrected",
-      "spoken": "Python snake से relate करते हुए रखा है? But ये कहीं भी सही नहीं है।",
+      "spoken": "Python snake se relate karte hue rakha hai? But ye kahin bhi sahi nahi hai.",
       "concept": "The serpent is visually connected to Python, then the connection breaks and a decisive NOT THE SNAKE correction replaces it.",
       "background": "Deep navy with a drafting-board circle and restrained red correction marks.",
       "objects": "Animated SVG snake path, broken connector, circular strike and editorial labels.",
-      "typography": "Condensed uppercase statement with mask reveal; oversized नहीं as the emotional beat.",
-      "camera": "Lateral drift followed by a rapid 6% punch on ‘नहीं’.",
+      "typography": "Condensed uppercase statement with mask reveal; oversized NAHIN as the emotional beat.",
+      "camera": "Lateral drift followed by a rapid 6% punch on ‘NAHIN’.",
       "transition": "The strike circle becomes the rim of the 1989 timeline.",
       "sfx": "4.30 s subtle digital ticks; 6.48 s low impact; 8.10 s morph whoosh."
     },
@@ -33,7 +33,7 @@
       "start": 8.26,
       "end": 10.5,
       "title": "1989",
-      "spoken": "बात थी 1989 की।",
+      "spoken": "baat thi 1989 ki.",
       "concept": "A monumental date emerges from a moving archival timeline; no unrelated historical imagery.",
       "background": "Warm charcoal paper texture meeting cool midnight blue, with a fine horizontal time ruler.",
       "objects": "1989 extruded numerals, year ticks, a single glowing origin node and archival registration marks.",
@@ -47,7 +47,7 @@
       "start": 10.5,
       "end": 16.45,
       "title": "The Designer’s Brief",
-      "spoken": "जहाँ पर एक researcher Guido van Rossum एक ऐसी language चाहता था जोकि C से ज्यादा fast हो, simple हो।",
+      "spoken": "jahan par ek researcher Guido van Rossum ek aisi language chahta tha joki C se zyada fast ho, simple ho.",
       "concept": "A custom researcher identity card and code blueprint introduce Guido; FAST and SIMPLE become the two design requirements.",
       "background": "Cyan-on-navy technical drafting surface with depth-separated grid planes.",
       "objects": "GVR monogram, animated terminal lines, C block, two requirement cards and connecting paths.",
@@ -61,7 +61,7 @@
       "start": 16.45,
       "end": 21.2,
       "title": "A Christmas Side Project",
-      "spoken": "वही उसी time अपनी Christmas की छुट्टियों में एक hobby project start करता है।",
+      "spoken": "wahi usi time apni Christmas ki chuttiyon mein ek hobby project start karta hai.",
       "concept": "A cinematic 2.5D winter workspace: snow beyond the window, warm practical lights and a laptop where a side project runs for the first time.",
       "background": "Cool blue night exterior contrasted with an amber interior, soft shadows and layered depth of field.",
       "objects": "Snow layers, window mullions, desk, coffee steam, fairy lights, laptop code and HOBBY PROJECT stamp.",
@@ -75,7 +75,7 @@
       "start": 21.2,
       "end": 27.5,
       "title": "The Language Core",
-      "spoken": "जिसमें वो decide करता है, मैं एक ऐसी language पर work करूँगा जोकि C से ज्यादा fast हो और efficient हो।",
+      "spoken": "jismein wo decide karta hai, main ek aisi language par work karunga joki C se zyada fast ho aur efficient ho.",
       "concept": "An original Three.js metallic code core assembles from wireframe to solid while FAST and EFFICIENT lock into orbit.",
       "background": "Dark technical void with volumetric-looking cones, sparse stars and a reflective floor grid.",
       "objects": "Real-time Three.js icosahedron, chrome torus rings, point particles, orbiting C badge and typographic gauges.",
@@ -89,7 +89,7 @@
       "start": 27.5,
       "end": 34.05,
       "title": "The Real Namesake",
-      "spoken": "और उसने इस language का नाम रखा एक British comedy show से relate करते हुए, जोकि था Monty Python’s Flying Circus।",
+      "spoken": "aur usne is language ka naam rakha ek British comedy show se relate karte hue, joki tha Monty Python’s Flying Circus.",
       "concept": "The technical world gives way to a custom retro theatre: curtains open, marquee bulbs illuminate and the comedy-show title takes the stage.",
       "background": "Burgundy velvet, brass trim, dark stage floor and two warm spotlight cones.",
       "objects": "Curtains, animated marquee, vintage title card, playful geometric circus orbit and subtle Union-Jack-inspired corner stripes.",
@@ -103,7 +103,7 @@
       "start": 34.05,
       "end": 37.45,
       "title": "Python Gets Its Name",
-      "spoken": "इसी के नाम पर उसने अपनी language का नाम रखा — Python।",
+      "spoken": "isi ke naam par usne apni language ka naam rakha — Python.",
       "concept": "A direct visual match: MONTY PYTHON collapses to a single glowing PYTHON nameplate and original two-colour Python-inspired mark.",
       "background": "Clean midnight stage with ivory title card, blue/yellow brand accents and restrained spotlight.",
       "objects": "Connecting name line, custom interlocking Python mark, extruded title and small naming seal.",
@@ -117,7 +117,7 @@
       "start": 37.45,
       "end": 40.2,
       "title": "An Invention Expands",
-      "spoken": "ये Python language एक इतना बड़ा invention है, जोकि…",
+      "spoken": "ye Python language ek itna bada invention hai, जोकि…",
       "concept": "One small origin node branches into an increasingly dense connected system, making ‘how big an invention’ visible rather than literal.",
       "background": "Deep blue network space with architectural grid and depth-faded nodes.",
       "objects": "Animated SVG connections, moving pulses, expanding rings and an INVENTION central label.",
@@ -131,7 +131,7 @@
       "start": 40.2,
       "end": 46.35,
       "title": "Three Fields, One Language",
-      "spoken": "machine learning, artificial intelligence, automation जैसे sectors में काफी important role play करती है।",
+      "spoken": "machine learning, artificial intelligence, automation jaise sectors mein kaafi important role play karti hai.",
       "concept": "Three synchronized custom infographics: a neural graph for ML, a living processor for AI and an articulated robotic arm for automation.",
       "background": "Three premium glass/metal instrument panels over a shared dark grid; cyan, violet and amber distinguish the fields.",
       "objects": "Neural nodes, chip traces, robotic joints, gear teeth, data rails and sequential status lines.",
@@ -145,7 +145,7 @@
       "start": 46.35,
       "end": 52.233333,
       "title": "From Side Project to Ecosystem",
-      "spoken": "सोचो, एक उस पुराने time का छोटा सा invention, जिसकी वजह से आज कितना बड़ा ecosystem बन चुका है।",
+      "spoken": "socho, ek us purane time ka chhota sa invention, jiski wajah se aaj kitna bada ecosystem ban chuka hai.",
       "concept": "The tiny origin cube returns, then grows into a luminous Three.js ecosystem globe surrounded by the three fields and a 1989-to-today arc.",
       "background": "Cinematic midnight-to-dawn gradient with a fine orbital horizon and atmospheric particles.",
       "objects": "Three.js network sphere, orbiting rings and points; domain satellites, 1989 origin marker and final Python mark.",
@@ -347,115 +347,115 @@
       "id": 1,
       "start": 0.42,
       "end": 1.68,
-      "text": "क्या तुम्हें भी यही लगता है?"
+      "text": "Kya tumhe bhi yahi lagta hai?"
     },
     {
       "id": 2,
       "start": 1.7,
       "end": 3.05,
-      "text": "Python language का नाम"
+      "text": "Python language ka naam"
     },
     {
       "id": 3,
       "start": 3.12,
       "end": 5.9,
-      "text": "Python snake से relate करते हुए रखा है?"
+      "text": "Python snake se relate karte hue rakha hai?"
     },
     {
       "id": 4,
       "start": 6.52,
       "end": 8.2,
-      "text": "But ये कहीं भी सही नहीं है।"
+      "text": "But ye kahin bhi sahi nahi hai."
     },
     {
       "id": 5,
       "start": 8.32,
       "end": 10.35,
-      "text": "बात थी 1989 की।"
+      "text": "Baat thi 1989 ki."
     },
     {
       "id": 6,
       "start": 10.61,
       "end": 12.51,
-      "text": "जहाँ पर एक researcher Guido van Rossum"
+      "text": "Jahan par ek researcher Guido van Rossum"
     },
     {
       "id": 7,
       "start": 12.55,
       "end": 14.03,
-      "text": "एक ऐसी language चाहता था"
+      "text": "ek aisi language chahta tha"
     },
     {
       "id": 8,
       "start": 14.03,
       "end": 16.15,
-      "text": "जोकि C से ज्यादा fast हो, simple हो।"
+      "text": "joki C se zyada fast ho, simple ho."
     },
     {
       "id": 9,
       "start": 16.55,
-      "end": 19,
-      "text": "वही उसी time अपनी Christmas की छुट्टियों में"
+      "end": 19.0,
+      "text": "Wahi usi time apni Christmas ki chuttiyon mein"
     },
     {
       "id": 10,
       "start": 19.4,
       "end": 21.2,
-      "text": "एक hobby project start करता है।"
+      "text": "ek hobby project start karta hai."
     },
     {
       "id": 11,
       "start": 21.18,
       "end": 22.44,
-      "text": "जिसमें वो decide करता है,"
+      "text": "Jismein wo decide karta hai,"
     },
     {
       "id": 12,
       "start": 22.48,
       "end": 24.24,
-      "text": "मैं एक ऐसी language पर work करूँगा"
+      "text": "Main ek aisi language par work karunga"
     },
     {
       "id": 13,
       "start": 24.24,
       "end": 27.42,
-      "text": "जोकि C से ज्यादा fast हो और efficient हो।"
+      "text": "joki C se zyada fast ho aur efficient ho."
     },
     {
       "id": 14,
       "start": 27.53,
       "end": 29.4,
-      "text": "और उसने इस language का नाम रखा"
+      "text": "Aur usne is language ka naam rakha"
     },
     {
       "id": 15,
       "start": 29.47,
       "end": 31.9,
-      "text": "एक British comedy show से relate करते हुए जोकि था,"
+      "text": "ek British comedy show se relate karte hue joki tha,"
     },
     {
       "id": 16,
       "start": 32.3,
       "end": 34.05,
-      "text": "Monty Python's Flying Circus।"
+      "text": "Monty Python's Flying Circus."
     },
     {
       "id": 17,
       "start": 34.17,
       "end": 36.73,
-      "text": "इसी के नाम पर उसने अपनी language का नाम रखा"
+      "text": "Isi ke naam par usne apni language ka naam rakha"
     },
     {
       "id": 18,
       "start": 36.89,
       "end": 37.35,
-      "text": "Python।"
+      "text": "Python."
     },
     {
       "id": 19,
       "start": 37.47,
       "end": 40.19,
-      "text": "ये Python language एक इतना बड़ा invention है, जोकि"
+      "text": "Ye Python language ek itna bada invention hai, joki"
     },
     {
       "id": 20,
@@ -473,31 +473,31 @@
       "id": 22,
       "start": 42.51,
       "end": 44.4,
-      "text": "automation जैसे sectors में"
+      "text": "automation jaise sectors mein"
     },
     {
       "id": 23,
       "start": 44.52,
       "end": 46.34,
-      "text": "काफी important role play करती है।"
+      "text": "kaafi important role play karti hai."
     },
     {
       "id": 24,
       "start": 46.39,
       "end": 49.01,
-      "text": "सोचो, एक उस पुराने time का छोटा सा invention,"
+      "text": "Socho, ek us purane time ka chhota sa invention,"
     },
     {
       "id": 25,
       "start": 49.01,
       "end": 50.22,
-      "text": "जिसकी वजह से,"
+      "text": "jiski wajah se,"
     },
     {
       "id": 26,
       "start": 50.26,
       "end": 52.18,
-      "text": "आज कितना बड़ा ecosystem बन चुका है।"
+      "text": "aaj kitna bada ecosystem ban chuka hai."
     }
   ]
 }

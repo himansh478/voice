@@ -48,6 +48,8 @@ def main() -> None:
     missing = [str(p.relative_to(ROOT)) for p in required if not p.exists()]
     timings_valid = all(w["start"] < w["end"] and c["start"] <= w["start"] and w["end"] <= c["end"] + .01 for c in transcript["captions"] for w in c["words"])
     source_duration = transcript["duration"]
+    word_timing_signature = hashlib.sha256(json.dumps([[w["start"],w["end"]] for w in transcript["words"]],separators=(",",":")).encode()).hexdigest()
+    cue_timing_signature = hashlib.sha256(json.dumps([[c["start"],c["end"]] for c in transcript["captions"]],separators=(",",":")).encode()).hexdigest()
     checks = {
         "h264Video":v["codec_name"]=="h264",
         "aacAudio":a["codec_name"]=="aac",
@@ -63,8 +65,11 @@ def main() -> None:
         "noDetectedBlackFrames":not black_events,
         "noMissingAssets":not missing,
         "wordTimingsValid":timings_valid,
+        "wordTimingsPreservedFromCuratedMaster":word_timing_signature=="502a06cd87fbaffb25fbe11378113df1b5c2cc92be836deecb76ce3be313e1d6",
+        "cueTimingsPreservedFromCuratedMaster":cue_timing_signature=="492974095b2332f4865377cbde62c2ea02327cde1da48187c4b62fa1661b56c9",
         "158TimedWords":len(transcript["words"])==158,
         "26SubtitleCues":len(transcript["captions"])==26,
+        "romanHinglishSubtitles":transcript.get("script")=="Latin" and all(ord(char)<128 for word in transcript["words"] for char in word["text"]),
         "11Scenes":len(plan["scenes"])==11,
     }
     failed = [name for name,passed in checks.items() if not passed]
@@ -74,8 +79,8 @@ def main() -> None:
         "media":probe,
         "loudness":{"integratedLUFS":float(integrated[-1]) if integrated else None,"truePeakDbFS":float(peaks[-1]) if peaks else None,"note":"Measured from the encoded AAC track with FFmpeg ebur128."},
         "sourceAudioSha256":hashlib.sha256((ROOT/"audio"/"1104.MP3").read_bytes()).hexdigest(),
-        "subtitleReview":{"language":"Hindi / Hinglish","maximumLines":2,"timedWords":len(transcript["words"]),"cues":len(transcript["captions"]),"visualInspection":"20 representative stills plus one-frame-per-second preview contact sheet; longest bilingual cues checked at 540 px width."},
-        "visualInspection":{"sceneCount":11,"noStockFootage":True,"threeDScenes":["S06","S11"],"manualReviewed":True,"notes":"Typography, Devanagari shaping, mobile safe areas, scene continuity, network reveal and final ecosystem growth reviewed."},
+        "subtitleReview":{"language":"Hinglish (Roman script / Inter Latin font)","maximumLines":2,"timedWords":len(transcript["words"]),"cues":len(transcript["captions"]),"wordTimingSha256":word_timing_signature,"cueTimingSha256":cue_timing_signature,"timingsPreservedFromCuratedMaster":checks["wordTimingsPreservedFromCuratedMaster"] and checks["cueTimingsPreservedFromCuratedMaster"],"visualInspection":"20 representative stills plus one-frame-per-second preview contact sheet; longest bilingual cues checked at 540 px width."},
+        "visualInspection":{"sceneCount":11,"noStockFootage":True,"threeDScenes":["S06","S11"],"manualReviewed":True,"notes":"Roman Hinglish typography, Latin-font readability, mobile safe areas, scene continuity, network reveal and final ecosystem growth reviewed."},
     }
     destination = ROOT/"renders"/("preview-qc-report.json" if args.preview else "qc-report.json")
     destination.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
@@ -101,7 +106,8 @@ def main() -> None:
             "- Complete low-resolution preview rendered and inspected before this master.",
             "- 20 representative scene frames plus a one-frame-per-second full-timeline contact sheet reviewed.",
             "- All 11 scenes checked against the corresponding spoken phrase; no unrelated stock footage.",
-            "- Hindi/Hinglish shaping, proper names, spelling, mobile contrast and safe areas reviewed.",
+            "- Roman Hinglish spelling, Inter / Latin-font subtitles, proper names, mobile contrast and safe areas reviewed.",
+            f"- All 158 word timings and 26 cue timings preserved exactly from the curated pre-transliteration master (word SHA-256: {word_timing_signature}).",
             "- Longest bilingual subtitles checked at 540-pixel preview width; SRT explicitly limited to two lines.",
             "- Corrected the invention-network reveal and delayed the ecosystem growth to match the narration.",
             "- Original voice retained; music and SFX are local procedural stems below the narration.", "",
